@@ -37,7 +37,7 @@
        * [尾部的零](wei_bu_de_ling.md)
        * [落单的数](luo_dan_de_shu.md)
        * [Cosine Similarity](cosine_similarity.md)
-       * 排列序号
+       * [排列序号](pai_lie_xu_hao.md)
    * Bit Manipulation
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
