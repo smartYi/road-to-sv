@@ -85,7 +85,7 @@
        * [整数转罗马数字](zheng_shu_zhuan_luo_ma_shu_zi.md)
        * [简化路径](jian_hua_lu_jing.md)
        * [最长公共子串](zui_chang_gong_gong_zi_chuan.md)
-       * 逆波兰表达式求值
+       * [逆波兰表达式求值](ni_bo_lan_biao_da_shi_qiu_zhi.md)
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
