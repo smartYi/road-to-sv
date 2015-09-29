@@ -46,7 +46,7 @@
        * [不同的路径 II](bu_tong_de_lu_jing_ii.md)
        * [爬楼梯](pa_lou_ti.md)
        * [最小子数组](zui_xiao_zi_shu_zu.md)
-       * 最大子数组
+       * [最大子数组](zui_da_zi_shu_zu.md)
        * [子数组之和(为零)](zi_shu_zu_zhi_548c28_wei_96f629.md)
        * [子数组之和(为 K)](zi_shu_zu_zhi_548c28_wei_k.md)
        * [最接近零的子数组和](zui_jie_jin_ling_de_zi_shu_zu_he.md)
