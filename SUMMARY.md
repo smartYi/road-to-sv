@@ -31,4 +31,5 @@
    * String
    * Array
    * Data Structure
+   * Segment Tree
 
