@@ -37,7 +37,6 @@ class Solution:
         return s
 
 ```
-附上 java 版本
 
 ```java
 // java
