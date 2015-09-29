@@ -42,7 +42,7 @@
        * [主元素](zhu_yuan_su.md)
        * [删除元素](shan_chu_yuan_su.md)
        * [删除排序数组中的重复数字](shan_chu_pai_xu_shu_zu_zhong_de_zhong_fu_shu_zi.md)
-       * 删除排序数组中的重复数字 II
+       * [删除排序数组中的重复数字 II](shan_chu_pai_xu_shu_zu_zhong_de_zhong_fu_shu_zi_ii.md)
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
    * [Binary Tree](binary_tree.md)
