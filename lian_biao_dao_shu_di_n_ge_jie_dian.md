@@ -24,7 +24,6 @@ class Solution:
     @return: Nth to last node of a singly linked list.
     """
     def nthToLast(self, head, n):
-        # write your code here
         fast = head
         slow = head
         for i in range(n):
