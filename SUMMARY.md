@@ -85,6 +85,7 @@
    * [Matrix](matrix.md)
        * [搜索二维矩阵](sou_suo_er_wei_ju_zhen.md)
        * [矩阵的之字型遍历](ju_zhen_de_zhi_zi_xing_bian_li.md)
+   * Object-Oriented Design
 * 面经
    * Visual Concept
    * BrightEdge
