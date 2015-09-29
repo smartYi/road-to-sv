@@ -25,7 +25,7 @@
    * [Behavioral Questions](behavioral_questions.md)
 * Lintcode
    * [Math](math.md)
-       * O(1) 检测 2 的幂次
+       * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
    * Bit Manipulation
    * Dynamic Programming
    * Linked List
