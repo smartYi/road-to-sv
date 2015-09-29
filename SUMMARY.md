@@ -8,5 +8,5 @@
    * [内推](nei_tui.md)
 * [Crack the Code Interview](crack_the_code_interview.md)
    * [基本知识点](ji_ben_zhi_shi_dian.md)
-       * Big O
+       * [Big O](big_o.md)
 
