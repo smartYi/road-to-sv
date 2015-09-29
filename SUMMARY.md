@@ -44,7 +44,7 @@
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
        * [不同的路径 II](bu_tong_de_lu_jing_ii.md)
-       * 最小路径和
+       * [最小路径和](zui_xiao_lu_jing_he.md)
        * [爬楼梯](pa_lou_ti.md)
        * [最小子数组](zui_xiao_zi_shu_zu.md)
        * [最大子数组](zui_da_zi_shu_zu.md)
