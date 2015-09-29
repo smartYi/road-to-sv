@@ -40,6 +40,7 @@
        * [主元素](zhu_yuan_su.md)
    * Data Structure
    * Segment Tree
+   * Searching
 * 面经
    * Visual Concept
    * BrightEdge
