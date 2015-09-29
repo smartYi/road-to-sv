@@ -25,4 +25,5 @@
    * [Behavioral Questions](behavioral_questions.md)
 * Lintcode
    * Math
+   * Bit Manipulation
 
