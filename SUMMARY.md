@@ -86,6 +86,7 @@
        * [二叉树的最小深度](er_cha_shu_de_zui_xiao_shen_du.md)
        * [翻转二叉树](fan_zhuan_er_cha_shu.md)
        * [子树](zi_shu.md)
+       * 把排序数组转换为高度最小的二叉搜索树
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
