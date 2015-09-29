@@ -11,5 +11,5 @@
        * [Big O](big_o.md)
        * [Arrays and Strings](arrays_and_strings.md)
        * [Linked List](linked_list.md)
-       * Stacks and Queues
+       * [Stacks and Queues](stacks_and_queues.md)
 
