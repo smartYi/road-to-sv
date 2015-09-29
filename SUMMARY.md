@@ -129,6 +129,7 @@
        * [排序矩阵中的从小到大第k个数](pai_xu_ju_zhen_zhong_de_cong_xiao_dao_da_di_k_ge_shu.md)
    * [Object-Oriented Design](object-oriented_design_lintcode.md)
        * [单例](dan_li.md)
+   * Recursion
 * 面经
    * Visual Concept
    * BrightEdge
