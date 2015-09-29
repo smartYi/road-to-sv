@@ -38,9 +38,9 @@
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
+   * Searching
    * Data Structure
    * Segment Tree
-   * Searching
 * 面经
    * Visual Concept
    * BrightEdge
