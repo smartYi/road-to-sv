@@ -30,7 +30,7 @@
    * Bit Manipulation
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
-       * 不同的路径 II
+       * [不同的路径 II](bu_tong_de_lu_jing_ii.md)
    * Linked List
    * String
    * Array
