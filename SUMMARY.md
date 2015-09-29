@@ -47,6 +47,7 @@
        * [删除排序数组中的重复数字](shan_chu_pai_xu_shu_zu_zhong_de_zhong_fu_shu_zi.md)
        * [删除排序数组中的重复数字 II](shan_chu_pai_xu_shu_zu_zhong_de_zhong_fu_shu_zi_ii.md)
        * [合并排序数组](he_bing_pai_xu_shu_zu.md)
+       * 合并排序数组 II
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
    * [Binary Tree](binary_tree.md)
