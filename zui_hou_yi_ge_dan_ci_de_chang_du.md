@@ -21,7 +21,6 @@ class Solution:
     # @param {string} s A string
     # @return {int} the length of last word
     def lengthOfLastWord(self, s):
-        # Write your code here
         l = len(s)
         if l == 0:
             return 0
