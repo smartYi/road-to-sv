@@ -65,7 +65,7 @@
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
    * Segment Tree
-   * Matrix
+   * [Matrix](matrix.md)
 * 面经
    * Visual Concept
    * BrightEdge
