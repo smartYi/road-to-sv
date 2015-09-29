@@ -15,5 +15,5 @@
        * [Trees and Graphs](trees_and_graphs.md)
        * [Sorting and Searching](sorting_and_searching.md)
        * [Bit Manipulation](bit_manipulation.md)
-       * Math and Logic Puzzles
+       * [Math and Logic Puzzles](math_and_logic_puzzles.md)
 
