@@ -94,6 +94,7 @@
    * [Object-Oriented Design](object-oriented_design_lintcode.md)
        * [单例](dan_li.md)
    * [Graph](graph.md)
+       * 岛屿的个数
 * 面经
    * Visual Concept
    * BrightEdge
