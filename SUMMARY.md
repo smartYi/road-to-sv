@@ -45,7 +45,7 @@
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
        * [将整数 A 转换为 B](jiang_zheng_shu_a_zhuan_huan_wei_b.md)
-   * Recursion
+   * [Recursion](recursion.md)
    * [Dynamic Programming](dynamic_programming.md)
        * [硬币排成线](ying_bi_pai_cheng_xian.md)
        * [硬币排成线 II](ying_bipai_cheng_xian_ii.md)
