@@ -79,7 +79,7 @@
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
-       * 最长单词
+       * [最长单词](zui_chang_dan_ci.md)
    * Segment Tree
    * [Matrix](matrix.md)
        * [搜索二维矩阵](sou_suo_er_wei_ju_zhen.md)
