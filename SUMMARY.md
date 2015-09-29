@@ -37,7 +37,7 @@
        * [两个字符串是变位词](liang_ge_zi_fu_chuan_shi_bian_wei_ci.md)
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
-       * 主元素
+       * [主元素](zhu_yuan_su.md)
    * Data Structure
    * Segment Tree
 * 面经
