@@ -106,6 +106,7 @@
    * Segment Tree
    * [Graph](graph.md)
        * [岛屿的个数](dao_yu_de_ge_shu.md)
+       * 找出无向图汇总的相连要素
    * [Matrix](matrix.md)
        * [搜索二维矩阵](sou_suo_er_wei_ju_zhen.md)
        * [矩阵的之字型遍历](ju_zhen_de_zhi_zi_xing_bian_li.md)
