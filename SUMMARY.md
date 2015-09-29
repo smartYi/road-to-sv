@@ -10,5 +10,5 @@
    * [基本知识点](ji_ben_zhi_shi_dian.md)
        * [Big O](big_o.md)
        * [Arrays and Strings](arrays_and_strings.md)
-       * Linked List
+       * [Linked List](linked_list.md)
 
