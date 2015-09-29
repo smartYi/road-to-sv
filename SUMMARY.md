@@ -35,7 +35,7 @@
        * [斐波纳契数列](fei_bo_na_qi_shu_lie.md)
        * [报数](bao_shu.md)
        * [尾部的零](wei_bu_de_ling.md)
-       * 落单的数
+       * [落单的数](luo_dan_de_shu.md)
    * Bit Manipulation
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
