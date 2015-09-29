@@ -8,6 +8,8 @@
 
 ## 题解
 
+和最大子数组类似，只是这个要记录下标
+
 ```java
 public class Solution {
     /**
