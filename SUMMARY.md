@@ -96,7 +96,7 @@
        * [翻转二叉树](fan_zhuan_er_cha_shu.md)
        * [子树](zi_shu.md)
        * [把排序数组转换为高度最小的二叉搜索树](ba_pai_xu_shu_zu_zhuan_huan_wei_gao_du_zui_xiao_de_er_cha_sou_suo_shu.md)
-       * 在二叉查找树中插入节点
+       * [在二叉查找树中插入节点](zai_er_cha_cha_zhao_shu_zhong_cha_ru_jie_dian.md)
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
