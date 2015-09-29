@@ -29,6 +29,7 @@
        * [二进制中有多少个 1](er_jin_zhi_zhong_you_duo_shao_ge_1.md)
        * [二进制求和](er_jin_zhi_qiu_he.md)
        * [合并区间](he_bing_qu_jian.md)
+       * 插入区间
        * [加一](jia_yi.md)
        * [颠倒整数](dian_dao_zheng_shu.md)
        * [斐波纳契数列](fei_bo_na_qi_shu_lie.md)
@@ -36,7 +37,6 @@
        * [尾部的零](wei_bu_de_ling.md)
        * [Cosine Similarity](cosine_similarity.md)
        * [排列序号](pai_lie_xu_hao.md)
-       * 插入区间
    * [Bit Manipulation](bit_manipulation_lintcode.md)
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
