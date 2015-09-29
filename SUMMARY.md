@@ -29,7 +29,7 @@
        * [二进制中有多少个 1](er_jin_zhi_zhong_you_duo_shao_ge_1.md)
        * [二进制求和](er_jin_zhi_qiu_he.md)
        * [合并区间](he_bing_qu_jian.md)
-       * 插入区间
+       * [插入区间](cha_ru_qu_jian.md)
        * [加一](jia_yi.md)
        * [颠倒整数](dian_dao_zheng_shu.md)
        * [斐波纳契数列](fei_bo_na_qi_shu_lie.md)
