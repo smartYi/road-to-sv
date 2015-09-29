@@ -40,7 +40,7 @@
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
-       * 删除元素
+       * [删除元素](shan_chu_yuan_su.md)
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
    * [Binary Tree](binary_tree.md)
