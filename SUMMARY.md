@@ -138,5 +138,5 @@
    * Visual Concept
    * BrightEdge
    * Liveramp
-   * Zazzle
+   * [Zazzle](zazzle.md)
 
