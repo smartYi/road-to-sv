@@ -34,7 +34,7 @@
        * [颠倒整数](dian_dao_zheng_shu.md)
        * [斐波纳契数列](fei_bo_na_qi_shu_lie.md)
        * [报数](bao_shu.md)
-       * 尾部的零
+       * [尾部的零](wei_bu_de_ling.md)
    * Bit Manipulation
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
