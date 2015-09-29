@@ -38,7 +38,7 @@
        * [落单的数](luo_dan_de_shu.md)
        * [Cosine Similarity](cosine_similarity.md)
        * [排列序号](pai_lie_xu_hao.md)
-   * Bit Manipulation
+   * [Bit Manipulation](bit_manipulation_lintcode.md)
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
        * [不同的路径 II](bu_tong_de_lu_jing_ii.md)
