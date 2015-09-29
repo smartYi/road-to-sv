@@ -86,7 +86,7 @@
        * [最长上升连续子序列](zui_chang_shang_sheng_lian_xu_zi_xu_lie.md)
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
-       * 搜索插入位置
+       * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
    * [Binary Tree](binary_tree.md)
        * [二叉树的中序遍历](er_cha_shu_de_zhong_xu_bian_li.md)
        * [二叉树的前序遍历](er_cha_shu_de_qian_xu_bian_li.md)
