@@ -66,7 +66,7 @@
        * [哈希函数](ha_xi_han_shu.md)
    * Segment Tree
    * [Matrix](matrix.md)
-       * 搜索二维矩阵
+       * [搜索二维矩阵](sou_suo_er_wei_ju_zhen.md)
 * 面经
    * Visual Concept
    * BrightEdge
