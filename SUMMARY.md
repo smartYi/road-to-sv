@@ -60,7 +60,7 @@
        * [二叉树的最大深度](er_cha_shu_de_zui_da_shen_du.md)
        * [二叉树的最小深度](er_cha_shu_de_zui_xiao_shen_du.md)
    * [Data Structure](data_structure.md)
-       * 哈希函数
+       * [哈希函数](ha_xi_han_shu.md)
    * Segment Tree
 * 面经
    * Visual Concept
