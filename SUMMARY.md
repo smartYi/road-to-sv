@@ -32,6 +32,7 @@
        * [合并区间](he_bing_qu_jian.md)
        * [加一](jia_yi.md)
        * [颠倒整数](dian_dao_zheng_shu.md)
+       * 斐波纳契数列
    * Bit Manipulation
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
