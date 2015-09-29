@@ -55,7 +55,7 @@
        * [判断字符串是否没有重复字符](pan_duan_zi_fu_chuan_shi_fou_mei_you_zhong_fu_zi_fu.md)
        * [空格替换](kong_ge_ti_huan.md)
        * [翻转字符串](fan_zhuan_zi_fu_chuan.md)
-       * 比较字符串
+       * [比较字符串](bi_jiao_zi_fu_chuan.md)
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
