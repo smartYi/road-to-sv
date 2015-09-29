@@ -12,4 +12,5 @@
        * [Arrays and Strings](arrays_and_strings.md)
        * [Linked List](linked_list.md)
        * [Stacks and Queues](stacks_and_queues.md)
+       * Trees and Graphs
 
