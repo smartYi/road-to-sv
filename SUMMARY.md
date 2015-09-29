@@ -36,7 +36,7 @@
    * [Linked List](linked_list_lintcode.md)
        * [两个链表的和](liang_ge_lian_biao_de_he.md)
        * [删除排序链表中的重复元素](shan_chu_pai_xu_lian_biao_zhong_de_zhong_fu_yuan_su.md)
-       * 删除链表中倒数第n个节点
+       * [删除链表中倒数第n个节点](shan_chu_lian_biao_zhong_dao_shu_di_n_ge_jie_dian.md)
    * [String](string.md)
        * [两个字符串是变位词](liang_ge_zi_fu_chuan_shi_bian_wei_ci.md)
    * [Array](array.md)
