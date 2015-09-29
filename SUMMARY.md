@@ -29,6 +29,7 @@
        * [X 的平方根](x_de_ping_fang_gen.md)
        * [二进制中有多少个 1](er_jin_zhi_zhong_you_duo_shao_ge_1.md)
        * [二进制求和](er_jin_zhi_qiu_he.md)
+       * 合并区间
    * Bit Manipulation
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
