@@ -44,6 +44,7 @@
        * [二叉树的中序遍历](er_cha_shu_de_zhong_xu_bian_li.md)
        * [二叉树的前序遍历](er_cha_shu_de_qian_xu_bian_li.md)
        * [二叉树的后序遍历](er_cha_shu_de_hou_xu_bian_li.md)
+       * 二叉树的最大深度
    * Data Structure
    * Segment Tree
 * 面经
