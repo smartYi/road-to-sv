@@ -42,6 +42,7 @@
        * [二分查找](er_fen_cha_zhao.md)
    * Data Structure
    * Segment Tree
+   * Binary Tree
 * 面经
    * Visual Concept
    * BrightEdge
