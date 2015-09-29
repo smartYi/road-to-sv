@@ -58,6 +58,7 @@
        * [数组剔除元素后的乘积](shu_zu_ti_chu_yuan_su_hou_de_cheng_ji.md)
        * [Maximal Square](maximal_square.md)
        * [和为零的子矩阵](he_wei_ling_de_zi_ju_zhen.md)
+       * 连续子数组求和
    * [Linked List](linked_list_lintcode.md)
        * [两个链表的和](liang_ge_lian_biao_de_he.md)
        * [删除排序链表中的重复元素](shan_chu_pai_xu_lian_biao_zhong_de_zhong_fu_yuan_su.md)
