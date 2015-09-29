@@ -16,5 +16,5 @@
        * [Sorting and Searching](sorting_and_searching.md)
        * [Bit Manipulation](bit_manipulation.md)
        * [Math and Logic Puzzles](math_and_logic_puzzles.md)
-       * Recursion and Dynamic Programming
+       * [Recursion and Dynamic Programming](recursion_and_dynamic_programming.md)
 
