@@ -77,6 +77,7 @@
        * [分割回文串](fen_ge_hui_wen_chuan.md)
        * [字符大小写排序](zi_fu_da_xiao_xie_pai_xu.md)
        * [罗马数字转整数](luo_ma_shu_zi_zhuan_zheng_shu.md)
+       * 整数转罗马数字
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
