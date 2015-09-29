@@ -25,7 +25,6 @@
    * [Behavioral Questions](behavioral_questions.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
-       * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
        * [二进制中有多少个 1](er_jin_zhi_zhong_you_duo_shao_ge_1.md)
        * [二进制求和](er_jin_zhi_qiu_he.md)
@@ -38,6 +37,7 @@
        * [Cosine Similarity](cosine_similarity.md)
        * [排列序号](pai_lie_xu_hao.md)
    * [Bit Manipulation](bit_manipulation_lintcode.md)
+       * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
        * 将整数 A 转换为 B
    * [Dynamic Programming](dynamic_programming.md)
