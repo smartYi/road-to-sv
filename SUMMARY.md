@@ -27,7 +27,7 @@
    * [Math](math.md)
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
-       * 不同的路径
+       * [不同的路径](bu_tong_de_lu_jing.md)
    * Bit Manipulation
    * Dynamic Programming
    * Linked List
