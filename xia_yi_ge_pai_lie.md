@@ -15,7 +15,7 @@
 
     不允许使用额外的空间。
 
-**题解**
+## 题解
 
 下面简要介绍一下字典序算法：
 
@@ -54,7 +54,7 @@ public class Solution {
                 break;
             }
         }
-        // step3: swap betwenn nums[i] and nums[j]
+        // step3: swap between nums[i] and nums[j]
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
