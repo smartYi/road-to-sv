@@ -9,3 +9,14 @@
 2. 如何找内推或者recruiter的联系方式？内推基本有两种途径找，一是找自己的学长学姐，无论是之前就认识还是在LinkedIn上现加的，一般客气一点人家还是愿意内推的，毕竟大家出来混都不容易。二是去各大论坛找内推帖，绝大多数的内推帖都还是很靠谱的，至于如何搜，“site:论坛域名 公司名+内推”屡试不爽。
 3. recruiter的联系方式也有两种途径，一是一般来说周围会有一些正在面或者已经面过这一公司的同学，面试过程中会有一些recruiter联系过他们，把这些recruiter的邮箱要过来就好。二是去LinkedIn上搜。
 
+# 过来人经验
+
+1. Cracking coding interview是本好书,不过不必要做好几遍，把关键的几章自己写一遍就好了，如果面了一段时间，发现自己那一块不好，可以重点突击
+2. 面试以考代练的效果还是很好的
+3. 口语很重要，从我的观察来看，身边口语好的人通常能拿到更过的offer
+4. Google很慢，而且一催就挂，不要拖太晚面google，否则人家觉得你的deadline太早会把你拒掉。
+5. 有人在做leetcode,我自己做了一下觉得挺难,一般公司考不了那么难得题
+6. 如果很想要一个offer，寄得给recruiter写thank you letter和follow up letter。 我samsung
+return offer, Epic, Apple的offer都是follow up+ thank you very much出来的。
+7. Apple很少给new grad发interview, 我的面试就是refer出来的
+8. GPA貌似没人看，3.5以上绝对够用，没到3.5的同学也照样拿到好的offer，不要为了GPA选水课，几乎每个面试都会过简历，没有有技术含量的project会是硬伤
