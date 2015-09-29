@@ -13,7 +13,6 @@
 在纸上画清晰即可，注意需要用一个临时变量保存节点，最多同时需要三个节点的信息
 
 
-
 ```python
 """
 Definition of ListNode
@@ -42,6 +41,5 @@ class Solution:
             head = fast
             fast = next
         return head
-
 
 ```
