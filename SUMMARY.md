@@ -32,7 +32,7 @@
        * [不同的路径](bu_tong_de_lu_jing.md)
        * [不同的路径 II](bu_tong_de_lu_jing_ii.md)
    * [Linked List](linked_list_lintcode.md)
-       * 两个链表的和
+       * [两个链表的和](liang_ge_lian_biao_de_he.md)
    * [String](string.md)
        * [两个字符串是变位词](liang_ge_zi_fu_chuan_shi_bian_wei_ci.md)
    * Array
