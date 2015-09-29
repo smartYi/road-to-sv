@@ -39,7 +39,7 @@
    * [Bit Manipulation](bit_manipulation_lintcode.md)
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
-       * 将整数 A 转换为 B
+       * [将整数 A 转换为 B](jiang_zheng_shu_a_zhuan_huan_wei_b.md)
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
        * [不同的路径 II](bu_tong_de_lu_jing_ii.md)
