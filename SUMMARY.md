@@ -41,6 +41,7 @@
        * [不同的路径](bu_tong_de_lu_jing.md)
        * [不同的路径 II](bu_tong_de_lu_jing_ii.md)
        * [爬楼梯](pa_lou_ti.md)
+       * 子数组之和(为零)
    * [Linked List](linked_list_lintcode.md)
        * [两个链表的和](liang_ge_lian_biao_de_he.md)
        * [删除排序链表中的重复元素](shan_chu_pai_xu_lian_biao_zhong_de_zhong_fu_yuan_su.md)
