@@ -35,7 +35,7 @@
        * [两个链表的和](liang_ge_lian_biao_de_he.md)
    * [String](string.md)
        * [两个字符串是变位词](liang_ge_zi_fu_chuan_shi_bian_wei_ci.md)
-   * Array
+   * [Array](array.md)
    * Data Structure
    * Segment Tree
 * 面经
