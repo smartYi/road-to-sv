@@ -104,13 +104,13 @@
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
        * [最长单词](zui_chang_dan_ci.md)
    * Segment Tree
+   * [Graph](graph.md)
+       * [岛屿的个数](dao_yu_de_ge_shu.md)
    * [Matrix](matrix.md)
        * [搜索二维矩阵](sou_suo_er_wei_ju_zhen.md)
        * [矩阵的之字型遍历](ju_zhen_de_zhi_zi_xing_bian_li.md)
    * [Object-Oriented Design](object-oriented_design_lintcode.md)
        * [单例](dan_li.md)
-   * [Graph](graph.md)
-       * [岛屿的个数](dao_yu_de_ge_shu.md)
 * 面经
    * Visual Concept
    * BrightEdge
