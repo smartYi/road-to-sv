@@ -74,6 +74,7 @@
        * [合并排序数组 II](he_bing_pai_xu_shu_zu_ii.md)
        * [恢复旋转排序数组](hui_fu_xuan_zhuan_pai_xu_shu_zu.md)
        * [奇偶分割数组](qi_ou_fen_ge_shu_zu.md)
+       * 最长上升连续子序列
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
    * [Binary Tree](binary_tree.md)
