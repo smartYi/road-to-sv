@@ -75,6 +75,7 @@
        * [二叉树的最小深度](er_cha_shu_de_zui_xiao_shen_du.md)
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
+       * 有效的括号序列
    * Segment Tree
    * [Matrix](matrix.md)
        * [搜索二维矩阵](sou_suo_er_wei_ju_zhen.md)
