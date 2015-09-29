@@ -59,7 +59,7 @@
        * [比较字符串](bi_jiao_zi_fu_chuan.md)
        * [最后一个单词的长度](zui_hou_yi_ge_dan_ci_de_chang_du.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan.md)
-       * 字符串查找
+       * [字符串查找](zi_fu_chuan_cha_zhao.md)
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
