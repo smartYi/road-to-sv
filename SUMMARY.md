@@ -35,10 +35,10 @@
        * [斐波纳契数列](fei_bo_na_qi_shu_lie.md)
        * [报数](bao_shu.md)
        * [尾部的零](wei_bu_de_ling.md)
-       * [落单的数](luo_dan_de_shu.md)
        * [Cosine Similarity](cosine_similarity.md)
        * [排列序号](pai_lie_xu_hao.md)
    * [Bit Manipulation](bit_manipulation_lintcode.md)
+       * [落单的数](luo_dan_de_shu.md)
        * 将整数 A 转换为 B
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
