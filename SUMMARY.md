@@ -34,4 +34,5 @@
    * Segment Tree
 * 面经
    * Visual Concept
+   * BrightEdge
 
