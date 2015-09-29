@@ -34,7 +34,7 @@ Note2: Get rid of a node from nodes, whenever add it to component ... don't forg
 
 Note3: Well, there is a chance that compoents are added, queue is cleaned, but nodes are empty as well.. that means, need to catch the last case of 'remaining component' and add it to rst.
 
-bfs
+BFS
 
 ```java
 /**
