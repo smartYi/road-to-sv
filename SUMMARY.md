@@ -33,6 +33,7 @@
        * [不同的路径 II](bu_tong_de_lu_jing_ii.md)
    * Linked List
    * [String](string.md)
+       *  两个字符串是变位词
    * Array
    * Data Structure
    * Segment Tree
