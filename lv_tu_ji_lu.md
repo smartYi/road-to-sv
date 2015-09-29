@@ -1,4 +1,4 @@
-## 行动日志
+# 行动日志
 
 投简历要多多益善，周日晚上花上两个小时时间把截至日期到下周日的所有 jop opening 都投一遍。重点使用学校提供的 career service 网站。
 
@@ -33,7 +33,7 @@ Sep 27 | 简历已投至 10.12 日合适的 26 间公司 | 下一次 10.13- 10.1
 Sep 28 | TOC 第一天十来家公司 | 明天继续投
 
 
-## 已投公司列表
+# 已投公司列表
 
 1. Android Engine Engineer @ PennyPop
 2. (**Pending**)Software Engineer @ Visual Concepts(2K) cmu, w33 # 100K
