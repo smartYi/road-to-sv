@@ -31,7 +31,7 @@
        * [二进制求和](er_jin_zhi_qiu_he.md)
        * [合并区间](he_bing_qu_jian.md)
        * [加一](jia_yi.md)
-       * 颠倒整数
+       * [颠倒整数](dian_dao_zheng_shu.md)
    * Bit Manipulation
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
