@@ -18,6 +18,7 @@
 三步翻转法即可
 
 ```python
+# python
 class Solution:
     # @param s: a list of char
     # @param offset: an integer
