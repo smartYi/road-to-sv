@@ -5,4 +5,5 @@
 * [一切开始之前](yi_qie_kai_shi_zhi_qian.md)
    * [内推](nei_tui.md)
    * [Behavior Question](behavior_question.md)
+   * 简历
 
