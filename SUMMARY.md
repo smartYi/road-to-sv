@@ -78,7 +78,7 @@
        * [字符大小写排序](zi_fu_da_xiao_xie_pai_xu.md)
        * [罗马数字转整数](luo_ma_shu_zi_zhuan_zheng_shu.md)
        * [整数转罗马数字](zheng_shu_zhuan_luo_ma_shu_zi.md)
-       * 简化路径
+       * [简化路径](jian_hua_lu_jing.md)
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
