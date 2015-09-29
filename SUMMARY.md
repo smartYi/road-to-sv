@@ -45,6 +45,7 @@
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
        * [将整数 A 转换为 B](jiang_zheng_shu_a_zhuan_huan_wei_b.md)
+   * Recursion
    * [Dynamic Programming](dynamic_programming.md)
        * [硬币排成线](ying_bi_pai_cheng_xian.md)
        * [硬币排成线 II](ying_bipai_cheng_xian_ii.md)
@@ -129,7 +130,6 @@
        * [排序矩阵中的从小到大第k个数](pai_xu_ju_zhen_zhong_de_cong_xiao_dao_da_di_k_ge_shu.md)
    * [Object-Oriented Design](object-oriented_design_lintcode.md)
        * [单例](dan_li.md)
-   * Recursion
 * 面经
    * Visual Concept
    * BrightEdge
