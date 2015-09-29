@@ -99,7 +99,7 @@
        * [恢复旋转排序数组](hui_fu_xuan_zhuan_pai_xu_shu_zu.md)
        * [奇偶分割数组](qi_ou_fen_ge_shu_zu.md)
        * [最长上升连续子序列](zui_chang_shang_sheng_lian_xu_zi_xu_lie.md)
-       * 和大于S的最小子数组
+       * [和大于S的最小子数组](he_da_yu_s_de_zui_xiao_zi_shu_zu.md)
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
