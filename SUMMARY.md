@@ -44,6 +44,7 @@
    * [String](string.md)
        * [两个字符串是变位词](liang_ge_zi_fu_chuan_shi_bian_wei_ci.md)
        * [判断字符串是否没有重复字符](pan_duan_zi_fu_chuan_shi_fou_mei_you_zhong_fu_zi_fu.md)
+       * 空格替换
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
