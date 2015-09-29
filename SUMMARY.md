@@ -41,6 +41,7 @@
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
    * [Binary Tree](binary_tree.md)
+       * 二叉树的中序遍历
    * Data Structure
    * Segment Tree
 * 面经
