@@ -20,5 +20,5 @@
        * [Object-Oriented Design](object-oriented_design.md)
        * [System Design and Scalability](system_design_and_scalability.md)
        * [Testing](testing.md)
-       * C++
+       * [C++](c++.md)
 
