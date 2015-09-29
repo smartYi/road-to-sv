@@ -38,7 +38,7 @@
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
-   * Searching
+   * [Searching](searching.md)
    * Data Structure
    * Segment Tree
 * 面经
