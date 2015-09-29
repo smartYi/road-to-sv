@@ -14,5 +14,5 @@
        * [Stacks and Queues](stacks_and_queues.md)
        * [Trees and Graphs](trees_and_graphs.md)
        * [Sorting and Searching](sorting_and_searching.md)
-       * Bit Manipulation
+       * [Bit Manipulation](bit_manipulation.md)
 
