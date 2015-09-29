@@ -113,6 +113,7 @@
    * [Matrix](matrix.md)
        * [搜索二维矩阵](sou_suo_er_wei_ju_zhen.md)
        * [矩阵的之字型遍历](ju_zhen_de_zhi_zi_xing_bian_li.md)
+       * 排序矩阵中的从小到大第k个数
    * [Object-Oriented Design](object-oriented_design_lintcode.md)
        * [单例](dan_li.md)
 * 面经
