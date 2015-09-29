@@ -70,6 +70,7 @@
        * [字符串查找](zi_fu_chuan_cha_zhao.md)
        * [有效回文串](you_xiao_hui_wen_chuan.md)
        * [分割回文串](fen_ge_hui_wen_chuan.md)
+       * 字符大小写排序
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [主元素](zhu_yuan_su.md)
