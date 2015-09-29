@@ -40,7 +40,7 @@
        * [主元素](zhu_yuan_su.md)
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
-   * Binary Tree
+   * [Binary Tree](binary_tree.md)
    * Data Structure
    * Segment Tree
 * 面经
