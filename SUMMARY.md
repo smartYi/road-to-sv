@@ -36,7 +36,7 @@
        * [报数](bao_shu.md)
        * [尾部的零](wei_bu_de_ling.md)
        * [落单的数](luo_dan_de_shu.md)
-       * Cosine Similarity
+       * [Cosine Similarity](cosine_similarity.md)
    * Bit Manipulation
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
