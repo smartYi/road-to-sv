@@ -53,7 +53,6 @@
 		+ Flatten Binary Tree to Linked List   https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 		+ Remove Element 将一个01随机数列中，把1全部移到左边，要求移动次数最少
 		+ 请发送你的姓名，邮箱，简历到alexrefer2015@gmail.com，如果有Linkedin，也发过来。我会提前帮你看一下，如果可以我会帮你们内推的，主要不要再发生一内推就被据的情况！
-		+
 + [Groupon](https://jobs.groupon.com/careers/engineering/)
 	+ 有兴趣的同学情发简历到 bigoldcat15@gmail.com
 	+ 标题注明 "Groupon内推"
