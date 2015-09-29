@@ -39,7 +39,7 @@
        * [Cosine Similarity](cosine_similarity.md)
        * [排列序号](pai_lie_xu_hao.md)
    * [Bit Manipulation](bit_manipulation_lintcode.md)
-       * 将整数A转换为B
+       * 将整数 A 转换为 B
    * [Dynamic Programming](dynamic_programming.md)
        * [不同的路径](bu_tong_de_lu_jing.md)
        * [不同的路径 II](bu_tong_de_lu_jing_ii.md)
