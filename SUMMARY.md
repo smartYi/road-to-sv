@@ -24,7 +24,7 @@
        * [Java](java.md)
    * [Behavioral Questions](behavioral_questions.md)
 * Lintcode
-   * Math
+   * [Math](math.md)
    * Bit Manipulation
    * Dynamic Programming
    * Linked List
