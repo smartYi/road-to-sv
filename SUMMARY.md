@@ -13,5 +13,5 @@
        * [Linked List](linked_list.md)
        * [Stacks and Queues](stacks_and_queues.md)
        * [Trees and Graphs](trees_and_graphs.md)
-       * Sorting and Searching
+       * [Sorting and Searching](sorting_and_searching.md)
 
