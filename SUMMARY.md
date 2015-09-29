@@ -22,5 +22,5 @@
        * [Testing](testing.md)
        * [C++](c++.md)
        * [Java](java.md)
-   * Behavioral Questions
+   * [Behavioral Questions](behavioral_questions.md)
 
