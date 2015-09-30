@@ -122,7 +122,7 @@
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
-       * 木材加工
+       * [木材加工](mu_cai_jia_gong.md)
    * [Binary Tree](binary_tree.md)
        * [二叉树的中序遍历](er_cha_shu_de_zhong_xu_bian_li.md)
        * [二叉树的前序遍历](er_cha_shu_de_qian_xu_bian_li.md)
