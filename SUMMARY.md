@@ -177,5 +177,5 @@
    * BrightEdge
    * Liveramp
    * [Zazzle](zazzle.md)
-   * Xcalar
+   * [Xcalar](xcalar.md)
 
