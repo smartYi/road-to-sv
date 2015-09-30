@@ -127,6 +127,7 @@
        * [最小差](zui_xiao_cha.md)
        * [最大数](zui_da_shu.md)
        * [交错正负数](jiao_cuo_zheng_fu_shu.md)
+       * 颜色分类
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
