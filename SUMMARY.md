@@ -54,6 +54,7 @@
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
        * [将整数 A 转换为 B](jiang_zheng_shu_a_zhuan_huan_wei_b.md)
+       * 更新二进制位
    * [Recursion](recursion.md)
        * [用递归打印数字](yong_di_gui_da_yin_shu_zi.md)
    * [Dynamic Programming](dynamic_programming.md)
