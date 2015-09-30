@@ -41,7 +41,7 @@
        * [第 k 个排列](di_k_ge_pai_lie.md)
        * [下一个排列](xia_yi_ge_pai_lie.md)
        * [数字组合](shu_zi_zu_he.md)
-       * 数字组合 II
+       * [数字组合 II](shu_zizu_he_ii.md)
        * [判断数独是否合法](pan_duan_shu_du_shi_fou_he_fa.md)
        * [寻找缺失的数](xun_zhao_que_shi_de_shu.md)
        * [最多有多少个点在一条直线上](zui_duo_you_duo_shao_ge_dian_zai_yi_tiao_zhi_xian_shang.md)
