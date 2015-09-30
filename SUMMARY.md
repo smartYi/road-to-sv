@@ -70,6 +70,7 @@
        * [和为零的子矩阵](he_wei_ling_de_zi_ju_zhen.md)
        * [最长回文子串](zui_chang_hui_wen_zi_chuan.md)
        * [打劫房屋](da_jie_fang_wu.md)
+       * 乘积最大子序列
    * [Linked List](linked_list_lintcode.md)
        * [两个链表的和](liang_ge_lian_biao_de_he.md)
        * [删除排序链表中的重复元素](shan_chu_pai_xu_lian_biao_zhong_de_zhong_fu_yuan_su.md)
