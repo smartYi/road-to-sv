@@ -43,7 +43,7 @@
        * [最多有多少个点在一条直线上](zui_duo_you_duo_shao_ge_dian_zai_yi_tiao_zhi_xian_shang.md)
        * [两个整数相除](liang_ge_zheng_shu_xiang_chu.md)
        * [格雷编码](ge_lei_bian_ma.md)
-       * 数飞机
+       * [数飞机](shu_fei_ji.md)
    * [Bit Manipulation](bit_manipulation_lintcode.md)
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
