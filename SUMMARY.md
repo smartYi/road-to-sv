@@ -172,7 +172,7 @@
        * [矩阵归零](ju_zhen_gui_ling.md)
    * [Object-Oriented Design](object-oriented_design_lintcode.md)
        * [单例](dan_li.md)
-* 面经
+* [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
    * Liveramp
