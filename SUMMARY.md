@@ -95,7 +95,7 @@
        * [链表倒数第 n 个节点](lian_biao_dao_shu_di_n_ge_jie_dian.md)
        * [翻转链表](fan_zhuan_lian_biao.md)
        * [旋转链表](xuan_zhuan_lian_biao.md)
-       * 链表排序
+       * [链表排序](lian_biao_pai_xu.md)
    * [String](string.md)
        * [两个字符串是变位词](liang_ge_zi_fu_chuan_shi_bian_wei_ci.md)
        * [判断字符串是否没有重复字符](pan_duan_zi_fu_chuan_shi_fou_mei_you_zhong_fu_zi_fu.md)
