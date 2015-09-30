@@ -124,6 +124,7 @@
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
        * [木材加工](mu_cai_jia_gong.md)
        * [寻找旋转排序数组中的最小值](xun_zhao_xuan_zhuan_pai_xu_shu_zu_zhong_de_zui_xiao_zhi.md)
+       * 寻找旋转排序数组中的最小值 II
    * [Binary Tree](binary_tree.md)
        * [二叉树的中序遍历](er_cha_shu_de_zhong_xu_bian_li.md)
        * [二叉树的前序遍历](er_cha_shu_de_qian_xu_bian_li.md)
