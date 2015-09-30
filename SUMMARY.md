@@ -52,7 +52,6 @@
        * [丢失的第一个正整数](diu_shi_de_di_yi_ge_zheng_zheng_shu.md)
        * [接雨水](jie_yu_shui.md)
        * [删除数字](shan_chu_shu_zi.md)
-       * 
    * [Bit Manipulation](bit_manipulation_lintcode.md)
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
