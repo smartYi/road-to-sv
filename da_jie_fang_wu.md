@@ -30,7 +30,10 @@ public class Solution {
         for(int i = 0; i < A.length; i++){
             if(i % 2 == 1){
                 odd = Math.max(odd + A[i], even);
-            } else even = Math.max(even + A[i], odd);
+            } else {
+                even = Math.max(even + A[i], odd);
+            }
+            
         }
         return Math.max(even, odd);
     }
