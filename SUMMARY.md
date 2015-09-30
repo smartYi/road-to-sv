@@ -117,7 +117,7 @@
        * [最长上升连续子序列](zui_chang_shang_sheng_lian_xu_zi_xu_lie.md)
        * [和大于 S 的最小子数组](he_da_yu_s_de_zui_xiao_zi_shu_zu.md)
        * [最小差](zui_xiao_cha.md)
-       * 最大数
+       * [最大数](zui_da_shu.md)
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
