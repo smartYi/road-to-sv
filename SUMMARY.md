@@ -40,6 +40,7 @@
        * [排列序号II](pai_lie_xu_hao_ii.md)
        * [第 k 个排列](di_k_ge_pai_lie.md)
        * [下一个排列](xia_yi_ge_pai_lie.md)
+       * 组合
        * [数字组合](shu_zi_zu_he.md)
        * [数字组合 II](shu_zizu_he_ii.md)
        * [判断数独是否合法](pan_duan_shu_du_shi_fou_he_fa.md)
@@ -53,7 +54,6 @@
        * [接雨水](jie_yu_shui.md)
        * [删除数字](shan_chu_shu_zi.md)
        * [快速幂](kuai_su_mi.md)
-       * 组合
    * [Bit Manipulation](bit_manipulation_lintcode.md)
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
