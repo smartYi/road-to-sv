@@ -148,7 +148,7 @@
    * [Graph](graph.md)
        * [岛屿的个数](dao_yu_de_ge_shu.md)
        * [找出无向图汇总的相连要素](zhao_chu_wu_xiang_tu_hui_zong_de_xiang_lian_yao_su.md)
-       * 图中两个点之间的路线
+       * [图中两个点之间的路线](tu_zhong_liang_ge_dian_zhi_jian_de_lu_xian.md)
    * [Matrix](matrix.md)
        * [搜索二维矩阵](sou_suo_er_wei_ju_zhen.md)
        * [矩阵的之字型遍历](ju_zhen_de_zhi_zi_xing_bian_li.md)
