@@ -57,10 +57,11 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 20. Software Engineer, New College Grad @ Medallia
 21. Software Engineer - Computer Vision @ Samsung
 22. Software Engineer - Android and Embedded Systems/IOT, Wearables, Home Automation @ Samsung
-23. Software Engineer - New Grad @ Thumbtack
+23. (**Rejected**)Software Engineer - New Grad @ Thumbtack
 24. VMware Full Time @ VMware
 25. Software Development Engineer, New Graduate @ Groupon
 26. Engineering positions for US location @ DJI
 27. Software Engineer @ Snapchat, LA
 28. Software Engineer @ twilio
 29. Software Engineer @ Intentional
+30. Data Platform Software Engineer @ AppDynamics
