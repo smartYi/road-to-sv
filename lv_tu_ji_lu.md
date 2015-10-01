@@ -36,7 +36,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 # 已投公司列表
 
 1. Android Engine Engineer @ PennyPop
-2. (**Pending**)Software Engineer @ Visual Concepts(2K) cmu, w33 # 100K
+2. (**Code Assignment -> Rejected**)Software Engineer @ Visual Concepts(2K) cmu, w33 # 100K
 3. Software Engineer - Ad Network/Machine Learning @ Apple
 4. (**Rejected**)Data Infrastructure Software Engineer - Machine Learning Startup @ Voleon Capital Management LP
 5. Data Scientist @ EngageClick Inc
@@ -47,10 +47,10 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 10. (**Rejected**)Generalist Software Engineer @ LiveRamp # 130K
 11. (**Rejected**)Software Engineer @ Course Hero
 12. Software Development Engineer @ Yahoo
-13. Software Engineer @ cPacket Networks Inc
+13. (**Phone Screen**)Software Engineer @ cPacket Networks Inc
 14. (**Rejected**)Mobile Engineer @ Expensify
 15. (**Rejected**)Software Engineer @ Aribnb
-16. Server Software Engineer @ zazzle
+16. (**On Campus**)Server Software Engineer @ zazzle
 17. Systems Engineer @ Sojern
 18. Software Developer @ Epic
 19. Software Engineer @ Eventbrite (要做题，有点意思)
@@ -65,3 +65,4 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 28. Software Engineer @ twilio
 29. Software Engineer @ Intentional
 30. Data Platform Software Engineer @ AppDynamics
+31. (**On Campus -> Rejected**)Software Engineer @ Xcalar
