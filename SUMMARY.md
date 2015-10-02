@@ -192,7 +192,7 @@
        * [二叉树的序列化和反序列化](er_cha_shu_de_xu_lie_hua_he_fan_xu_lie_hua.md)
        * [二叉查找树中搜索区间](er_cha_cha_zhao_shu_zhong_sou_suo_qu_jian.md)
        * [前序遍历和中序遍历树构造二叉树](qian_xu_bian_li_he_zhong_xu_bian_li_shu_gou_zao_er_cha_shu.md)
-       * 中序遍历和后序遍历树构造二叉树
+       * [中序遍历和后序遍历树构造二叉树](zhong_xu_bian_li_he_hou_xu_bian_li_shu_gou_zao_er_cha_shu.md)
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
