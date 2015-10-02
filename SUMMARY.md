@@ -176,6 +176,7 @@
        * [搜索旋转排序数组 II](sou_suo_xuan_zhuan_pai_xu_shu_zu_ii.md)
        * [搜索区间](sou_suo_qu_jian.md)
        * [寻找峰值](xun_zhao_feng_zhi.md)
+       * 第一个错误的代码版本
    * [Binary Tree](binary_tree.md)
        * [二叉树的中序遍历](er_cha_shu_de_zhong_xu_bian_li.md)
        * [二叉树的前序遍历](er_cha_shu_de_qian_xu_bian_li.md)
