@@ -163,6 +163,7 @@
        * [合并排序数组 II](he_bing_pai_xu_shu_zu_ii.md)
        * [恢复旋转排序数组](hui_fu_xuan_zhuan_pai_xu_shu_zu.md)
        * [奇偶分割数组](qi_ou_fen_ge_shu_zu.md)
+       * 最长连续序列
        * [最长上升连续子序列](zui_chang_shang_sheng_lian_xu_zi_xu_lie.md)
        * [最小差](zui_xiao_cha.md)
        * [最大数](zui_da_shu.md)
@@ -178,7 +179,6 @@
        * [三数之和 II](san_shu_zhi_he_ii.md)
        * [四数之和](si_shu_zhi_he.md)
        * [k 数和 II](k_shu_he_ii.md)
-       * 最长连续序列
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
