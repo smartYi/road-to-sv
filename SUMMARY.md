@@ -84,7 +84,7 @@
        * [买卖股票的最佳时机](mai_mai_gu_piao_de_zui_jia_shi_ji.md)
        * [买卖股票的最佳时机 II](mai_mai_gu_piao_de_zui_jia_shi_ji_ii.md)
        * [买卖股票的最佳时机 III](mai_mai_gu_piao_de_zui_jia_shi_ji_iii.md)
-       * 单词切分
+       * [单词切分](dan_ci_qie_fen.md)
    * [Linked List](linked_list_lintcode.md)
        * [两个链表的和](liang_ge_lian_biao_de_he.md)
        * [删除排序链表中的重复元素](shan_chu_pai_xu_lian_biao_zhong_de_zhong_fu_yuan_su.md)
