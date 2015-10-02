@@ -199,6 +199,7 @@
        * [二叉树的层次遍历 II](er_cha_shu_de_ceng_ci_bian_li_ii.md)
        * [平衡二叉树](ping_heng_er_cha_shu.md)
        * [二叉树中的最大路径和](er_cha_shu_zhong_de_zui_da_lu_jing_he.md)
+       * 验证二叉查找树
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
