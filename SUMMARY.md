@@ -229,7 +229,7 @@
        * [图中两个点之间的路线](tu_zhong_liang_ge_dian_zhi_jian_de_lu_xian.md)
        * [找出有向图中的弱联通分量](zhao_chu_you_xiang_tu_zhong_de_ruo_lian_tong_fen_liang.md)
        * [克隆图](ke_long_tu.md)
-       * 拓扑排序
+       * [拓扑排序](tuo_pu_pai_xu.md)
    * [Matrix](matrix.md)
        * [矩阵的之字型遍历](ju_zhen_de_zhi_zi_xing_bian_li.md)
        * [排序矩阵中的从小到大第k个数](pai_xu_ju_zhen_zhong_de_cong_xiao_dao_da_di_k_ge_shu.md)
