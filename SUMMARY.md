@@ -156,7 +156,7 @@
        * [在二叉查找树中插入节点](zai_er_cha_cha_zhao_shu_zhong_cha_ru_jie_dian.md)
        * [不同的二叉查找树](bu_tong_de_er_cha_cha_zhao_shu.md)
        * [不同的二叉查找树 II](bu_tong_de_er_cha_cha_zhao_shu_ii.md)
-       * 二叉树的序列化和反序列化
+       * [二叉树的序列化和反序列化](er_cha_shu_de_xu_lie_hua_he_fan_xu_lie_hua.md)
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
