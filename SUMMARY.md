@@ -96,6 +96,7 @@
        * [编辑距离](bian_ji_ju_li.md)
        * [跳跃游戏](tiao_yue_you_xi.md)
        * [跳跃游戏 II](tiao_yue_you_xi_ii.md)
+       * 最小调整代价
    * [Linked List](linked_list_lintcode.md)
        * [两个链表的和](liang_ge_lian_biao_de_he.md)
        * [删除排序链表中的重复元素](shan_chu_pai_xu_lian_biao_zhong_de_zhong_fu_yuan_su.md)
