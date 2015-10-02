@@ -165,6 +165,7 @@
        * [三数之和](san_shu_zhi_he.md)
        * [三数之和 II](san_shu_zhi_he_ii.md)
        * [四数之和](si_shu_zhi_he.md)
+       * k 数和 II
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
