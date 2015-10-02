@@ -50,7 +50,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 13. (**Phone Screen**)Software Engineer @ cPacket Networks Inc
 14. (**Rejected**)Mobile Engineer @ Expensify
 15. (**Rejected**)Software Engineer @ Aribnb
-16. (**On Campus**)Server Software Engineer @ zazzle
+16. (**2nd Interview**)Server Software Engineer @ zazzle
 17. Systems Engineer @ Sojern
 18. Software Developer @ Epic
 19. Software Engineer @ Eventbrite (要做题，有点意思)
