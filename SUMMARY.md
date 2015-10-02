@@ -41,7 +41,7 @@
        * [第 k 个排列](di_k_ge_pai_lie.md)
        * [下一个排列](xia_yi_ge_pai_lie.md)
        * [全排列](quan_pai_lie.md)
-       * 带重复元素的排列
+       * [带重复元素的排列](dai_zhong_fu_yuan_su_de_pai_lie.md)
        * [组合](zu_he.md)
        * [数字组合](shu_zi_zu_he.md)
        * [数字组合 II](shu_zizu_he_ii.md)
