@@ -62,10 +62,10 @@
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
        * [落单的数 II](luo_dan_de_shu_ii.md)
+       * 落单的数 III
        * [将整数 A 转换为 B](jiang_zheng_shu_a_zhuan_huan_wei_b.md)
        * [更新二进制位](geng_xin_er_jin_zhi_wei.md)
        * [A + B 问题](a_+_b_wen_ti.md)
-       * 落单的数 III
    * [Recursion](recursion.md)
        * [用递归打印数字](yong_di_gui_da_yin_shu_zi.md)
        * [N 皇后问题](n_huang_hou_wen_ti.md)
