@@ -58,7 +58,7 @@
        * [统计数字](tong_ji_shu_zi.md)
        * [删除数字](shan_chu_shu_zi.md)
        * [快速幂](kuai_su_mi.md)
-       * 加油站
+       * [加油站](jia_you_zhan.md)
    * [Bit Manipulation](bit_manipulation_lintcode.md)
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
