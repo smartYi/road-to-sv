@@ -158,6 +158,7 @@
        * [带重复元素的子集](dai_zhong_fu_yuan_su_de_zi_ji.md)
        * [两数之和](liang_shu_zhi_he.md)
        * 三数之和
+       * 三数之和 II
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
