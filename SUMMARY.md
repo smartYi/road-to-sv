@@ -191,6 +191,7 @@
        * [不同的二叉查找树 II](bu_tong_de_er_cha_cha_zhao_shu_ii.md)
        * [二叉树的序列化和反序列化](er_cha_shu_de_xu_lie_hua_he_fan_xu_lie_hua.md)
        * [二叉查找树中搜索区间](er_cha_cha_zhao_shu_zhong_sou_suo_qu_jian.md)
+       * 前序遍历和中序遍历树构造二叉树
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
