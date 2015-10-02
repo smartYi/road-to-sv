@@ -201,7 +201,7 @@
        * [平衡二叉树](ping_heng_er_cha_shu.md)
        * [二叉树中的最大路径和](er_cha_shu_zhong_de_zui_da_lu_jing_he.md)
        * [验证二叉查找树](yan_zheng_er_cha_cha_zhao_shu.md)
-       * 最近公共祖先
+       * [最近公共祖先](zui_jin_gong_gong_zu_xian.md)
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
