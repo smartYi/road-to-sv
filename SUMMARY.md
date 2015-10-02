@@ -65,6 +65,7 @@
        * [A + B 问题](a_+_b_wen_ti.md)
    * [Recursion](recursion.md)
        * [用递归打印数字](yong_di_gui_da_yin_shu_zi.md)
+       * N 皇后问题
    * [Dynamic Programming](dynamic_programming.md)
        * [硬币排成线](ying_bi_pai_cheng_xian.md)
        * [硬币排成线 II](ying_bipai_cheng_xian_ii.md)
