@@ -113,6 +113,7 @@
        * [带环链表](dai_huan_lian_biao.md)
        * [合并 k 个排序链表](he_bing_k_ge_pai_xu_lian_biao.md)
        * [排序链表转换为二分查找树](pai_xu_lian_biao_zhuan_huan_wei_er_fen_cha_zhao_shu.md)
+       * 删除排序链表中的重复数字 II
    * [String](string.md)
        * [两个字符串是变位词](liang_ge_zi_fu_chuan_shi_bian_wei_ci.md)
        * [判断字符串是否没有重复字符](pan_duan_zi_fu_chuan_shi_fou_mei_you_zhong_fu_zi_fu.md)
