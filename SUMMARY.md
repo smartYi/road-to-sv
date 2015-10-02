@@ -38,7 +38,7 @@
        * [Cosine Similarity](cosine_similarity.md)
        * [排列序号](pai_lie_xu_hao.md)
        * [排列序号II](pai_lie_xu_hao_ii.md)
-       * 上一个排列
+       * [上一个排列](shang_yi_ge_pai_lie.md)
        * [第 k 个排列](di_k_ge_pai_lie.md)
        * [下一个排列](xia_yi_ge_pai_lie.md)
        * [全排列](quan_pai_lie.md)
