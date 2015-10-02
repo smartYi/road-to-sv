@@ -224,7 +224,7 @@
        * [岛屿的个数](dao_yu_de_ge_shu.md)
        * [找出无向图汇总的相连要素](zhao_chu_wu_xiang_tu_hui_zong_de_xiang_lian_yao_su.md)
        * [图中两个点之间的路线](tu_zhong_liang_ge_dian_zhi_jian_de_lu_xian.md)
-       * 找出有向图中的弱联通分量
+       * [找出有向图中的弱联通分量](zhao_chu_you_xiang_tu_zhong_de_ruo_lian_tong_fen_liang.md)
    * [Matrix](matrix.md)
        * [矩阵的之字型遍历](ju_zhen_de_zhi_zi_xing_bian_li.md)
        * [排序矩阵中的从小到大第k个数](pai_xu_ju_zhen_zhong_de_cong_xiao_dao_da_di_k_ge_shu.md)
