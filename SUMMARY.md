@@ -131,7 +131,7 @@
        * [最长公共前缀](zui_chang_gong_gong_qian_zhui.md)
        * [最长公共子序列](zui_chang_gong_gong_zi_xu_lie.md)
        * [最长上升子序列](zui_chang_shang_sheng_zi_xu_lie.md)
-       * 不同的子序列
+       * [不同的子序列](bu_tong_de_zi_xu_lie.md)
        * [最小子串覆盖](zui_xiao_zi_chuan_fu_gai.md)
        * [逆波兰表达式求值](ni_bo_lan_biao_da_shi_qiu_zhi.md)
        * [最多有k个不同字符的最长子字符串](zui_duo_you_k_ge_bu_tong_zi_fu_de_zui_chang_zi_zi_fu_chuan.md)
