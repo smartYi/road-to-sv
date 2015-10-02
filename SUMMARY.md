@@ -129,7 +129,7 @@
        * [最长无重复字符的子串](zui_chang_wu_zhong_fu_zi_fu_de_zi_chuan.md)
        * [变位词](bian_wei_ci.md)
        * [最小子串覆盖](zui_xiao_zi_chuan_fu_gai.md)
-       * 最长公共前缀
+       * [最长公共前缀](zui_chang_gong_gong_qian_zhui.md)
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [最小子数组](zui_xiao_zi_shu_zu.md)
