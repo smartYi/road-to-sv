@@ -178,6 +178,7 @@
        * [三数之和 II](san_shu_zhi_he_ii.md)
        * [四数之和](si_shu_zhi_he.md)
        * [k 数和 II](k_shu_he_ii.md)
+       * 最长连续序列
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
