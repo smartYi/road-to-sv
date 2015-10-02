@@ -221,7 +221,7 @@
        * [带最小值操作的栈](dai_zui_xiao_zhi_cao_zuo_de_zhan.md)
        * [用栈实现队列](yong_zhan_shi_xian_dui_lie.md)
        * [堆化](dui_hua.md)
-       * 重哈希
+       * [重哈希](zhong_ha_xi.md)
    * Segment Tree
    * [Graph](graph.md)
        * [岛屿的个数](dao_yu_de_ge_shu.md)
