@@ -156,6 +156,7 @@
        * [数组划分](shu_zu_hua_fen.md)
        * [子集](zi_ji.md)
        * [带重复元素的子集](dai_zhong_fu_yuan_su_de_zi_ji.md)
+       * 两数之和
    * [Searching](searching.md)
        * [二分查找](er_fen_cha_zhao.md)
        * [搜索插入位置](sou_suo_cha_ru_wei_zhi.md)
