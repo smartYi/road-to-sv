@@ -94,7 +94,7 @@
        * [单词切分](dan_ci_qie_fen.md)
        * [交叉字符串](jiao_cha_zi_fu_chuan.md)
        * [背包问题](bei_bao_wen_ti.md)
-       * 背包问题 II
+       * [背包问题 II](bei_bao_wen_ti_ii.md)
        * [编辑距离](bian_ji_ju_li.md)
        * [跳跃游戏](tiao_yue_you_xi.md)
        * [跳跃游戏 II](tiao_yue_you_xi_ii.md)
