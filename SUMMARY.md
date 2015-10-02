@@ -197,6 +197,7 @@
        * [二叉树的锯齿形层次遍历](er_cha_shu_de_ju_chi_xing_ceng_ci_bian_li.md)
        * [二叉树的层次遍历](er_cha_shu_de_ceng_ci_bian_li.md)
        * [二叉树的层次遍历 II](er_cha_shu_de_ceng_ci_bian_li_ii.md)
+       * 平衡二叉树
    * [Data Structure](data_structure.md)
        * [哈希函数](ha_xi_han_shu.md)
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
