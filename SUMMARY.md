@@ -125,6 +125,7 @@
        * [字符串查找](zi_fu_chuan_cha_zhao.md)
        * [有效回文串](you_xiao_hui_wen_chuan.md)
        * [分割回文串](fen_ge_hui_wen_chuan.md)
+       * 分割回文串 II
        * [字符大小写排序](zi_fu_da_xiao_xie_pai_xu.md)
        * [罗马数字转整数](luo_ma_shu_zi_zhuan_zheng_shu.md)
        * [整数转罗马数字](zheng_shu_zhuan_luo_ma_shu_zi.md)
@@ -140,7 +141,6 @@
        * [最多有k个不同字符的最长子字符串](zui_duo_you_k_ge_bu_tong_zi_fu_de_zui_chang_zi_zi_fu_chuan.md)
        * [最长无重复字符的子串](zui_chang_wu_zhong_fu_zi_fu_de_zi_chuan.md)
        * [变位词](bian_wei_ci.md)
-       * 分割回文串 II
    * [Array](array.md)
        * [中位数](zhong_wei_shu.md)
        * [最小子数组](zui_xiao_zi_shu_zu.md)
