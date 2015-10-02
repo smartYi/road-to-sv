@@ -99,6 +99,7 @@
    * [Linked List](linked_list_lintcode.md)
        * [两个链表的和](liang_ge_lian_biao_de_he.md)
        * [删除排序链表中的重复元素](shan_chu_pai_xu_lian_biao_zhong_de_zhong_fu_yuan_su.md)
+       * 删除排序链表中的重复数字 II
        * [删除链表中倒数第 n 个节点](shan_chu_lian_biao_zhong_dao_shu_di_n_ge_jie_dian.md)
        * [合并两个排序链表](he_bing_liang_ge_pai_xu_lian_biao.md)
        * [在 O(1) 时间复杂度删除链表节点](zai_o__1__shi_jian_fu_za_du_shan_chu_lian_biao_jie_dian.md)
@@ -113,7 +114,6 @@
        * [带环链表](dai_huan_lian_biao.md)
        * [合并 k 个排序链表](he_bing_k_ge_pai_xu_lian_biao.md)
        * [排序链表转换为二分查找树](pai_xu_lian_biao_zhuan_huan_wei_er_fen_cha_zhao_shu.md)
-       * 删除排序链表中的重复数字 II
    * [String](string.md)
        * [两个字符串是变位词](liang_ge_zi_fu_chuan_shi_bian_wei_ci.md)
        * [判断字符串是否没有重复字符](pan_duan_zi_fu_chuan_shi_fou_mei_you_zhong_fu_zi_fu.md)
