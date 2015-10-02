@@ -165,7 +165,7 @@
        * [寻找旋转排序数组中的最小值](xun_zhao_xuan_zhuan_pai_xu_shu_zu_zhong_de_zui_xiao_zhi.md)
        * [寻找旋转排序数组中的最小值 II](xun_zhao_xuan_zhuan_pai_xu_shu_zu_zhong_de_zui_xiao_zhi_ii.md)
        * [搜索旋转排序数组](sou_suo_xuan_zhuan_pai_xu_shu_zu.md)
-       * 搜索旋转排序数组 II
+       * [搜索旋转排序数组 II](sou_suo_xuan_zhuan_pai_xu_shu_zu_ii.md)
    * [Binary Tree](binary_tree.md)
        * [二叉树的中序遍历](er_cha_shu_de_zhong_xu_bian_li.md)
        * [二叉树的前序遍历](er_cha_shu_de_qian_xu_bian_li.md)
