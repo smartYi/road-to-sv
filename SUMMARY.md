@@ -40,7 +40,7 @@
        * [排列序号II](pai_lie_xu_hao_ii.md)
        * [第 k 个排列](di_k_ge_pai_lie.md)
        * [下一个排列](xia_yi_ge_pai_lie.md)
-       * 全排列
+       * [全排列](quan_pai_lie.md)
        * [组合](zu_he.md)
        * [数字组合](shu_zi_zu_he.md)
        * [数字组合 II](shu_zizu_he_ii.md)
