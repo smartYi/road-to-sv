@@ -176,7 +176,7 @@
        * [有效的括号序列](you_xiao_de_kuo_hao_xu_lie.md)
        * [最长单词](zui_chang_dan_ci.md)
        * [带最小值操作的栈](dai_zui_xiao_zhi_cao_zuo_de_zhan.md)
-       * 用栈实现队列
+       * [用栈实现队列](yong_zhan_shi_xian_dui_lie.md)
    * Segment Tree
    * [Graph](graph.md)
        * [岛屿的个数](dao_yu_de_ge_shu.md)
