@@ -39,6 +39,7 @@
        * [排列序号](pai_lie_xu_hao.md)
        * [排列序号II](pai_lie_xu_hao_ii.md)
        * [第 k 个排列](di_k_ge_pai_lie.md)
+       * 上一个排列
        * [下一个排列](xia_yi_ge_pai_lie.md)
        * [全排列](quan_pai_lie.md)
        * [带重复元素的排列](dai_zhong_fu_yuan_su_de_pai_lie.md)
@@ -57,7 +58,6 @@
        * [统计数字](tong_ji_shu_zi.md)
        * [删除数字](shan_chu_shu_zi.md)
        * [快速幂](kuai_su_mi.md)
-       * 上一个排列
    * [Bit Manipulation](bit_manipulation_lintcode.md)
        * [O(1) 检测 2 的幂次](o1_jian_ce_2_de_mi_ci.md)
        * [落单的数](luo_dan_de_shu.md)
