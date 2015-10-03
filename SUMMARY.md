@@ -31,6 +31,7 @@
        * [Three in One](three_in_one.md)
        * [Stack Min](stack_min.md)
        * [Stack of Plates](stack_of_plates.md)
+       * Queue via Stacks
    * [Trees and Graphs](trees_and_graphs.md)
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
