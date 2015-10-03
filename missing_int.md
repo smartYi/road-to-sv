@@ -4,7 +4,7 @@ Given an input file with four billion non-negative integers, provide an algorith
 
 FOLLOW UP
 
-What if you have only 10 MB of memory? Assume that all the values are distinct and we now have no more than one billion non-negative integers
+    What if you have only 10 MB of memory? Assume that all the values are distinct and we now have no more than one billion non-negative integers
 
 ## Solution
 
