@@ -17,6 +17,7 @@
        * [String Compression](string_compression.md)
        * [Rotate Matrix](rotate_matrix.md)
        * [Zero Matrix](zero_matrix.md)
+       * String Rotation
    * [Linked List](linked_list.md)
    * [Stacks and Queues](stacks_and_queues.md)
    * [Trees and Graphs](trees_and_graphs.md)
