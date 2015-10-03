@@ -29,6 +29,7 @@
        * [Loop Detection](loop_detection.md)
    * [Stacks and Queues](stacks_and_queues.md)
        * [Three in One](three_in_one.md)
+       * Stack Min
    * [Trees and Graphs](trees_and_graphs.md)
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
