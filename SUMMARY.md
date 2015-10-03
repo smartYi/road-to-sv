@@ -26,7 +26,7 @@
        * [Sum Lists](sum_lists.md)
        * [Palindrome](palindrome.md)
        * [Intersection](intersection.md)
-       * Loop Detection
+       * [Loop Detection](loop_detection.md)
    * [Stacks and Queues](stacks_and_queues.md)
    * [Trees and Graphs](trees_and_graphs.md)
    * [Bit Manipulation](bit_manipulation.md)
