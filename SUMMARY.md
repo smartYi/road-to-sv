@@ -234,7 +234,7 @@
        * [线段树的修改](xian_duan_shu_de_xiu_gai.md)
        * [区间最小数](qu_jian_zui_xiao_shu.md)
        * [区间求和 I](qu_jian_qiu_he_i.md)
-       * 统计比给定整数小的数的个数
+       * [统计比给定整数小的数的个数](tong_ji_bi_gei_ding_zheng_shu_xiao_de_shu_de_ge_shu.md)
    * [Graph](graph.md)
        * [岛屿的个数](dao_yu_de_ge_shu.md)
        * [找出无向图汇总的相连要素](zhao_chu_wu_xiang_tu_hui_zong_de_xiang_lian_yao_su.md)
