@@ -19,6 +19,7 @@
        * [Zero Matrix](zero_matrix.md)
        * [String Rotation](string_rotation.md)
    * [Linked List](linked_list.md)
+       * Remove Dups
    * [Stacks and Queues](stacks_and_queues.md)
    * [Trees and Graphs](trees_and_graphs.md)
    * [Bit Manipulation](bit_manipulation.md)
