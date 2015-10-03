@@ -4,4 +4,4 @@ There is an 8x8 chessboard in which two diagonally opposite corners have been cu
 
 ## Solution
 
-Black and white squares, 32 black vs 30 white while 1 domino can only cover 1 black and 1 white -> impossible to cover the board.
+Black and white squares, 32 black vs 30 white while 1 domino can only cover 1 black and 1 white -> impossible to cover the board.S
