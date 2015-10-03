@@ -15,6 +15,7 @@
        * [Palindrome Permutation](palindrome_permutation.md)
        * [One Away](one_away.md)
        * [String Compression](string_compression.md)
+       * Rotate Matrix
    * [Linked List](linked_list.md)
    * [Stacks and Queues](stacks_and_queues.md)
    * [Trees and Graphs](trees_and_graphs.md)
