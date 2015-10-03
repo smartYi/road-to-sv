@@ -78,7 +78,7 @@
        * [The Apocalypse](the_apocalypse.md)
        * [The Egg Drop Problem](the_egg_drop_problem.md)
        * [100 Lockers](100_lockers.md)
-       * Poison
+       * [Poison](poison.md)
    * [Recursion and Dynamic Programming](recursion_and_dynamic_programming.md)
    * [Object-Oriented Design](object-oriented_design.md)
    * [System Design and Scalability](system_design_and_scalability.md)
