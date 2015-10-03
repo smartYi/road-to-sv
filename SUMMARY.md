@@ -49,7 +49,7 @@
        * [Paths with Sum](paths_with_sum.md)
    * [Bit Manipulation](bit_manipulation.md)
        * [Insertion](insertion.md)
-       * Binary to String
+       * [Binary to String](binary_to_string.md)
    * [Sorting and Searching](sorting_and_searching.md)
        * [Sorted Merge](sorted_merge.md)
        * [Group Anagrams](group_anagrams.md)
