@@ -55,6 +55,7 @@
        * [Debugger](debugger.md)
        * [Conversion](conversion.md)
        * [Pairwise Swap](pairwise_swap.md)
+       * Draw Line
    * [Sorting and Searching](sorting_and_searching.md)
        * [Sorted Merge](sorted_merge.md)
        * [Group Anagrams](group_anagrams.md)
