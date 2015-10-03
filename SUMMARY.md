@@ -24,7 +24,7 @@
        * [Delete Middle Node](delete_middle_node.md)
        * [Partition](partition.md)
        * [Sum Lists](sum_lists.md)
-       * Palindrome
+       * [Palindrome](palindrome.md)
    * [Stacks and Queues](stacks_and_queues.md)
    * [Trees and Graphs](trees_and_graphs.md)
    * [Bit Manipulation](bit_manipulation.md)
