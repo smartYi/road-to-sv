@@ -52,6 +52,7 @@
        * [Binary to String](binary_to_string.md)
        * [Flip Bit to Win](flip_bit_to_win.md)
        * [Next Number](next_number.md)
+       * Debugger
    * [Sorting and Searching](sorting_and_searching.md)
        * [Sorted Merge](sorted_merge.md)
        * [Group Anagrams](group_anagrams.md)
