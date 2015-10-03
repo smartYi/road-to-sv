@@ -54,7 +54,7 @@
        * [Search in Rotated Array](search_in_rotated_array.md)
        * [Sorted Search, No Size](sorted_search,_no_size.md)
        * [Sparse Search](sparse_search.md)
-       * Sort Big File
+       * [Sort Big File](sort_big_file.md)
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
    * [Recursion and Dynamic Programming](recursion_and_dynamic_programming.md)
    * [Object-Oriented Design](object-oriented_design.md)
