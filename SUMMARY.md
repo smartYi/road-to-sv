@@ -37,7 +37,7 @@
    * [Trees and Graphs](trees_and_graphs.md)
        * [Route Between Nodes](route_between_nodes.md)
        * [Minimal Tree](minimal_tree.md)
-       * List of Depth
+       * [List of Depth](list_of_depth.md)
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
