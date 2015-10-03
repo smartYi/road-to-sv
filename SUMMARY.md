@@ -56,7 +56,7 @@
        * [Sparse Search](sparse_search.md)
        * [Sort Big File](sort_big_file.md)
        * [Missing Int](missing_int.md)
-       * Find Duplicates
+       * [Find Duplicates](find_duplicates.md)
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
    * [Recursion and Dynamic Programming](recursion_and_dynamic_programming.md)
    * [Object-Oriented Design](object-oriented_design.md)
