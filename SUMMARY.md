@@ -46,7 +46,7 @@
        * [BST Sequences](bst_sequences.md)
        * [Check Subtree](check_subtree.md)
        * [Random Node](random_node.md)
-       * Paths with Sum
+       * [Paths with Sum](paths_with_sum.md)
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
