@@ -22,7 +22,7 @@
        * [Remove Dups](remove_dups.md)
        * [Return Kth to Last](return_kth_to_last.md)
        * [Delete Middle Node](delete_middle_node.md)
-       * Partition
+       * [Partition](partition.md)
    * [Stacks and Queues](stacks_and_queues.md)
    * [Trees and Graphs](trees_and_graphs.md)
    * [Bit Manipulation](bit_manipulation.md)
