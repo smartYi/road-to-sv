@@ -13,7 +13,7 @@
        * [Check Permutation](check_permutation.md)
        * [URLify](urlify.md)
        * [Palindrome Permutation](palindrome_permutation.md)
-       * One Away
+       * [One Away](one_away.md)
    * [Linked List](linked_list.md)
    * [Stacks and Queues](stacks_and_queues.md)
    * [Trees and Graphs](trees_and_graphs.md)
