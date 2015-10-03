@@ -54,6 +54,7 @@
        * [Next Number](next_number.md)
        * [Debugger](debugger.md)
        * [Conversion](conversion.md)
+       * Pairwise Swap
    * [Sorting and Searching](sorting_and_searching.md)
        * [Sorted Merge](sorted_merge.md)
        * [Group Anagrams](group_anagrams.md)
