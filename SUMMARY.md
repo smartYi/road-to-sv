@@ -48,7 +48,7 @@
        * [Random Node](random_node.md)
        * [Paths with Sum](paths_with_sum.md)
    * [Bit Manipulation](bit_manipulation.md)
-       * Insertion
+       * [Insertion](insertion.md)
    * [Sorting and Searching](sorting_and_searching.md)
        * [Sorted Merge](sorted_merge.md)
        * [Group Anagrams](group_anagrams.md)
