@@ -58,7 +58,7 @@
        * [Missing Int](missing_int.md)
        * [Find Duplicates](find_duplicates.md)
        * [Sorted Matrix Search](sorted_matrix_search.md)
-       * Rank from Stream
+       * [Rank from Stream](rank_from_stream.md)
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
    * [Recursion and Dynamic Programming](recursion_and_dynamic_programming.md)
    * [Object-Oriented Design](object-oriented_design.md)
