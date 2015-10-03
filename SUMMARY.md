@@ -44,6 +44,7 @@
        * [Build Order](build_order.md)
        * [First Common Ancestor](first_common_ancestor.md)
        * [BST Sequences](bst_sequences.md)
+       * Check Subtree
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
