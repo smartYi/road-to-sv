@@ -229,7 +229,7 @@
    * [Segment Tree](segment_tree.md)
        * [线段树的构造](xian_duan_shu_de_gou_zao.md)
        * [Segmemt Tree Build II](segmemt_tree_build_ii.md)
-       * 线段树的查询
+       * [线段树的查询](xian_duan_shu_de_cha_xun.md)
    * [Graph](graph.md)
        * [岛屿的个数](dao_yu_de_ge_shu.md)
        * [找出无向图汇总的相连要素](zhao_chu_wu_xiang_tu_hui_zong_de_xiang_lian_yao_su.md)
