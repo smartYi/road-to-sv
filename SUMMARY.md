@@ -21,8 +21,6 @@
    * [Testing](testing.md)
    * [C++](c++.md)
    * [Java](java.md)
-   * [基本知识点](ji_ben_zhi_shi_dian.md)
-       * [Java](java.md)
    * [Behavioral Questions](behavioral_questions.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
