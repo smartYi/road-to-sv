@@ -226,7 +226,7 @@
        * [用栈实现队列](yong_zhan_shi_xian_dui_lie.md)
        * [堆化](dui_hua.md)
        * [重哈希](zhong_ha_xi.md)
-   * Segment Tree
+   * [Segment Tree](segment_tree.md)
    * [Graph](graph.md)
        * [岛屿的个数](dao_yu_de_ge_shu.md)
        * [找出无向图汇总的相连要素](zhao_chu_wu_xiang_tu_hui_zong_de_xiang_lian_yao_su.md)
