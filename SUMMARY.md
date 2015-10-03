@@ -74,7 +74,7 @@
        * [Dominos](dominos.md)
        * [Ants on a Triangle](ants_on_a_triangle.md)
        * [Jugs of Water](jugs_of_water.md)
-       * Blue-Eyed Island
+       * [Blue-Eyed Island](blue-eyed_island.md)
    * [Recursion and Dynamic Programming](recursion_and_dynamic_programming.md)
    * [Object-Oriented Design](object-oriented_design.md)
    * [System Design and Scalability](system_design_and_scalability.md)
