@@ -4,7 +4,7 @@ Implement an algorithm to determine if a string has all unique characters. What 
 
 Detail: ASCII string or Unicode string
 
-## 题解
+## Solution
 
 详情见代码注释
 
