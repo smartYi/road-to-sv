@@ -10,6 +10,7 @@
    * [Big O](big_o.md)
    * [Arrays and Strings](arrays_and_strings.md)
        * [Is Unique](is_unique.md)
+       * Check Permutation
    * [Linked List](linked_list.md)
    * [Stacks and Queues](stacks_and_queues.md)
    * [Trees and Graphs](trees_and_graphs.md)
