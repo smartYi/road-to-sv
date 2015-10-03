@@ -35,6 +35,7 @@
        * [Sort Stack](sort_stack.md)
        * [Animal Shelter](animal_shelter.md)
    * [Trees and Graphs](trees_and_graphs.md)
+       * Route Between Nodes
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
