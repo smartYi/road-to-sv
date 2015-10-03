@@ -41,6 +41,7 @@
        * [Check Balanced](check_balanced.md)
        * [Validate BST](validate_bst.md)
        * [Successor](successor.md)
+       * Build Order  
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
