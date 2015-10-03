@@ -39,7 +39,7 @@
        * [Minimal Tree](minimal_tree.md)
        * [List of Depth](list_of_depth.md)
        * [Check Balanced](check_balanced.md)
-       * Validate BST
+       * [Validate BST](validate_bst.md)
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
