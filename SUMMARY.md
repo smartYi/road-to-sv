@@ -50,6 +50,7 @@
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
        * [Sorted Merge](sorted_merge.md)
+       * Group Anagrams
    * [Math and Logic Puzzles](math_and_logic_puzzles.md)
    * [Recursion and Dynamic Programming](recursion_and_dynamic_programming.md)
    * [Object-Oriented Design](object-oriented_design.md)
