@@ -7,6 +7,7 @@
    * [自我介绍](self_intro.md)
    * [内推](nei_tui.md)
 * [Crack the Code Interview](crack_the_code_interview.md)
+   * [Big O](big_o.md)
    * [基本知识点](ji_ben_zhi_shi_dian.md)
        * [Big O](big_o.md)
        * [Arrays and Strings](arrays_and_strings.md)
