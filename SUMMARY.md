@@ -32,7 +32,7 @@
        * [Stack Min](stack_min.md)
        * [Stack of Plates](stack_of_plates.md)
        * [Queue via Stacks](queue_via_stacks.md)
-       * Sort Stack
+       * [Sort Stack](sort_stack.md)
    * [Trees and Graphs](trees_and_graphs.md)
    * [Bit Manipulation](bit_manipulation.md)
    * [Sorting and Searching](sorting_and_searching.md)
