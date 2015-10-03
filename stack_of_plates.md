@@ -95,5 +95,4 @@ class Stack{
 
     public int removeBottom(){}
 }
-    
 ```
