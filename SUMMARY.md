@@ -95,7 +95,7 @@
        * [Stack of Boxes](stack_of_boxes.md)
        * [Boolean Evaluation](boolean_evaluation.md)
    * [Object-Oriented Design](object-oriented_design.md)
-       * Deck of Cards
+       * [Deck of Cards](deck_of_cards.md)
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
    * [C++](c++.md)
