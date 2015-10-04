@@ -108,6 +108,7 @@
        * [File System](file_system.md)
        * [Hash Table](hash_table.md)
    * [System Design and Scalability](system_design_and_scalability.md)
+       * Stock Data
    * [Testing](testing.md)
    * [C++](c++.md)
    * [Java](java.md)
