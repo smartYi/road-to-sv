@@ -61,7 +61,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 24. VMware Full Time @ VMware
 25. Software Development Engineer, New Graduate @ Groupon
 26. Engineering positions for US location @ DJI
-27. Software Engineer @ Snapchat, LA
+27. (**Rejected**)Software Engineer @ Snapchat, LA
 28. Software Engineer @ twilio
 29. (**Rejected**)Software Engineer @ Intentional
 30. Data Platform Software Engineer @ AppDynamics
