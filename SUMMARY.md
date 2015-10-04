@@ -82,7 +82,7 @@
    * [Recursion and Dynamic Programming](recursion_and_dynamic_programming.md)
        * [Triple Step](triple_step.md)
        * [Robot in a Grid](robot_in_a_grid.md)
-       * Magic Index
+       * [Magic Index](magic_index.md)
    * [Object-Oriented Design](object-oriented_design.md)
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
