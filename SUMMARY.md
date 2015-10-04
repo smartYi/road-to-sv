@@ -367,6 +367,7 @@
        * [寻找和为定值的多个数](xun_zhao_he_wei_ding_zhi_de_duo_ge_shu.md)
        * [最大连续子数组和](zui_da_lian_xu_zi_shu_zu_he.md)
        * [跳台阶问题](tiao_tai_jie_wen_ti.md)
+       * 奇偶调序
    * 树
    * 查找匹配
    * 动态规划
