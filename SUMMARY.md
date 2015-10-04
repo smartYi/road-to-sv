@@ -89,7 +89,7 @@
        * [Permutations without Dups](permutations_without_dups.md)
        * [Permutations with Duplicates](permutations_with_duplicates.md)
        * [Parens](parens.md)
-       * Paint Fill
+       * [Paint Fill](paint_fill.md)
    * [Object-Oriented Design](object-oriented_design.md)
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
