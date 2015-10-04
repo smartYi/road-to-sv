@@ -115,6 +115,7 @@
        * [Cache](cache.md)
        * [Sales Rank](sales_rank.md)
        * [Personal Financial Manager](personal_financial_manager.md)
+       * Pastebin
    * [Testing](testing.md)
    * [C++](c++.md)
    * [Java](java.md)
