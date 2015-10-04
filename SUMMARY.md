@@ -104,6 +104,7 @@
        * [Chat Server](chat_server.md)
        * [Othello](othello.md)
        * [Circular Array](circular_array.md)
+       * Minesweeper
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
    * [C++](c++.md)
