@@ -92,6 +92,7 @@
        * [Paint Fill](paint_fill.md)
        * [Coins](coins.md)
        * [Eight Queens](eight_queens.md)
+       * Stack of Boxes
    * [Object-Oriented Design](object-oriented_design.md)
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
