@@ -83,7 +83,7 @@
        * [Triple Step](triple_step.md)
        * [Robot in a Grid](robot_in_a_grid.md)
        * [Magic Index](magic_index.md)
-       * Power Set
+       * [Power Set](power_set.md)
    * [Object-Oriented Design](object-oriented_design.md)
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
