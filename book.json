@@ -1,3 +1,4 @@
 {
-    plugins: ["mathjax-beta", "sellerui", "tree"]
+    plugins: ["mathjax-beta"],
+    plugins: ["tree"]
 }
