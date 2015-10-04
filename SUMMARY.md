@@ -353,7 +353,7 @@
    * [Object-Oriented Design](object-oriented_design_lintcode.md)
        * [单例](dan_li.md)
 * [程序员编程艺术](cheng_xu_yuan_bian_cheng_yi_zhu.md)
-   * 字符串
+   * [字符串](zi_fu_chuan.md)
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
