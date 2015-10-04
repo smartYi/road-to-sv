@@ -120,6 +120,7 @@
    * [Testing](testing.md)
        * [Mistake](mistake.md)
        * [Random Crashes](random_crashes.md)
+       * Chess Test
    * [C++](c++.md)
    * [Java](java.md)
 * [Lintcode](lintcode.md)
