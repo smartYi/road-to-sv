@@ -122,7 +122,7 @@
        * [Random Crashes](random_crashes.md)
        * [Chess Test](chess_test.md)
        * [No Test Tools](no_test_tools.md)
-       * Test a Pen
+       * [Test a Pen](test_a_pen.md)
    * [C++](c++.md)
    * [Java](java.md)
 * [Lintcode](lintcode.md)
