@@ -362,6 +362,7 @@
        * [字符串的全排列](zi_fu_chuan_de_quan_pai_lie.md)
        * [字符串和链表的习题](zi_fu_chuan_he_lian_biao_de_xi_ti.md)
    * 数组
+   * 树
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
