@@ -98,6 +98,7 @@
        * [Deck of Cards](deck_of_cards.md)
        * [Call Center](call_center.md)
        * [Jukebox](jukebox.md)
+       * Parking Lot
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
    * [C++](c++.md)
