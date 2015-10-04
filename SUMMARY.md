@@ -111,6 +111,7 @@
        * [Stock Data](stock_data.md)
        * [Social Network](social_network.md)
        * [Web Crawler](web_crawler.md)
+       * Duplicate URLs
    * [Testing](testing.md)
    * [C++](c++.md)
    * [Java](java.md)
