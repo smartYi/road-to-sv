@@ -118,7 +118,7 @@
        * [Personal Financial Manager](personal_financial_manager.md)
        * [Pastebin](pastebin.md)
    * [Testing](testing.md)
-       * Mistake
+       * [Mistake](mistake.md)
    * [C++](c++.md)
    * [Java](java.md)
 * [Lintcode](lintcode.md)
