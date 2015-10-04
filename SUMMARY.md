@@ -121,7 +121,7 @@
        * [Mistake](mistake.md)
        * [Random Crashes](random_crashes.md)
        * [Chess Test](chess_test.md)
-       * No Test Tools
+       * [No Test Tools](no_test_tools.md)
    * [C++](c++.md)
    * [Java](java.md)
 * [Lintcode](lintcode.md)
