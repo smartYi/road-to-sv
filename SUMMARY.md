@@ -363,7 +363,7 @@
        * [字符串和链表的习题](zi_fu_chuan_he_lian_biao_de_xi_ti.md)
    * [数组](shu_zu.md)
        * [寻找最小的k个数](xun_zhao_zui_xiao_de_k_ge_shu.md)
-       * 寻找和为定值的两个数
+       * [寻找和为定值的两个数](xun_zhao_he_wei_ding_zhi_de_liang_ge_shu.md)
    * 树
    * 查找匹配
    * 动态规划
