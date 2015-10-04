@@ -1,3 +1,3 @@
 {
-    plugins: ["mathjax-beta"]
+    plugins: ["mathjax-beta", "sellerui"]
 }
