@@ -85,7 +85,7 @@
        * [Magic Index](magic_index.md)
        * [Power Set](power_set.md)
        * [Recursive Multiply](recursive_multiply.md)
-       * Towers of Hanoi
+       * [Towers of Hanoi](towers_of_hanoi.md)
    * [Object-Oriented Design](object-oriented_design.md)
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
