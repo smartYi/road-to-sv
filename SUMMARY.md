@@ -360,6 +360,7 @@
        * [回文判断](hui_wen_pan_duan.md)
        * [最长回文子串](zui_chang_hui_wen_zi_chuan_ap.md)
        * [字符串的全排列](zi_fu_chuan_de_quan_pai_lie.md)
+       * 字符串和链表的习题
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
