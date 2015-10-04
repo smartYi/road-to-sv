@@ -352,11 +352,11 @@
        * [矩阵归零](ju_zhen_gui_ling.md)
    * [Object-Oriented Design](object-oriented_design_lintcode.md)
        * [单例](dan_li.md)
+* 程序员编程艺术
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
    * Liveramp
    * [Zazzle](zazzle.md)
    * [Xcalar](xcalar.md)
-* 程序员编程艺术
 
