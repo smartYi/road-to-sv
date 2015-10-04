@@ -114,6 +114,7 @@
        * [Duplicate URLs](duplicate_urls.md)
        * [Cache](cache.md)
        * [Sales Rank](sales_rank.md)
+       * Personal Financial Manager
    * [Testing](testing.md)
    * [C++](c++.md)
    * [Java](java.md)
