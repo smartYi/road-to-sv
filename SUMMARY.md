@@ -358,6 +358,7 @@
        * [字符串包含](zi_fu_chuan_bao_han.md)
        * [字符串转换成整数](zi_fu_chuan_zhuan_huan_cheng_zheng_shu.md)
        * [回文判断](hui_wen_pan_duan.md)
+       * 最长回文子串
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
