@@ -112,6 +112,7 @@
        * [Social Network](social_network.md)
        * [Web Crawler](web_crawler.md)
        * [Duplicate URLs](duplicate_urls.md)
+       * Cache
    * [Testing](testing.md)
    * [C++](c++.md)
    * [Java](java.md)
