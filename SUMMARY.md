@@ -365,7 +365,7 @@
        * [寻找最小的k个数](xun_zhao_zui_xiao_de_k_ge_shu.md)
        * [寻找和为定值的两个数](xun_zhao_he_wei_ding_zhi_de_liang_ge_shu.md)
        * [寻找和为定值的多个数](xun_zhao_he_wei_ding_zhi_de_duo_ge_shu.md)
-       * 最大连续子数组和
+       * [最大连续子数组和](zui_da_lian_xu_zi_shu_zu_he.md)
    * 树
    * 查找匹配
    * 动态规划
