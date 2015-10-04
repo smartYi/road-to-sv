@@ -369,6 +369,7 @@
        * [跳台阶问题](tiao_tai_jie_wen_ti.md)
        * [奇偶调序](qi_ou_diao_xu.md)
        * [荷兰国旗](he_lan_guo_qi.md)
+       * 矩阵相乘
    * 树
    * 查找匹配
    * 动态规划
