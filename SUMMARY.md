@@ -101,6 +101,7 @@
        * [Parking Lot](parking_lot.md)
        * [Online Book Reader](online_book_reader.md)
        * [Jigsaw](jigsaw.md)
+       * Chat Server
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
    * [C++](c++.md)
