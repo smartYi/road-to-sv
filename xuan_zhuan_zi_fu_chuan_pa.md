@@ -22,6 +22,7 @@ void LeftShiftOne(char* s, int n)
 
 因此，若要把字符串开头的m个字符移动到字符串的尾部，则可以如下操作：
 
+```cpp
 void LeftRotateString(char* s, int n, int m)
 {
     while (m--)
@@ -29,27 +30,27 @@ void LeftRotateString(char* s, int n, int m)
         LeftShiftOne(s, n);
     }
 }
+```
+
 下面，我们来分析一下这种方法的时间复杂度和空间复杂度。
 
-针对长度为n的字符串来说，假设需要移动m个字符到字符串的尾部，那么总共需要 m*n 次操作，同时设立一个变量保存第一个字符，如此，时间复杂度为O(m * n)，空间复杂度为O(1)，空间复杂度符合题目要求，但时间复杂度不符合，所以，我们得需要寻找其他更好的办法来降低时间复杂度。
+针对长度为n的字符串来说，假设需要移动m个字符到字符串的尾部，那么总共需要 `m*n` 次操作，同时设立一个变量保存第一个字符，如此，时间复杂度为`O(m*n)`，空间复杂度为`O(1)`，空间复杂度符合题目要求，但时间复杂度不符合，所以，我们得需要寻找其他更好的办法来降低时间复杂度。
 
-解法二：三步反转法
+## 解法二：三步反转法
 
 对于这个问题，换一个角度思考一下。
 
-将一个字符串分成X和Y两个部分，在每部分字符串上定义反转操作，如X^T，即把X的所有字符反转（如，X="abc"，那么X^T="cba"），那么就得到下面的结论：(X^TY^T)^T=YX，显然就解决了字符串的反转问题。
+将一个字符串分成`X`和`Y`两个部分，在每部分字符串上定义反转操作，如`X^T`，即把`X`的所有字符反转（如，`X="abc"`，那么`X^T="cba"`），那么就得到下面的结论：`(X^TY^T)^T=YX`，显然就解决了字符串的反转问题。
 
-例如，字符串 abcdef ，若要让def翻转到abc的前头，只要按照下述3个步骤操作即可：
+例如，字符串`abcdef`，若要让`def`翻转到`abc`的前头，只要按照下述3个步骤操作即可：
 
-首先将原字符串分为两个部分，即X:abc，Y:def；
-将X反转，X->X^T，即得：abc->cba；将Y反转，Y->Y^T，即得：def->fed。
-反转上述步骤得到的结果字符串X^TY^T，即反转字符串cbafed的两部分（cba和fed）给予反转，cbafed得到defabc，形式化表示为(X^TY^T)^T=YX，这就实现了整个反转。
-如下图所示：
-
- 
++ 首先将原字符串分为两个部分，即`X:abc`，`Y:def`；
++ 将`X`反转，`X->X^T`，即得：`abc->cba`；将`Y`反转，`Y->Y^T`，即得：`def->fed`。
++ 反转上述步骤得到的结果字符串`X^TY^T`，即反转字符串`cbafed`的两部分（`cba`和`fed`）给予反转，`cbafed`得到`defabc`，形式化表示为`(X^TY^T)^T=YX`，这就实现了整个反转。
 
 代码则可以这么写：
 
+```cpp
 void ReverseString(char* s,int from,int to)
 {
     while (from < to)
@@ -62,11 +63,17 @@ void ReverseString(char* s,int from,int to)
 
 void LeftRotateString(char* s,int n,int m)
 {
-    m %= n;               //若要左移动大于n位，那么和%n 是等价的
-    ReverseString(s, 0, m - 1); //反转[0..m - 1]，套用到上面举的例子中，就是X->X^T，即 abc->cba
-    ReverseString(s, m, n - 1); //反转[m..n - 1]，例如Y->Y^T，即 def->fed
-    ReverseString(s, 0, n - 1); //反转[0..n - 1]，即如整个反转，(X^TY^T)^T=YX，即 cbafed->defabc。
+    //若要左移动大于n位，那么和%n 是等价的
+    m %= n;     
+    //反转[0..m - 1]，套用到上面举的例子中，就是X->X^T，即 abc->cba
+    ReverseString(s, 0, m - 1); 
+    //反转[m..n - 1]，例如Y->Y^T，即 def->fed
+    ReverseString(s, m, n - 1); 
+    //反转[0..n - 1]，即如整个反转，(X^TY^T)^T=YX，即 cbafed->defabc。
+    ReverseString(s, 0, n - 1); 
 }
+```
+
 这就是把字符串分为两个部分，先各自反转再整体反转的方法，时间复杂度为O(n)，空间复杂度为O(1)，达到了题目的要求。
 
 举一反三
