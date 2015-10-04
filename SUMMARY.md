@@ -363,6 +363,7 @@
        * [字符串和链表的习题](zi_fu_chuan_he_lian_biao_de_xi_ti.md)
    * 数组
    * 树
+   * 查找匹配
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
