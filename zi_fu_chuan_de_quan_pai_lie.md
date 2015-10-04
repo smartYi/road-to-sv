@@ -8,15 +8,17 @@
 
 ## 分析与解法
 
-### 解法一、递归实现
+### 解法一 递归实现
 
 从集合中依次选出每一个元素，作为排列的第一个元素，然后对剩余的元素进行全排列，如此递归处理，从而得到所有元素的全排列。以对字符串abc进行全排列为例，我们可以这么做：以abc为例
 
-固定a，求后面bc的排列：abc，acb，求好后，a和b交换，得到bac
-固定b，求后面ac的排列：bac，bca，求好后，c放到第一位置，得到cba
-固定c，求后面ba的排列：cba，cab。
++ 固定a，求后面bc的排列：abc，acb，求好后，a和b交换，得到bac
++ 固定b，求后面ac的排列：bac，bca，求好后，c放到第一位置，得到cba
++ 固定c，求后面ba的排列：cba，cab。
+
 代码可如下编写所示：
 
+```cpp
 void CalcAllPermutation(char* perm, int from, int to)
 {
     if (to <= 1)
@@ -40,7 +42,9 @@ void CalcAllPermutation(char* perm, int from, int to)
         }
     }
 }
-解法二、字典序排列
+```
+
+### 解法二 字典序排列
 
 首先，咱们得清楚什么是字典序。根据维基百科的定义：给定两个偏序集A和B,(a,b)和(a′,b′)属于笛卡尔集 A × B，则字典序定义为
 
