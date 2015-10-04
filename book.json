@@ -1,4 +1,3 @@
 {
-    plugins: ["mathjax-beta"]
-    plugins: ["tree"]
+    plugins: ["mathjax-beta","tree"]
 }
