@@ -364,6 +364,7 @@
    * 数组
    * 树
    * 查找匹配
+   * 动态规划
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
