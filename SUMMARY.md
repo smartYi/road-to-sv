@@ -119,7 +119,7 @@
        * [Pastebin](pastebin.md)
    * [Testing](testing.md)
        * [Mistake](mistake.md)
-       * Random Crashes
+       * [Random Crashes](random_crashes.md)
    * [C++](c++.md)
    * [Java](java.md)
 * [Lintcode](lintcode.md)
