@@ -6,8 +6,9 @@
 
 ### 解法一：暴力移位法
 
-初看此题，可能最先想到的方法是按照题目所要求的，把需要移动的字符一个一个地移动到字符串的尾部，如此我们可以实现一个函数 LeftShiftOne(char* s, int n)  ，以完成移动一个字符到字符串尾部的功能，代码如下所示：
+初看此题，可能最先想到的方法是按照题目所要求的，把需要移动的字符一个一个地移动到字符串的尾部，如此我们可以实现一个函数`LeftShiftOne(char* s, int n)`，以完成移动一个字符到字符串尾部的功能，代码如下所示：
 
+```cpp
 void LeftShiftOne(char* s, int n)
 {
     char t = s[0];  //保存第一个字符
@@ -17,6 +18,8 @@ void LeftShiftOne(char* s, int n)
     }
     s[n - 1] = t;
 }
+```
+
 因此，若要把字符串开头的m个字符移动到字符串的尾部，则可以如下操作：
 
 void LeftRotateString(char* s, int n, int m)
