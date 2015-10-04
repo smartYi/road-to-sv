@@ -357,6 +357,7 @@
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
        * [字符串包含](zi_fu_chuan_bao_han.md)
        * [字符串转换成整数](zi_fu_chuan_zhuan_huan_cheng_zheng_shu.md)
+       * 回文判断
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
