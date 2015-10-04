@@ -362,7 +362,7 @@
        * [字符串的全排列](zi_fu_chuan_de_quan_pai_lie.md)
        * [字符串和链表的习题](zi_fu_chuan_he_lian_biao_de_xi_ti.md)
    * [数组](shu_zu.md)
-       * 寻找最小的k个数
+       * [寻找最小的k个数](xun_zhao_zui_xiao_de_k_ge_shu.md)
    * 树
    * 查找匹配
    * 动态规划
