@@ -103,6 +103,7 @@
        * [Jigsaw](jigsaw.md)
        * [Chat Server](chat_server.md)
        * [Othello](othello.md)
+       * Circular Array
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
    * [C++](c++.md)
