@@ -96,7 +96,7 @@
        * [Boolean Evaluation](boolean_evaluation.md)
    * [Object-Oriented Design](object-oriented_design.md)
        * [Deck of Cards](deck_of_cards.md)
-       * Call Center
+       * [Call Center](call_center.md)
    * [System Design and Scalability](system_design_and_scalability.md)
    * [Testing](testing.md)
    * [C++](c++.md)
