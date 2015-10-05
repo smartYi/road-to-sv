@@ -171,3 +171,15 @@ TODO
 > Write a function to return expected number of tosses of an unbiased or biased coin until there are m (>= 1) heads in a row,supposing the head probability in a toss is p: 0 < p <= 1. If the result is not integer, round it.
 
 TODO
+
+> 把数组奇偶数字排序 基数在左边 偶数在右边
+
+TODO
+
+> 两个字符串 找到里面所有不同的单词
+
+TODO
+
+> 略有难度，不过地里出现过几次了。 滑雪问题变种。 dp＋ dfs 搞定
+
+TODO
