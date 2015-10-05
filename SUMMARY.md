@@ -372,6 +372,7 @@
        * [完美洗牌算法](wan_mei_xi_pai_suan_fa.md)
    * [树](shu.md)
        * [透彻了解红黑树](tou_che_le_jie_hong_hei_shu.md)
+       * B 树
    * 查找匹配
    * 动态规划
    * 海量数据处理
