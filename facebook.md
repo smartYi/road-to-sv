@@ -24,3 +24,31 @@ public String outputAsOrder(String order, String input) {
 ```
 
 > 输入一串字符串比如 1 2 2 3 4 6 7，如果是nondecreasing 或者 nonincreasing 就返回true
+
+简单题
+
+> sort color 变形
+
+leetcode
+
+> phone combination 
+
+待研究
+
+> 有很多meeting with time intervals ［start， end］，求出一个有最多meeting的时间点
+
+区间题目
+
+> 有这么一个class Contact，里面有一个string的name，和一个vector 装着email address，是这个Contact有的address，用一个list装着是因为一个人有可 能有多个email，现在给你vector
+
+比如
+
+    {
+    { "JohnS", {"john@gmail.com"} },
+    { "Mary", {"mary@gmail.com"} },
+    { "John", {"john@yahoo.com"} },
+    { "John", {"john@gmail.com", "john@yahoo.com", "john@hotmail.com"} },
+    { "Bob", {"bob@gmail.com"} }
+
+解题参考
+http://www.fgdsb.com/2015/01/25/group-contacts/
