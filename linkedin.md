@@ -53,3 +53,7 @@ leetcode 只要return max value 然后过一遍他的input
 但是面试官不要求count 有多少个triangle 只要return 一组 就行了 此题的重点是要sort 好像背后还有什么数学原因
 
 我当时就扫了遍帖子 说要sort 然后后面写了个iteration match 第一组符合的pair
+
+> Design tinyurl
+
+高频到飞起
