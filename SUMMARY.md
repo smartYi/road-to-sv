@@ -392,7 +392,7 @@
        * [MapReduce](mapreduce.md)
        * [多层划分](duo_ceng_hua_fen.md)
        * Bitmap
-   * 机器学习
+   * [机器学习](ji_qi_xue_xi.md)
    * 更多题型
 * [面经](mian_jing.md)
    * Visual Concept
