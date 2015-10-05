@@ -406,6 +406,7 @@
    * Visual Concept
    * BrightEdge
    * Liveramp
+   * cPacket
    * [Zazzle](zazzle.md)
    * [Xcalar](xcalar.md)
    * [Google](google.md)
@@ -417,5 +418,4 @@
    * [Amazon](amazon.md)
    * [Zillow](zillow.md)
    * [Facebook](facebook.md)
-   * cPacket
 
