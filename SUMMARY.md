@@ -409,5 +409,5 @@
    * [Zazzle](zazzle.md)
    * [Xcalar](xcalar.md)
    * [Google](google.md)
-   * Linkedin
+   * [Linkedin](linkedin.md)
 
