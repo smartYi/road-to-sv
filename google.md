@@ -276,3 +276,18 @@ leetcode
         return bear[prices.length-1];. from: 1point3acres.com/bbs 
 }
 ```
+
+> Find the popular number in the array. Popular means it appeas > 1/4 size of the array。
+
+Leetcode
+
+遍历一次，保存一个长度为3的数组：
+
+1. 如果数组中包括这个数，则概数count + 1
+2. 如果数组中有空位，则放入概数，count置为1
+3. 如果数组中有数字count为0，则替换概数，count置为1 
+4. 所有数字count减1
+
+最后数组中剩下的数，就是candidate，每个统计一下就可以了
+
+这个方法可以解决任意1/n的majority number
