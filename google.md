@@ -406,3 +406,13 @@ class Solution:
         return longest
 
 ```
+
+> 给一个binary tree 打印所有的path
+
+然后问了时间空间复杂度
+
+就用一般递归做的
+
+> good number问题。 一个数如果能用（至少两组）两个立方数相加得到那么就是good number。print 小于等于n的所有good number。分析时间复杂度。
+
+我先把小于n的所有立方数存起来。然后就变成了2 sum问题了
