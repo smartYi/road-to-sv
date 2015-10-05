@@ -407,6 +407,7 @@
    * [Bloomberg](bloomberg.md)
    * BrightEdge
    * [cPacket](cpacket.md)
+   * Dropbox
    * [Facebook](facebook.md)
    * [Google](google.md)
    * [Linkedin](linkedin.md)
@@ -421,5 +422,4 @@
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
-   * Dropbox
 
