@@ -415,5 +415,5 @@
    * [Yelp](yelp.md)
    * [PocketGem](pocketgem.md)
    * [Amazon](amazon.md)
-   * Zillow
+   * [Zillow](zillow.md)
 
