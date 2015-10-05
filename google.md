@@ -188,3 +188,12 @@ TODO
 
 直接用的hashmap, 存储string的时候脑子没转过来,用的array,面试官问是不是有更好的,果断换hashset.
 coding完时间剩的不多了,面试官说看code没多大问题,不用测试了... 唉,写代码的速度太慢了啊.
+
+> 给一大堆有start time, end time和ID的events，返回存在conflicts的events。
+
+用的类似merge intervals的方法做。要注意如果俩events有conflict，俩events都要加到result里，注意别加重复了
+
+> 给一个都是integer的matrix，找最长上升path的长度
+
+DP做。
+
