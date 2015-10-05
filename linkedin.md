@@ -75,3 +75,30 @@ TODO
 > Leetcode combination sum
 
 lc
+
+> Deepest comman ancestor (with parent nodes).
+
+LinkedIn这题都快问烂了...我说了用hashmap的方法，他说你能不能不用额外空间，我想了一下又说了那个把两个节点调到一个高度的做法。
+
+对就是每个node除了left和right还有个parent
+
+Class Node {
+       Node left;
+       Node right;
+       Node parent;
+}
+root节点parent是null. 没有parent的做法的确是递归，但是有parent指针的话递归就划不来了。举个例子：
+
+        ____3___
+       /        \
+      5          1
+    /    \     /    \
+    6     2   0      8
+         / \
+        7   4
+
+要找4 和 8的lca，把4先设成到2，因为2 和 8 深度一样。然后2 和 8 一起沿着parent往上，碰到的第一个一样的节点就是第一个祖先了。
+
+> 实现一个Max Stack， 支持peekMax() 和popMax().
+
+很自然地用两个栈去做，但是这样popMax的时候很费时间。然后我又加了一个stack存的是max value的index, 把stack全变成ArrayList, 然后就开始纠结pop了。。。结果corner case太多没写完。。。不过他也说这题要简单clean是比较难
