@@ -400,6 +400,7 @@
        * [支持向量积](zhi_chi_xiang_liang_ji.md)
    * 更多题型
        * [语言基础](yu_yan_ji_chu.md)
+       * 概率统计
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
