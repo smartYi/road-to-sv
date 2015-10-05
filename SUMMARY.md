@@ -379,6 +379,7 @@
        * [行列递增矩阵的查找](xing_lie_di_zeng_ju_zhen_de_cha_zhao.md)
        * [出现次数超过一半的数字](chu_xian_ci_shu_chao_guo_yi_ban_de_shu_zi.md)
    * [动态规划](dong_tai_gui_hua.md)
+       * 最大连续乘积子串
    * 海量数据处理
    * 机器学习
    * 更多题型
