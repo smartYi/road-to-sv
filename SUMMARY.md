@@ -404,8 +404,8 @@
        * [操作系统](cao_zuo_xi_tong.md)
 * [面经](mian_jing.md)
    * [Amazon](amazon.md)
-   * [cPacket](cpacket.md)
    * BrightEdge
+   * [cPacket](cpacket.md)
    * Liveramp
    * Visual Concept
    * [Xcalar](xcalar.md)
