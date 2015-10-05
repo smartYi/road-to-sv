@@ -373,6 +373,7 @@
    * [树](shu.md)
        * [透彻了解红黑树](tou_che_le_jie_hong_hei_shu.md)
        * [B 树](b_shu.md)
+       * 最近公共祖先LCA问题
    * 查找匹配
    * 动态规划
    * 海量数据处理
