@@ -408,13 +408,13 @@
    * BrightEdge
    * [cPacket](cpacket.md)
    * [Google](google.md)
+   * [Linkedin](linkedin.md)
    * Liveramp
    * Visual Concept
    * [Xcalar](xcalar.md)
    * [Yelp](yelp.md)
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
-   * [Linkedin](linkedin.md)
    * [PocketGem](pocketgem.md)
    * [Zillow](zillow.md)
    * [Facebook](facebook.md)
