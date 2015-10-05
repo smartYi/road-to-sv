@@ -102,3 +102,23 @@ root节点parent是null. 没有parent的做法的确是递归，但是有parent�
 > 实现一个Max Stack， 支持peekMax() 和popMax().
 
 很自然地用两个栈去做，但是这样popMax的时候很费时间。然后我又加了一个stack存的是max value的index, 把stack全变成ArrayList, 然后就开始纠结pop了。。。结果corner case太多没写完。。。不过他也说这题要简单clean是比较难
+
+> integer to roman, roman to integer
+
+roman to integer居然纠结了很久~才把Bug搞定~不过还好都是自说自话修改完了，没有需要他的Tip~导致follow-up的时间不够只说了思路，是lowest common ancestor~我说需要Parent node information, 然后把path存在两个list里面，然后从list尾巴开始对比找到最后一个一样的node
+
+> max points on a line
+
+leetcode
+
+> linked list找intersection~本来窃以为不要太简单~没想到他居然无数个follow-up
+
+分情况讨论：
+
++ 两个没有环，不想交
++ 两个没有环，相交
++ 两个有环，不想交
++ 两个有环，相交
+
+在第三种情况纠结了很久，然后决定上slow, fast pointer找到两个环的起点，然后固定一个起点，另外一个环走一圈看有没有重复
+之后又扯淡了很久~
