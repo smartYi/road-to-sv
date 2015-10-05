@@ -380,6 +380,7 @@
        * [出现次数超过一半的数字](chu_xian_ci_shu_chao_guo_yi_ban_de_shu_zi.md)
    * [动态规划](dong_tai_gui_hua.md)
        * [最大连续乘积子串](zui_da_lian_xu_cheng_ji_zi_chuan.md)
+       * 字符串编辑距离
    * 海量数据处理
    * 机器学习
    * 更多题型
