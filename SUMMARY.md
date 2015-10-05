@@ -415,10 +415,10 @@
    * [PocketGem](pocketgem.md)
    * Visual Concept
    * [Xcalar](xcalar.md)
+   * [Yahoo](yahoo.md)
    * [Yelp](yelp.md)
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
-   * [Yahoo](yahoo.md)
    * [Twitter](twitter.md)
 
