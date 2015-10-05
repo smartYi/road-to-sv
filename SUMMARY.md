@@ -411,6 +411,7 @@
    * [Google](google.md)
    * [Linkedin](linkedin.md)
    * Liveramp
+   * [Microsoft](microsoft.md)
    * [PocketGem](pocketgem.md)
    * Visual Concept
    * [Xcalar](xcalar.md)
@@ -419,6 +420,5 @@
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
    * [Yahoo](yahoo.md)
-   * [Microsoft](microsoft.md)
    * [Twitter](twitter.md)
 
