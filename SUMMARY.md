@@ -403,6 +403,7 @@
        * [概率统计](gai_lv_tong_ji.md)
        * [操作系统](cao_zuo_xi_tong.md)
 * [面经](mian_jing.md)
+   * [Amazon](amazon.md)
    * Visual Concept
    * BrightEdge
    * Liveramp
@@ -415,7 +416,6 @@
    * [Bloomberg](bloomberg.md)
    * [Yelp](yelp.md)
    * [PocketGem](pocketgem.md)
-   * [Amazon](amazon.md)
    * [Zillow](zillow.md)
    * [Facebook](facebook.md)
    * [Yahoo](yahoo.md)
