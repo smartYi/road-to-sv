@@ -86,4 +86,26 @@ toDecimal是leetcode原题，equals的话注意先得到gcd，然后除了之后
 
 一共有8个正方形（边长为1的7个，为2的1个，为3的0个）。注意matrix的边长可能不等。
 
-用DP对matrix先预处理，方法有点类似之前地里面经出现的计算matrix中rectangle面积的题，dp[j]代表从(0, 0) 到 （i, j) 里面所有可用的grid的数量。具体方法大家可以自己思索一下。
+用DP对matrix先预处理，方法有点类似之前地里面经出现的计算matrix中rectangle面积的题，dp[j]代表从(0, 0) 到 （i, j) 里面所有可用的grid的数量。具体方法大家可以自己思索一下。\
+
+> Given a list of boarding passes, each boarding pass contains two cities, say A-B, generate travel itinerary.  
+
+Typical topology sort
+
+> moving range average. Given an input array，always output the average of k item, known as window size.
+
+use a counter and cur variable to keep track of current information.
+
+> Given a sorted input array, write an O(lgN) algorithm to find if there is a number has appears more than 1/4 times
+
+Binary search. Say value of current mid is k, search first appearance index of k on left and last index of mid element on right. The number of times k appears is rightIndex-leftIndex+1.
+
+>  rotate a pixel picture by 90 degree
+
+build a mapping function between old index and new index.
+
+> 给int n，求n所有factors，然后问问算法的running time
+
+开方之后遍历一波
+
+> 上的follow up，给distinct primes list，回传所有由这些primes组成的数字。再follow up，那给的primes有重复呢？
