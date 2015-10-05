@@ -411,10 +411,10 @@
    * Liveramp
    * Visual Concept
    * [Xcalar](xcalar.md)
+   * [Yelp](yelp.md)
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Linkedin](linkedin.md)
-   * [Yelp](yelp.md)
    * [PocketGem](pocketgem.md)
    * [Zillow](zillow.md)
    * [Facebook](facebook.md)
