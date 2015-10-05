@@ -407,6 +407,7 @@
    * [Bloomberg](bloomberg.md)
    * BrightEdge
    * [cPacket](cpacket.md)
+   * [Facebook](facebook.md)
    * [Google](google.md)
    * [Linkedin](linkedin.md)
    * Liveramp
@@ -417,7 +418,6 @@
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
-   * [Facebook](facebook.md)
    * [Yahoo](yahoo.md)
    * [Microsoft](microsoft.md)
    * [Twitter](twitter.md)
