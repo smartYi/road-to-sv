@@ -397,6 +397,7 @@
        * [倒排索引(Inverted index)](dao_pai_suo_5f1528_inverted_index.md)
    * [机器学习](ji_qi_xue_xi.md)
        * K 近邻算法
+       * 支持向量积
    * 更多题型
 * [面经](mian_jing.md)
    * Visual Concept
