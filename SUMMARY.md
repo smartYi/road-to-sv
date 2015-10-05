@@ -370,7 +370,7 @@
        * [荷兰国旗](he_lan_guo_qi.md)
        * [矩阵相乘](ju_zhen_xiang_cheng.md)
        * [完美洗牌算法](wan_mei_xi_pai_suan_fa.md)
-   * 树
+   * [树](shu.md)
    * 查找匹配
    * 动态规划
    * 海量数据处理
