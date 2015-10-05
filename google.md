@@ -303,3 +303,106 @@ Leetcode
     最长是2,3,4,5,6，返回长度5.
 
 poj 1088 滑雪 经典题啊
+
+> Merge Two sorted LinkedList.
+
+leetcode
+
+> Sort  a Linked List.
+
+我提出用Merge Sort， 先举了个例子 过了一遍思路， 然后开始写代码。
+
+最开始面试官给我把函数名给写出来了， 把我思路打断了， 卡了一下。
+
+后来自己重新写了一个函数名，写完了。
+
+> Longest substring without repeating letters. 
+
+leetcode
+
+>  Longest consecutive numbers in a binary tree.
+
+```
+关于第二题，大致意思是这样，让在binary tree里挑出最长的连续（必须后面数=前面数+1）递增数列，数列顺序只能从parent到child，不可以反着来。比如：
+
+                 1
+                    \
+                      3
+                    /    \
+                  2      4
+                           \
+                             5
+则返回[3, 4, 5]
+
+
+再比如：
+                 2
+                    \
+                      3
+                    /    \
+                  1      4
+                 /          \
+               2             5
+              /
+             3
+            /
+           4
+
+则返回[1, 2, 3, 4]
+```
+
+```
+int ans = 0;
+void dfs(TreeNode* cur, int pre, int len) {
+    if (cur == nullptr) {
+        return;
+    }
+    int value = cur->value;
+    if (value == pre + 1) {
+        len++;
+    } else {
+        len = 1;
+    }
+    ans = max(ans, len);
+    dfs(cur->left, value, len);
+    dfs(cur->right, value, len);
+}
+
+dfs(root, -INF, 0);
+
+
+迭代
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+class Solution:
+    def longestConsecutiveNumsinBT(self, root):
+        if not root: return []
+        stack = [(root, [root.val])]
+        res = []
+        while stack:
+            node, path = stack.pop()
+            if not node.left and not node.right:
+                res.append(path)  
+                continue. visit 1point3acres.com for more.
+            if node.left:
+                if node.left.val == node.val + 1:
+                    stack.append((node.left, path + [node.left.val]))
+                else:
+                    stack.append((node.left, [node.left.val]))
+            if node.right:. From 1point 3acres bbs
+                if node.right.val == node.val + 1:
+                    stack.append((node.right, path + [node.right.val]))
+                else:. from: 1point3acres.com/bbs 
+                    stack.append((node.right, [node.right.val]))
+ 
+        longest = res[0]
+        for i in range(1, len(res)):
+            if len(res[i]) > len(longest):
+                longest = res[i]-google 1point3acres
+        return longest
+
+```
