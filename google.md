@@ -109,3 +109,42 @@ build a mapping function between old index and new index.
 开方之后遍历一波
 
 > 上的follow up，给distinct primes list，回传所有由这些primes组成的数字。再follow up，那给的primes有重复呢？
+
+要好好想一想
+
+> 给个字典，要求找出一对单词。所有字符都不同。然后长度乘积最大
+
+    cat 
+    dog 
+    feed 
+    pull 
+    space
+
++ cat and dog share no letters, and have a product of 3*3 = 9 
++ space and dog share no letters, and have a product of 15 
++ space does not work with either feed (e) or pull (p) 
++ feed and pull is the best answer for this dictionary (4*4 = 16) 
+
+The dictionary will only contain lower case letters (a-z) 
+=> return the numeric value of word length product, e.g. 16 for the example above
+
+> 给一个list，长度未知，里面全是质数，然后给一个k，要求输出前k个正整数，这k个数都能被list里的质数因式分解
+
+lz一看到这个题目就闻到了一股递归的气息，然后用大概10分钟blablabla讲怎么用stack存每次分解后的子结果。。谈笑风生了一会儿发现面试官没声音了。。之后他说不如你先写个brute－force，我去研究一下你说的算法。。
+
+> 实现这么一个函数 void longestSubstr(string s, int m). 在s中，找到最长的字串， 使其恰好含有m个distinct char.
+
+比如：
+
++ 输入 aabbccedf, 3 返回 aabbcc（含有a b c三个不同的char）
++ 输入 abcdbcedf，3 返回 bcdbc （含有b c d 三个）
+
+> 给一个字符串s由单词组成， 比如“i have a dream”。 要求把这个字符串添到一个m x n的网格里，同一个单词不能被cut off，每一句之间空格相连。问最多添满多少个整句。
+
+follow up （m and n are much larger than the length of s, 怎么办）
+
+> 有一个2维数组A。实现两个函数：1) void update(int x, int y, int v), 就是更新A[x][y]的值(v).  2) int regionalSum(int x1, int y1, int x2, int y2)：就是求（x1, y1）和（x2, y2）构成矩形的所有元素和。
+
+系统很少用带update而经常使用reginalSum, 如何设计减少复杂度。
+
+> 
