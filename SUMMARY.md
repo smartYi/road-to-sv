@@ -413,6 +413,7 @@
    * Liveramp
    * [Microsoft](microsoft.md)
    * [PocketGem](pocketgem.md)
+   * [Twitter](twitter.md)
    * Visual Concept
    * [Xcalar](xcalar.md)
    * [Yahoo](yahoo.md)
@@ -420,5 +421,4 @@
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
-   * [Twitter](twitter.md)
 
