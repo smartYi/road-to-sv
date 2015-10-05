@@ -66,3 +66,10 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 29. (**Rejected**)Software Engineer @ Intentional
 30. Data Platform Software Engineer @ AppDynamics
 31. (**On Campus -> Rejected**)Software Engineer @ Xcalar
+32. Software Engineer @ Navis LLC
+33. Mobile Engineer @ Wish
+34. Software Engineer @ WorldQuant, LLC
+35. Research Engineer @ Trooly Inc
+36. Software Engineer @ Adobe
+37. Backend Software Developer @ Pixured, Inc
+38. Software Engineer in Test (San Francisco) @ Leanplum
