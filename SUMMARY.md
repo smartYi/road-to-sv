@@ -393,7 +393,7 @@
        * [多层划分](duo_ceng_hua_fen.md)
        * [Bitmap](bitmap.md)
        * [Bloom Filter](bloom_filter.md)
-       * Trie树(字典树)
+       * [Trie树(字典树)](trie681128_zi_dian_681129.md)
    * [机器学习](ji_qi_xue_xi.md)
    * 更多题型
 * [面经](mian_jing.md)
