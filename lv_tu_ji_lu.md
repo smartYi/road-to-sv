@@ -77,3 +77,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 40. Software Engineer @ Nextdoor.com, Inc
 41. Software Engineer @ PatternEx
 42. Software Engineer @ Domeyard LP
+43. Software Engineer @ Hulu
+44. Data Engineer @ Qadium
+45. iOS Developer @ Trance
+46. Software Engineer, Distributed Systems @ Turn
