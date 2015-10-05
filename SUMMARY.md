@@ -382,7 +382,7 @@
        * [最大连续乘积子串](zui_da_lian_xu_cheng_ji_zi_chuan.md)
        * [字符串编辑距离](zi_fu_chuan_bian_ji_ju_li.md)
        * [格子取数问题](ge_zi_qu_shu_wen_ti.md)
-       * 交替字符串
+       * [交替字符串](jiao_ti_zi_fu_chuan.md)
    * 海量数据处理
    * 机器学习
    * 更多题型
