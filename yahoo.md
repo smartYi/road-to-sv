@@ -16,4 +16,6 @@ TODO
 
 open question
 
-> 
+> coding: input "aabbb", return "a2b3" input "aaabccaa", return "a3b1c2a2"
+
+compress string lc
