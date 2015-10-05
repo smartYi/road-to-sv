@@ -406,12 +406,12 @@
    * [Amazon](amazon.md)
    * BrightEdge
    * [cPacket](cpacket.md)
+   * [Google](google.md)
    * Liveramp
    * Visual Concept
    * [Xcalar](xcalar.md)
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
-   * [Google](google.md)
    * [Linkedin](linkedin.md)
    * [Bloomberg](bloomberg.md)
    * [Yelp](yelp.md)
