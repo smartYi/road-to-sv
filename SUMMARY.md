@@ -418,5 +418,5 @@
    * [Amazon](amazon.md)
    * [Zillow](zillow.md)
    * [Facebook](facebook.md)
-   * Yahoo
+   * [Yahoo](yahoo.md)
 
