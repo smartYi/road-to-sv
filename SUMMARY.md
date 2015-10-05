@@ -360,7 +360,6 @@
        * [回文判断](hui_wen_pan_duan.md)
        * [最长回文子串](zui_chang_hui_wen_zi_chuan_ap.md)
        * [字符串的全排列](zi_fu_chuan_de_quan_pai_lie.md)
-       * [字符串和链表的习题](zi_fu_chuan_he_lian_biao_de_xi_ti.md)
    * [数组](shu_zu.md)
        * [寻找最小的k个数](xun_zhao_zui_xiao_de_k_ge_shu.md)
        * [寻找和为定值的两个数](xun_zhao_he_wei_ding_zhi_de_liang_ge_shu.md)
