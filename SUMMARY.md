@@ -376,7 +376,7 @@
        * [最近公共祖先LCA问题](zui_jin_gong_gong_zu_xian_lca_wen_ti.md)
    * [查找匹配](cha_zhao_pi_pei.md)
        * [有序数组的查找](you_xu_shu_zu_de_cha_zhao.md)
-       * 行列递增矩阵的查找
+       * [行列递增矩阵的查找](xing_lie_di_zeng_ju_zhen_de_cha_zhao.md)
    * 动态规划
    * 海量数据处理
    * 机器学习
