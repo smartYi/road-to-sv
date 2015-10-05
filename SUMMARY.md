@@ -404,6 +404,7 @@
        * [操作系统](cao_zuo_xi_tong.md)
 * [面经](mian_jing.md)
    * [Amazon](amazon.md)
+   * [Bloomberg](bloomberg.md)
    * BrightEdge
    * [cPacket](cpacket.md)
    * [Google](google.md)
@@ -413,7 +414,6 @@
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Linkedin](linkedin.md)
-   * [Bloomberg](bloomberg.md)
    * [Yelp](yelp.md)
    * [PocketGem](pocketgem.md)
    * [Zillow](zillow.md)
