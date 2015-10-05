@@ -57,3 +57,21 @@ leetcode 只要return max value 然后过一遍他的input
 > Design tinyurl
 
 高频到飞起
+
+> Leetcode Search for a Range
+
+lc
+
+> Find the size of longest palindrome subset of an array
+
+高频
+
+注意是subset而不是subarray。不能改变order。所以[1, 2, 2, 0, 1]的longest palindrome subset是[1, 2, 2, 1]，应该返回4。
+
+> 检查两个bst是否identical
+
+TODO
+
+> Leetcode combination sum
+
+lc
