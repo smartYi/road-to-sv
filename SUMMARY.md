@@ -387,6 +387,7 @@
    * [海量数据处理](hai_liang_shu_ju_chu_li.md)
        * [关联式容器](guan_lian_shi_rong_qi.md)
        * [分而治之](fen_er_zhi_zhi.md)
+       * simhash算法
    * 机器学习
    * 更多题型
 * [面经](mian_jing.md)
