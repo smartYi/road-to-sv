@@ -407,8 +407,8 @@
    * BrightEdge
    * Visual Concept
    * Liveramp
-   * [Zazzle](zazzle.md)
    * [Xcalar](xcalar.md)
+   * [Zazzle](zazzle.md)
    * [cPacket](cpacket.md)
    * [Google](google.md)
    * [Linkedin](linkedin.md)
