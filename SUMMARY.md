@@ -406,9 +406,9 @@
    * Visual Concept
    * BrightEdge
    * Liveramp
-   * [cPacket](cpacket.md)
    * [Zazzle](zazzle.md)
    * [Xcalar](xcalar.md)
+   * [cPacket](cpacket.md)
    * [Google](google.md)
    * [Linkedin](linkedin.md)
    * [Zenefits](zenefits.md)
