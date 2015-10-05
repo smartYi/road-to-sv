@@ -52,3 +52,7 @@ leetcode
 
 解题参考
 http://www.fgdsb.com/2015/01/25/group-contacts/
+
+> minimum substr leetcode
+
+leetcode
