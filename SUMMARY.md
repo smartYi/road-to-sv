@@ -394,7 +394,7 @@
        * [Bitmap](bitmap.md)
        * [Bloom Filter](bloom_filter.md)
        * [Trie树(字典树)](trie681128_zi_dian_681129.md)
-       * 倒排索引(Inverted index)
+       * [倒排索引(Inverted index)](dao_pai_suo_5f1528_inverted_index.md)
    * [机器学习](ji_qi_xue_xi.md)
    * 更多题型
 * [面经](mian_jing.md)
