@@ -414,5 +414,5 @@
    * [Bloomberg](bloomberg.md)
    * [Yelp](yelp.md)
    * [PocketGem](pocketgem.md)
-   * Amazon
+   * [Amazon](amazon.md)
 
