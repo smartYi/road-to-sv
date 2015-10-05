@@ -388,7 +388,7 @@
        * [关联式容器](guan_lian_shi_rong_qi.md)
        * [分而治之](fen_er_zhi_zhi.md)
        * [simhash算法](simhashsuan_fa.md)
-       * 外排序
+       * [外排序](wai_pai_xu.md)
    * 机器学习
    * 更多题型
 * [面经](mian_jing.md)
