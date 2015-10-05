@@ -147,4 +147,11 @@ follow up （m and n are much larger than the length of s, 怎么办）
 
 系统很少用带update而经常使用reginalSum, 如何设计减少复杂度。
 
-> 
+> 给一个二维矩阵，
+实现两个方法，set(int x, int y), sum(int x, int y, int val)
+set 方法设一个点的值， sum得到这一点到左上角（0， 0）点左右值的和。
+
+（1）set多，sum少
+（2）set少，sum多
+
+第二种情况主要是要在set时就把sum算好，sum就是constent time了，但是set要注意更新。
