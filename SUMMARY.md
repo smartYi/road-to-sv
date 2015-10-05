@@ -410,9 +410,9 @@
    * Visual Concept
    * [Xcalar](xcalar.md)
    * [Zazzle](zazzle.md)
+   * [Zenefits](zenefits.md)
    * [Google](google.md)
    * [Linkedin](linkedin.md)
-   * [Zenefits](zenefits.md)
    * [Bloomberg](bloomberg.md)
    * [Yelp](yelp.md)
    * [PocketGem](pocketgem.md)
