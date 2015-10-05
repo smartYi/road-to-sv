@@ -8,4 +8,13 @@
 
 参见 leetcode
 
+> string to long : 输入的string是一个64bit的数字 输出为一个long。 
 
+1. 若是有任何情况不能完整返回精确的原始数的话 要throw exception （例如overflow）
+2. 输入的string中 出现任何不是数字或者+/-的字符 要throw exception (例如空格)
+
+> 实现三叉数的 insert() 和 delete()函数 
+
+left node 小于当前node, middle node等于当前node, right node 大于当前node. 
+
+写法可以参照 https://gist.github.com/dydt/870393
