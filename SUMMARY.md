@@ -399,7 +399,7 @@
        * [K 近邻算法](k_jin_lin_suan_fa.md)
        * [支持向量积](zhi_chi_xiang_liang_ji.md)
    * 更多题型
-       * 语言基础
+       * [语言基础](yu_yan_ji_chu.md)
 * [面经](mian_jing.md)
    * Visual Concept
    * BrightEdge
