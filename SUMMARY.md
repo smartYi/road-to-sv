@@ -374,7 +374,7 @@
        * [透彻了解红黑树](tou_che_le_jie_hong_hei_shu.md)
        * [B 树](b_shu.md)
        * [最近公共祖先LCA问题](zui_jin_gong_gong_zu_xian_lca_wen_ti.md)
-   * 查找匹配
+   * [查找匹配](cha_zhao_pi_pei.md)
    * 动态规划
    * 海量数据处理
    * 机器学习
