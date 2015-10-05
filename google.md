@@ -183,3 +183,8 @@ TODO
 > 略有难度，不过地里出现过几次了。 滑雪问题变种。 dp＋ dfs 搞定
 
 TODO
+
+> word abbreviation, 版上之前也有人发过. 一个string只保留首尾字母, 中间字母数用数字表示, 比如 "abcde" = "a3e", "ab" = "ab", "abc" = "a1c" . 给一组string, 输出相同abbreviation的所有string, 但重复的string不算.
+
+直接用的hashmap, 存储string的时候脑子没转过来,用的array,面试官问是不是有更好的,果断换hashset.
+coding完时间剩的不多了,面试官说看code没多大问题,不用测试了... 唉,写代码的速度太慢了啊.
