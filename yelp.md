@@ -35,3 +35,7 @@ leetcode
 >  LEETCODE Longest Substring Without Repeating Characters
 
 leetcode
+
+> refix search：就是给你prefix 返回所有最大匹配的word 。
+
+明显trie tree +dfs
