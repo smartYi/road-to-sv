@@ -412,4 +412,5 @@
    * [Linkedin](linkedin.md)
    * [Zenefits](zenefits.md)
    * [Bloomberg](bloomberg.md)
+   * Yelp
 
