@@ -385,7 +385,7 @@
        * [交替字符串](jiao_ti_zi_fu_chuan.md)
        * [最长递增子序列](zui_chang_di_zeng_zi_xu_lie.md)
    * [海量数据处理](hai_liang_shu_ju_chu_li.md)
-       * 关联式容器
+       * [关联式容器](guan_lian_shi_rong_qi.md)
    * 机器学习
    * 更多题型
 * [面经](mian_jing.md)
