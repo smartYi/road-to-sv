@@ -370,7 +370,7 @@
        * [奇偶调序](qi_ou_diao_xu.md)
        * [荷兰国旗](he_lan_guo_qi.md)
        * [矩阵相乘](ju_zhen_xiang_cheng.md)
-       * 完美洗牌算法
+       * [完美洗牌算法](wan_mei_xi_pai_suan_fa.md)
    * 树
    * 查找匹配
    * 动态规划
