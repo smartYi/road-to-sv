@@ -155,3 +155,19 @@ set 方法设一个点的值， sum得到这一点到左上角（0， 0）点左
 （2）set少，sum多
 
 第二种情况主要是要在set时就把sum算好，sum就是constent time了，但是set要注意更新。
+
+> LeetCode原题，search in 2D matrix
+
+leetcode
+
+> oil pipeline
+
+其实就是在一个坐标轴上若干个点找距离各点之和最近的一个点，先sort这一组点，再找它们的median，median就是要找的这个点。如果点的数量是双数，那么求的这个点就可以取中间两点之间任意一个点。
+
+> Given a string S, return minimum number of chars that you can add to its back to obtain a palindrome. Explain the complexity
+
+TODO
+
+> Write a function to return expected number of tosses of an unbiased or biased coin until there are m (>= 1) heads in a row,supposing the head probability in a toss is p: 0 < p <= 1. If the result is not integer, round it.
+
+TODO
