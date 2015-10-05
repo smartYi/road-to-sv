@@ -82,4 +82,4 @@ void MulMatrix(int** matrixA, int** matrixB, int** matrixC)
 
 ![](13.png)
 
-根据`wikipedia`上的介绍，后来，`Coppersmith–Winograd`算法把`N*N`大小的矩阵乘法的时间复杂度降低到了：  `O(n^2.375477)`，而2010年，`Andrew Stothers`再度把复杂度降低到了`O(n^2.3736)`，一年后的2011年，`Virginia Williams`把复杂度最终定格为：  `O(n^2.3727)`。
+根据`wikipedia`上的介绍，后来，`Coppersmith–Winograd`算法把`N*N`大小的矩阵乘法的时间复杂度降低到了：  `O(n^2.375477)`，而2010年，`Andrew Stothers`再度把复杂度降低到了`O(n^2.3736)`，一年后的2011年，`Virginia Williams`把复杂度最终定格为：`O(n^2.3727)`。
