@@ -122,3 +122,18 @@ leetcode
 
 在第三种情况纠结了很久，然后决定上slow, fast pointer找到两个环的起点，然后固定一个起点，另外一个环走一圈看有没有重复
 之后又扯淡了很久~
+
+> 就是面经里的那道nestedInteger, 只不过我的题目是个变形. 当时要求多加一层就是求得是ReverseDepthSum. 也就是层数越深，所获得的weight value越低.
+
+举例就是 {{1,1},2,{1,1}} the function should return 8 (four 1's at weight 1, one 2 at depth 2)
+
+Given the list {1,{4,{6}}} the function should return 17 (one 1 at weight 3, one 4 at depth 2, and one 6 at depth 1).先得走通一遍得到层数，然后对应上乘出来才可以得到结果.
+
+> 面经里的Add Interval那题
+
+其实L家如果准备很充分还是很有帮助的. 跟原题一样，不过后来又继续followup如何remove Interval.
+
+> 给定一个中心点，然后找到K个nearest points.　
+
+这个当时我复习电面的时候看过下，
+但是后来就一直没管了，就记得用priority_queue来做就好了，结果被问到了minHeap和maxHeap,在这两个概念上纠结了很久，
