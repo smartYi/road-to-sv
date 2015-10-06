@@ -415,7 +415,7 @@
    * [Microsoft](microsoft.md)
    * [PocketGem](pocketgem.md)
    * [Twitter](twitter.md)
-   * Uber
+   * [Uber](uber.md)
    * Visual Concept
    * [Xcalar](xcalar.md)
    * [Yahoo](yahoo.md)
