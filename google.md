@@ -416,3 +416,15 @@ class Solution:
 > good number问题。 一个数如果能用（至少两组）两个立方数相加得到那么就是good number。print 小于等于n的所有good number。分析时间复杂度。
 
 我先把小于n的所有立方数存起来。然后就变成了2 sum问题了
+
+> Implement HashTable with get,set,delete,getRandom functions in O(1)
+
+这题之前地里有人po过面经，楼主很幸运地当时认真实现过。。
+
+重点在于2个hashmap+arraylist
+
+> Given a source word, tart word and an English dictionary, transform the source word to target by changing/adding/removing 1 character at a time, while all intermediate words being valid English words.
+
+类似Word ladder II
+
+问了时间复杂度
