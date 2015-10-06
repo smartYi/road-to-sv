@@ -415,6 +415,7 @@
    * [Microsoft](microsoft.md)
    * [PocketGem](pocketgem.md)
    * [Twitter](twitter.md)
+   * Uber
    * Visual Concept
    * [Xcalar](xcalar.md)
    * [Yahoo](yahoo.md)
@@ -422,5 +423,4 @@
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
-   * Uber
 
