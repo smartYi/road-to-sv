@@ -186,6 +186,7 @@
    * [Insert Interval](insert_interval.md)
    * [Length of Last Word](length_of_last_word.md)
    * [Spiral Matrix II](spiral_matrix_ii.md)
+   * Permutation Sequence
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
