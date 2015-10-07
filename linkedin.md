@@ -125,7 +125,7 @@ leetcode
 
 > 就是面经里的那道nestedInteger, 只不过我的题目是个变形. 当时要求多加一层就是求得是ReverseDepthSum. 也就是层数越深，所获得的weight value越低.
 
-举例就是 {{1,1},2,{1,1}} the function should return 8 (four 1's at weight 1, one 2 at depth 2)
+举例就是 `{{1,1},2,{1,1}}` the function should return 8 (four 1's at weight 1, one 2 at depth 2)
 
 Given the list {1,{4,{6}}} the function should return 17 (one 1 at weight 3, one 4 at depth 2, and one 6 at depth 1).先得走通一遍得到层数，然后对应上乘出来才可以得到结果.
 
