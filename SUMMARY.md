@@ -231,6 +231,7 @@
    * [Binary Tree Level Order Traversal](binary_tree_level_order_traversal.md)
    * [Binary Tree Zigzag Level Order Traversal](binary_tree_zigzag_level_order_traversal.md)
    * [Maximum Depth of Binary Tree](maximum_depth_of_binary_tree.md)
+   * Construct Binary Tree from Preorder and Inorder Traversal
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
