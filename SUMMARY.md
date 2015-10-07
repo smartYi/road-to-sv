@@ -177,6 +177,7 @@
    * [Rotate Image](rotate_image.md)
    * [Group Anagrams](group_anagrams_ld.md)
    * [Pow(x, n)](powx,_n.md)
+   * N-Queens
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
