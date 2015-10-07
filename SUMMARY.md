@@ -202,6 +202,7 @@
    * [Set Matrix Zeroes](set_matrix_zeroes.md)
    * [Search a 2D Matrix](search_a_2d_matrix.md)
    * [Sort Colors](sort_colors.md)
+   * Minimum Window Substring
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
