@@ -206,6 +206,7 @@
    * [!!Subsets](subsets.md)
    * [!!Word Search](word_search.md)
    * [Remove Duplicates from Sorted Array II](remove_duplicates_from_sorted_array_ii.md)
+   * Combinations
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
