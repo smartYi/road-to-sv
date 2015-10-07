@@ -156,6 +156,7 @@
    * [Remove Element](remove_element.md)
    * [!!Implement strStr()](implement_strstr.md)
    * [Divide Two Integers](divide_two_integers.md)
+   * !!Substring with Concatenation of All Words
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
