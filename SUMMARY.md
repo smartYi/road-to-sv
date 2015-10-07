@@ -181,7 +181,7 @@
    * [N-Queens II](n-queens_ii.md)
    * [Maximum Subarray](maximum_subarray.md)
    * [Spiral Matrix](spiral_matrix.md)
-   * Jump Game
+   * [Jump Game](jump_game.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
