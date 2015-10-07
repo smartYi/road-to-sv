@@ -18,7 +18,7 @@ There is a more generic way of solving this problem.
 2. Reverse the number, then check to see if x == reverse(x).
 3. Recursion (interesting but a little hard to understand). -> See C++.
 
-除以 10 iu 是去掉最低位
+除以 10 是去掉最低位
 
 ```java
 public class Solution {
