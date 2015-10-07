@@ -130,7 +130,7 @@
    * [Two Sum](two_sum.md)
    * [Add Two Numbers](add_two_numbers.md)
    * [Longest Substring Without Repeating Characters](longest_substring_without_repeating_characters.md)
-   * Median of Two Sorted Arrays
+   * [Median of Two Sorted Arrays](median_of_two_sorted_arrays.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
