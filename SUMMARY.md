@@ -201,7 +201,7 @@
    * [Edit Distance](edit_distance.md)
    * [Set Matrix Zeroes](set_matrix_zeroes.md)
    * [Search a 2D Matrix](search_a_2d_matrix.md)
-   * Sort Colors
+   * [Sort Colors](sort_colors.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
