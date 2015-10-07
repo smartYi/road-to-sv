@@ -38,9 +38,10 @@ public List<List<Integer>> combinationSum2(int[] num, int target) {
             return;
         }
         for (int i = start; i < candidates.length && target >= candidates[i]; ++i) {
-            if (i!=start && candidates[i-1] == candidates[i]) continue;
+            if (i!=start && candidates[i-1] == candidates[i]) continue; // *
             path.add(candidates[i]);
-            combinationSumRe(candidates, target-candidates[i], i+1, path, res);
+            combinationSumRe(candidates, 
+                                target-candidates[i], i+1, path, res); // **
             path.remove(path.size() - 1);
         }
     }
