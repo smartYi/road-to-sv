@@ -223,7 +223,7 @@
    * [Binary Tree Inorder Traversal](binary_tree_inorder_traversal.md)
    * [!!Unique Binary Search Trees II](unique_binary_search_trees_ii.md)
    * [!!Unique Binary Search Trees](unique_binary_search_trees.md)
-   * [Interleaving String](interleaving_string.md)
+   * [!!Interleaving String](interleaving_string.md)
    * Validate Binary Search Tree
 * [Lintcode](lintcode.md)
    * [Math](math.md)
