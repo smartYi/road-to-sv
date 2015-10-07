@@ -151,7 +151,7 @@
    * [Generate Parentheses](generate_parentheses.md)
    * [Merge k Sorted Lists](merge_k_sorted_lists.md)
    * [Swap Nodes in Pairs](swap_nodes_in_pairs.md)
-   * Reverse Nodes in k-Group
+   * [Reverse Nodes in k-Group](reverse_nodes_in_k-group.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
