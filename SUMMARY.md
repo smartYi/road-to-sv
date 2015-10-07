@@ -144,6 +144,7 @@
    * [3 Sum](3_sum.md)
    * [3 Sum Closest](3_sum_closest.md)
    * [Letter Combinations of a Phone Number](letter_combinations_of_a_phone_number.md)
+   * 4 Sum
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
