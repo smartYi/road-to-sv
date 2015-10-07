@@ -220,7 +220,7 @@
    * [Decode Ways](decode_ways.md)
    * [Reverse Linked List II](reverse_linked_list_ii.md)
    * [Restore IP Addresses](restore_ip_addresses.md)
-   * Binary Tree Inorder Traversal
+   * [Binary Tree Inorder Traversal](binary_tree_inorder_traversal.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
