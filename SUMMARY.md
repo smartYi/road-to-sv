@@ -135,7 +135,7 @@
    * [ZigZag Conversion](zigzag_conversion.md)
    * [Reverse Integer](reverse_integer.md)
    * [String to Integer (atoi)](string_to_integer_atoi.md)
-   * Palindrome Number
+   * [Palindrome Number](palindrome_number.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
