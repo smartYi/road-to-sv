@@ -20,7 +20,8 @@ Place n left '(' and n right ')'.
         return res;
     }
     
-    public void generateParenthesisRe(ArrayList<String> res, int left, int right, String s) {
+    public void generateParenthesisRe(
+            ArrayList<String> res, int left, int right, String s) {
         if (left == 0 && right == 0)
             res.add(s);
         if (left > 0)
