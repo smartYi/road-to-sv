@@ -143,6 +143,7 @@
    * [Longest Common Prefix](longest_common_prefix.md)
    * [3 Sum](3_sum.md)
    * [3 Sum Closest](3_sum_closest.md)
+   * Letter Combinations of a Phone Number
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
