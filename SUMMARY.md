@@ -159,7 +159,7 @@
    * [!!Substring with Concatenation of All Words](substring_with_concatenation_of_all_words.md)
    * [Next Permutation](next_permutation.md)
    * [!!Longest Valid Parentheses](longest_valid_parentheses.md)
-   * Search in Rotated Sorted Array
+   * [Search in Rotated Sorted Array](search_in_rotated_sorted_array.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
