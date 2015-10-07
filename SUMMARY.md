@@ -136,6 +136,7 @@
    * [Reverse Integer](reverse_integer.md)
    * [String to Integer (atoi)](string_to_integer_atoi.md)
    * [Palindrome Number](palindrome_number.md)
+   * Regular Expression Matching
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
