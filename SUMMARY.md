@@ -192,7 +192,7 @@
    * [Unique Paths II](unique_paths_ii.md)
    * [Minimum Path Sum](minimum_path_sum.md)
    * [Valid Number](valid_number.md)
-   * Plus One
+   * [Plus One](plus_one.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
