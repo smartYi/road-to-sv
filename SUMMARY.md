@@ -196,7 +196,7 @@
    * [Add Binary](add_binary.md)
    * [Text Justification](text_justification.md)
    * [Sqrt(x)](sqrtx.md)
-   * Climbing Stairs
+   * [Climbing Stairs](climbing_stairs.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
