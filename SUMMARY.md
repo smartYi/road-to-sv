@@ -146,7 +146,7 @@
    * [Letter Combinations of a Phone Number](letter_combinations_of_a_phone_number.md)
    * [4 Sum](4_sum.md)
    * [Remove Nth Node From End of List](remove_nth_node_from_end_of_list.md)
-   * Valid Parentheses
+   * [Valid Parentheses](valid_parentheses.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
