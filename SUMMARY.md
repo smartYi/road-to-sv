@@ -133,7 +133,7 @@
    * [!!Median of Two Sorted Arrays](median_of_two_sorted_arrays.md)
    * [Longest Palindromic Substring](longest_palindromic_substring.md)
    * [ZigZag Conversion](zigzag_conversion.md)
-   * Reverse Integer
+   * [Reverse Integer](reverse_integer.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
