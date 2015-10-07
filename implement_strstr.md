@@ -42,7 +42,8 @@ public class Solution {
             skip=0;
             for(int j=nlen-1; j>=0; j--) {
                 if(haystack.charAt(i+j)!=needle.charAt(j)) {
-                    skip =Math.max( 1, j-jump[haystack.charAt(i+j)] );    // max is j+1, min is 1 (do not allow <0);
+                    skip =Math.max( 1, j-jump[haystack.charAt(i+j)] );    
+                    // max is j+1, min is 1 (do not allow <0);
                     break;
                 }
             }
