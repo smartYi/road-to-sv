@@ -155,6 +155,7 @@
    * [Remove Duplicates from Sorted Array](remove_duplicates_from_sorted_array.md)
    * [Remove Element](remove_element.md)
    * [!!Implement strStr()](implement_strstr.md)
+   * Divide Two Integers
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
