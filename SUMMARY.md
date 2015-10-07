@@ -179,6 +179,7 @@
    * [Pow(x, n)](powx,_n.md)
    * [N-Queens](n-queens.md)
    * [N-Queens II](n-queens_ii.md)
+   * Maximum Subarray
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
