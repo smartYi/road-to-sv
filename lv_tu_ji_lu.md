@@ -54,7 +54,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 17. Systems Engineer @ Sojern
 18. Software Developer @ Epic
 19. (**Rejected**)Software Engineer @ Eventbrite (要做题，有点意思)
-20. Software Engineer, New College Grad @ Medallia
+20. (**Rejected**)Software Engineer, New College Grad @ Medallia
 21. Software Engineer - Computer Vision @ Samsung
 22. Software Engineer - Android and Embedded Systems/IOT, Wearables, Home Automation @ Samsung
 23. (**Rejected**)Software Engineer - New Grad @ Thumbtack
@@ -76,7 +76,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 39. Software Developer @ Oracle Corporation
 40. Software Engineer @ Nextdoor.com, Inc
 41. Software Engineer @ PatternEx
-42. Software Engineer @ Domeyard LP
+42. (**Rejected**)Software Engineer @ Domeyard LP
 43. Software Engineer @ Hulu
 44. Data Engineer @ Qadium
 45. iOS Developer @ Trance
