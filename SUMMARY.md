@@ -190,7 +190,7 @@
    * [Rotate List](rotate_list.md)
    * [Unique Paths](unique_paths.md)
    * [Unique Paths II](unique_paths_ii.md)
-   * Minimum Path Sum
+   * [Minimum Path Sum](minimum_path_sum.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
