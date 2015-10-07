@@ -167,7 +167,7 @@
    * [Count and Say](count_and_say.md)
    * [Combination Sum](combination_sum.md)
    * [Combination Sum II](combination_sum_ii.md)
-   * [First Missing Positive](first_missing_positive.md)
+   * [!!First Missing Positive](first_missing_positive.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
