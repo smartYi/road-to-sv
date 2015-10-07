@@ -53,7 +53,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 16. (**2nd Interview**)Server Software Engineer @ zazzle
 17. Systems Engineer @ Sojern
 18. Software Developer @ Epic
-19. Software Engineer @ Eventbrite (要做题，有点意思)
+19. (**Rejected**)Software Engineer @ Eventbrite (要做题，有点意思)
 20. Software Engineer, New College Grad @ Medallia
 21. Software Engineer - Computer Vision @ Samsung
 22. Software Engineer - Android and Embedded Systems/IOT, Wearables, Home Automation @ Samsung
