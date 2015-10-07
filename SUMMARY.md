@@ -205,6 +205,7 @@
    * [!!Minimum Window Substring](minimum_window_substring.md)
    * [!!Subsets](subsets.md)
    * [!!Word Search](word_search.md)
+   * Remove Duplicates from Sorted Array II
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
