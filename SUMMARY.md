@@ -162,7 +162,7 @@
    * [Search in Rotated Sorted Array](search_in_rotated_sorted_array.md)
    * [Search for a Range](search_for_a_range.md)
    * [Search Insert Position](search_insert_position.md)
-   * Valid Sudoku
+   * [Valid Sudoku](valid_sudoku.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
