@@ -142,7 +142,7 @@
    * [Roman to Integer](roman_to_integer.md)
    * [Longest Common Prefix](longest_common_prefix.md)
    * [3 Sum](3_sum.md)
-   * 3Sum Closest
+   * 3 Sum Closest
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
