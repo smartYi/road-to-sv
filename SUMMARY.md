@@ -129,6 +129,7 @@
 * [Leetcode](leetcode.md)
    * [Two Sum](two_sum.md)
    * [Add Two Numbers](add_two_numbers.md)
+   * Longest Substring Without Repeating Characters
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
