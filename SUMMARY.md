@@ -165,7 +165,7 @@
    * [Valid Sudoku](valid_sudoku.md)
    * [!!Sudoku Solver My Submissions Question Solution](sudoku_solver_my_submissions_question_solution.md)
    * [Count and Say](count_and_say.md)
-   * Combination Sum
+   * [Combination Sum](combination_sum.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
