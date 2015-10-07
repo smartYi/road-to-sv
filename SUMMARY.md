@@ -218,6 +218,7 @@
    * [!!Gray Code](gray_code.md)
    * [Subsets II](subsets_ii.md)
    * [Decode Ways](decode_ways.md)
+   * Reverse Linked List II
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
