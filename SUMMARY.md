@@ -169,6 +169,7 @@
    * [Combination Sum II](combination_sum_ii.md)
    * [!!First Missing Positive](first_missing_positive.md)
    * [Trapping Rain Water](trapping_rain_water.md)
+   * Multiply Strings
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
