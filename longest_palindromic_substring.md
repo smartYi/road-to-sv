@@ -18,8 +18,11 @@ public class Solution {
         int idx = 0, maxLen = 0;
         for (int k = 0; k < n; ++k) {
             for (int i = 0; i + k < n; ++i) {
-                if (k == 0 || k == 1) dp[i][i+k] = (s.charAt(i) == s.charAt(i+k));
-                else dp[i][i+k] = (s.charAt(i) == s.charAt(i+k)) ? dp[i+1][i+k-1] : false;
+                if (k == 0 || k == 1) 
+                    dp[i][i+k] = (s.charAt(i) == s.charAt(i+k));
+                else 
+                    dp[i][i+k] = 
+                    (s.charAt(i) == s.charAt(i+k)) ? dp[i+1][i+k-1] : false;
                 if (dp[i][i+k] == true && (k+1) > maxLen) {
                     idx = i; maxLen = k + 1;
                 }
@@ -38,7 +41,8 @@ public class Solution {
             for (int j = i; j >=0; --j) {
                 if (j == i || j == i - 1)
                     dp[cur][j] = (s.charAt(i) == s.charAt(j));
-                else dp[cur][j] = (s.charAt(i) == s.charAt(j)) && dp[last][j + 1];
+                else 
+                    dp[cur][j] = (s.charAt(i) == s.charAt(j)) && dp[last][j + 1];
                 if (dp[cur][j] && (i - j + 1) > maxLen) {
                     idx = j; maxLen = i - j + 1;
                 }
