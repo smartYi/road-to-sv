@@ -19,3 +19,29 @@ A solution set is:
     [2, 6]  
     [1, 1, 6] 
 
+## Solution
+
+Similar to Combination Sum I, except for line `*` && `**`.
+
+```java
+public List<List<Integer>> combinationSum2(int[] num, int target) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        Arrays.sort(num);
+        ArrayList<Integer> path = new ArrayList<Integer>();
+        combinationSumRe(num, target, 0, path, res);
+        return res;
+    }
+    void combinationSumRe(int[] candidates, int target, int start, ArrayList<Integer> path, List<List<Integer>> res) {
+        if (target == 0) {
+            ArrayList<Integer> p = new ArrayList<Integer>(path);
+            res.add(p);
+            return;
+        }
+        for (int i = start; i < candidates.length && target >= candidates[i]; ++i) {
+            if (i!=start && candidates[i-1] == candidates[i]) continue;
+            path.add(candidates[i]);
+            combinationSumRe(candidates, target-candidates[i], i+1, path, res);
+            path.remove(path.size() - 1);
+        }
+    }
+```
