@@ -149,6 +149,7 @@
    * [Valid Parentheses](valid_parentheses.md)
    * [Merge Two Sorted Lists](merge_two_sorted_lists.md)
    * [Generate Parentheses](generate_parentheses.md)
+   * Merge k Sorted Lists
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
