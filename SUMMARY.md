@@ -126,7 +126,7 @@
        * [Test an ATM](test_an_atm.md)
    * [C++](c++.md)
    * [Java](java.md)
-* Leetcode
+* [Leetcode](leetcode.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
