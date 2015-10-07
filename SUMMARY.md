@@ -132,7 +132,7 @@
    * [Longest Substring Without Repeating Characters](longest_substring_without_repeating_characters.md)
    * [!!Median of Two Sorted Arrays](median_of_two_sorted_arrays.md)
    * [Longest Palindromic Substring](longest_palindromic_substring.md)
-   * ZigZag Conversion
+   * [ZigZag Conversion](zigzag_conversion.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
