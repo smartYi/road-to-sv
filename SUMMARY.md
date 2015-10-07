@@ -209,6 +209,7 @@
    * [Remove Duplicates from Sorted Array II](remove_duplicates_from_sorted_array_ii.md)
    * [Search in Rotated Sorted Array II](search_in_rotated_sorted_array_ii.md)
    * [Remove Duplicates from Sorted List II](remove_duplicates_from_sorted_list_ii.md)
+   * Remove Duplicates from Sorted List
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
