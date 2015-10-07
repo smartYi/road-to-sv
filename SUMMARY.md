@@ -199,7 +199,7 @@
    * [Climbing Stairs](climbing_stairs.md)
    * [Simplify Path](simplify_path.md)
    * [Edit Distance](edit_distance.md)
-   * Set Matrix Zeroes
+   * [Set Matrix Zeroes](set_matrix_zeroes.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
