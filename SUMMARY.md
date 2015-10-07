@@ -200,6 +200,7 @@
    * [Simplify Path](simplify_path.md)
    * [Edit Distance](edit_distance.md)
    * [Set Matrix Zeroes](set_matrix_zeroes.md)
+   * Search a 2D Matrix
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
