@@ -183,7 +183,7 @@
    * [Spiral Matrix](spiral_matrix.md)
    * [Jump Game](jump_game.md)
    * [Merge Intervals](merge_intervals.md)
-   * Insert Interval
+   * [Insert Interval](insert_interval.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
