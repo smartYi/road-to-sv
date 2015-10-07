@@ -197,7 +197,7 @@
    * [Text Justification](text_justification.md)
    * [Sqrt(x)](sqrtx.md)
    * [Climbing Stairs](climbing_stairs.md)
-   * Simplify Path
+   * [Simplify Path](simplify_path.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
