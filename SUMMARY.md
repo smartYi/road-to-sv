@@ -227,7 +227,7 @@
    * [Validate Binary Search Tree](validate_binary_search_tree.md)
    * [!!Recover Binary Search Tree](recover_binary_search_tree.md)
    * [Same Tree](same_tree.md)
-   * Symmetric Tree
+   * [Symmetric Tree](symmetric_tree.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
