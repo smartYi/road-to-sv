@@ -215,6 +215,7 @@
    * [Partition List](partition_list.md)
    * [!!Scramble String](scramble_string.md)
    * [Merge Sorted Array](merge_sorted_array.md)
+   * Gray Code
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
