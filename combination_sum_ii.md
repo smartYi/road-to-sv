@@ -24,7 +24,8 @@ A solution set is:
 Similar to Combination Sum I, except for line `*` && `**`.
 
 ```java
-public List<List<Integer>> combinationSum2(int[] num, int target) {
+public class Solution {
+    public List<List<Integer>> combinationSum2(int[] num, int target) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         Arrays.sort(num);
         ArrayList<Integer> path = new ArrayList<Integer>();
@@ -41,8 +42,9 @@ public List<List<Integer>> combinationSum2(int[] num, int target) {
             if (i!=start && candidates[i-1] == candidates[i]) continue; // *
             path.add(candidates[i]);
             combinationSumRe(candidates, 
-                                target-candidates[i], i+1, path, res); // **
+                             target-candidates[i], i+1, path, res); // **
             path.remove(path.size() - 1);
         }
     }
+}
 ```
