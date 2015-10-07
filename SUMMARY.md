@@ -198,7 +198,7 @@
    * [Sqrt(x)](sqrtx.md)
    * [Climbing Stairs](climbing_stairs.md)
    * [Simplify Path](simplify_path.md)
-   * Edit Distance
+   * [Edit Distance](edit_distance.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
