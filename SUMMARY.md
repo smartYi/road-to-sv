@@ -178,6 +178,7 @@
    * [Group Anagrams](group_anagrams_ld.md)
    * [Pow(x, n)](powx,_n.md)
    * [N-Queens](n-queens.md)
+   * N-Queens II
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
