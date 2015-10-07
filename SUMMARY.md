@@ -157,6 +157,7 @@
    * [!!Implement strStr()](implement_strstr.md)
    * [Divide Two Integers](divide_two_integers.md)
    * [!!Substring with Concatenation of All Words](substring_with_concatenation_of_all_words.md)
+   * Next Permutation
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
