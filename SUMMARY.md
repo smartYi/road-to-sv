@@ -193,7 +193,7 @@
    * [Minimum Path Sum](minimum_path_sum.md)
    * [Valid Number](valid_number.md)
    * [Plus One](plus_one.md)
-   * Add Binary
+   * [Add Binary](add_binary.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
