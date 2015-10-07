@@ -175,7 +175,7 @@
    * [Permutations](permutations.md)
    * [Permutations II](permutations_ii.md)
    * [Rotate Image](rotate_image.md)
-   * Group Anagrams
+   * [Group Anagrams](group_anagrams_ld.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
