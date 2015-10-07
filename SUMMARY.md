@@ -150,7 +150,7 @@
    * [Merge Two Sorted Lists](merge_two_sorted_lists.md)
    * [Generate Parentheses](generate_parentheses.md)
    * [Merge k Sorted Lists](merge_k_sorted_lists.md)
-   * Swap Nodes in Pairs
+   * [Swap Nodes in Pairs](swap_nodes_in_pairs.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
