@@ -31,6 +31,7 @@ public class Solution {
         cur.next = null;
         return dummy.next;
     }
+    
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) return null;
         if (head.next == null || head.val != head.next.val){
