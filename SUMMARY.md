@@ -145,6 +145,7 @@
    * [3 Sum Closest](3_sum_closest.md)
    * [Letter Combinations of a Phone Number](letter_combinations_of_a_phone_number.md)
    * [4 Sum](4_sum.md)
+   * Remove Nth Node From End of List
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
