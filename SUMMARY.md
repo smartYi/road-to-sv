@@ -170,6 +170,7 @@
    * [!!First Missing Positive](first_missing_positive.md)
    * [Trapping Rain Water](trapping_rain_water.md)
    * [Multiply Strings](multiply_strings.md)
+   * Wildcard Matching
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
