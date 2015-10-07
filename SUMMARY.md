@@ -174,6 +174,7 @@
    * [Jump Game II](jump_game_ii.md)
    * [Permutations](permutations.md)
    * [Permutations II](permutations_ii.md)
+   * Rotate Image
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
