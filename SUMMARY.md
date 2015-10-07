@@ -127,6 +127,7 @@
    * [C++](c++.md)
    * [Java](java.md)
 * [Leetcode](leetcode.md)
+   * Two Sum
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
