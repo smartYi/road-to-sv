@@ -188,6 +188,7 @@
    * [Spiral Matrix II](spiral_matrix_ii.md)
    * [Permutation Sequence](permutation_sequence.md)
    * [Rotate List](rotate_list.md)
+   * Unique Paths
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
