@@ -213,7 +213,7 @@
    * [!!Largest Rectangle in Histogram](largest_rectangle_in_histogram.md)
    * [!!Maximal Rectangle](maximal_rectangle.md)
    * [Partition List](partition_list.md)
-   * [Scramble String](scramble_string.md)
+   * [!!Scramble String](scramble_string.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
