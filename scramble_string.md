@@ -77,6 +77,8 @@ public class Solution {
             if (count[i] != 0) return false;
         return true;
     }
+    
+    
     public boolean isScramble(String s1, String s2) {
         if (s1.compareTo(s2) == 0) return true;
         if (s1.length() != s2.length()) return false;
