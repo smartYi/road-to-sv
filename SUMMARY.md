@@ -184,6 +184,7 @@
    * [Jump Game](jump_game.md)
    * [Merge Intervals](merge_intervals.md)
    * [Insert Interval](insert_interval.md)
+   * Length of Last Word
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
