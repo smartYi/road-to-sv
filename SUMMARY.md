@@ -160,7 +160,7 @@
    * [Next Permutation](next_permutation.md)
    * [!!Longest Valid Parentheses](longest_valid_parentheses.md)
    * [Search in Rotated Sorted Array](search_in_rotated_sorted_array.md)
-   * Search for a Range
+   * [Search for a Range](search_for_a_range.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
