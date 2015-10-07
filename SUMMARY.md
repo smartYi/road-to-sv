@@ -204,7 +204,7 @@
    * [Sort Colors](sort_colors.md)
    * [!!Minimum Window Substring](minimum_window_substring.md)
    * [!!Subsets](subsets.md)
-   * Word Search
+   * [Word Search](word_search.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
