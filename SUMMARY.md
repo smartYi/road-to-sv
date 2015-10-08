@@ -295,6 +295,7 @@
    * [Fraction to Recurring Decimal](fraction_to_recurring_decimal.md)
    * Two Sum II - Input array is sorted
    * [Excel Sheet Column Title](excel_sheet_column_title.md)
+   * Majority Element
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
