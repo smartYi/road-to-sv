@@ -277,6 +277,7 @@
    * [Sort List](sort_list.md)
    * [Max Points on a Line](max_points_on_a_line.md)
    * [Evaluate Reverse Polish Notation](evaluate_reverse_polish_notation.md)
+   * Reverse Words in a String
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
