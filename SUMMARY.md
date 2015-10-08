@@ -298,7 +298,7 @@
    * [Majority Element](majority_element.md)
    * Two Sum III - Data structure design
    * [Excel Sheet Column Number](excel_sheet_column_number.md)
-   * Factorial Trailing Zeroes
+   * [Factorial Trailing Zeroes](factorial_trailing_zeroes.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
