@@ -297,6 +297,7 @@
    * [Excel Sheet Column Title](excel_sheet_column_title.md)
    * [Majority Element](majority_element.md)
    * Two Sum III - Data structure design
+   * Excel Sheet Column Number
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
