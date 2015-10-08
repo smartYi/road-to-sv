@@ -247,6 +247,7 @@
    * [Pascal's Triangle](pascals_triangle.md)
    * [Pascal's Triangle II](pascals_triangle_ii.md)
    * [Triangle](triangle.md)
+   * Best Time to Buy and Sell Stock
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
