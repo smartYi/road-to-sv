@@ -235,7 +235,7 @@
    * [!!Construct Binary Tree from Inorder and Postorder Traversal](construct_binary_tree_from_inorder_and_postorder_traversal.md)
    * [Binary Tree Level Order Traversal II](binary_tree_level_order_traversal_ii.md)
    * [Convert Sorted Array to Binary Search Tree](convert_sorted_array_to_binary_search_tree.md)
-   * Convert Sorted List to Binary Search Tree
+   * [Convert Sorted List to Binary Search Tree](convert_sorted_list_to_binary_search_tree.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
