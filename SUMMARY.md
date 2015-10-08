@@ -279,7 +279,7 @@
    * [Evaluate Reverse Polish Notation](evaluate_reverse_polish_notation.md)
    * [Reverse Words in a String](reverse_words_in_a_string.md)
    * [Maximum Product Subarray](maximum_product_subarray.md)
-   * Find Minimum in Rotated Sorted Array
+   * [Find Minimum in Rotated Sorted Array](find_minimum_in_rotated_sorted_array.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
