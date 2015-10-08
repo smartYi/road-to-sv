@@ -13,7 +13,7 @@ Example: 19 is a happy number
     
 ## Solution
 
-按照规律算即可，如果出现循环就证明
+按照规律算即可，如果出现循环就证明不可能
 
 ```java
 public class Solution {
