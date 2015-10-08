@@ -262,6 +262,7 @@
    * [Clone Graph](clone_graph.md)
    * [Gas Station](gas_station.md)
    * [Candy](candy.md)
+   * Single Number
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
