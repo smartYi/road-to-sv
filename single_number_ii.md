@@ -19,6 +19,7 @@ public class Solution {
         }
         return res;
     }
+    
     public int singleNumber_2(int[] A) {
         int one = 0, twice = 0;
         for (int num : A) {
@@ -30,6 +31,7 @@ public class Solution {
         }
         return one;
     }
+    
     public int singleNumber(int[] A) {
         int k = 1, n = 3;
         int[] x = new int[n];
