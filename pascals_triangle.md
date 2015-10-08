@@ -17,7 +17,9 @@ Return
 ## Solution
 
 ```java
-List<List<Integer>> res = new ArrayList<List<Integer>>();
+public class Solution {
+    public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
         if (numRows < 1) return res;
         List<Integer> temp = new ArrayList<Integer>();
         temp.add(1);
@@ -32,4 +34,6 @@ List<List<Integer>> res = new ArrayList<List<Integer>>();
             res.add(t);
         }
         return res;
+    }
+}
 ```
