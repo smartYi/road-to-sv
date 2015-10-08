@@ -264,6 +264,7 @@
    * [Candy](candy.md)
    * [Single Number](single_number.md)
    * [Single Number II](single_number_ii.md)
+   * Copy List with Random Pointer
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
