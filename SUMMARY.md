@@ -289,6 +289,7 @@
    * [Intersection of Two Linked Lists](intersection_of_two_linked_lists.md)
    * One Edit Distance
    * [Find Peak Element](find_peak_element.md)
+   * Missing Ranges
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
