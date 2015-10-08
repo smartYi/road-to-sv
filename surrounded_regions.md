@@ -22,6 +22,11 @@ After running your function, the board should be:
 
 Traverse from the border to the inside and mark all the 'O's that are not surrounded by 'X' as 'V' (visited).
 
+转换一下思路，真的需要开辟一个map在存储访问信息吗？其实这个可以省掉的，既然已经知道连通区域必须至少一个元素是在四边，那么一开始直接从四边开始扫描就好了，所以无法connect到得元素都是应该被清除的。所以，算法如下：
+
+1. 从四条边上的O元素开始BFS，所有相连的O都赋个新值，比如‘Y’
+2. 扫描整个数组，所有现存的O元素全部置为X，所有Y元素置为O
+
 BFS (queue).
 
 ```java
