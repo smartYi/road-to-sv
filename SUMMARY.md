@@ -274,7 +274,7 @@
    * [Binary Tree Postorder Traversal](binary_tree_postorder_traversal.md)
    * [!!LRU Cache](lru_cache.md)
    * [Insertion Sort List](insertion_sort_list.md)
-   * Sort List
+   * [Sort List](sort_list.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
