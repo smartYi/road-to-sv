@@ -292,7 +292,7 @@
    * Missing Ranges
    * [!!Maximum Gap](maximum_gap.md)
    * [Compare Version Numbers](compare_version_numbers.md)
-   * Fraction to Recurring Decimal
+   * [Fraction to Recurring Decimal](fraction_to_recurring_decimal.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
