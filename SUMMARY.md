@@ -271,6 +271,7 @@
    * [Linked List Cycle II](linked_list_cycle_ii.md)
    * [Reorder List](reorder_list.md)
    * [Binary Tree Preorder Traversal](binary_tree_preorder_traversal.md)
+   * Binary Tree Postorder Traversal
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
