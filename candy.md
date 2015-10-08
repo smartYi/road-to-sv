@@ -19,6 +19,7 @@ public class Solution {
     public int candy(int[] ratings) {
         return candy_1(ratings);
     }
+    
     public int candy_1(int[] ratings) {
         int N = ratings.length;
         if (N == 0) return 0;
@@ -41,6 +42,7 @@ public class Solution {
         }
         return res;
     }
+    
     public int candy_2(int[] ratings) {
         int N = ratings.length;
         if (N == 0) return 0;
