@@ -286,6 +286,7 @@
    * Read N Characters Given Read4
    * Read N Characters Given Read4 II - Call multiple times
    * Longest Substring with At Most Two Distinct Characters
+   * Intersection of Two Linked Lists
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
