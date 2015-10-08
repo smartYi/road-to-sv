@@ -291,7 +291,7 @@
    * [Find Peak Element](find_peak_element.md)
    * Missing Ranges
    * [!!Maximum Gap](maximum_gap.md)
-   * Compare Version Numbers
+   * [Compare Version Numbers](compare_version_numbers.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
