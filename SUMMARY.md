@@ -282,6 +282,7 @@
    * [Find Minimum in Rotated Sorted Array](find_minimum_in_rotated_sorted_array.md)
    * [!!Find Minimum in Rotated Sorted Array II](find_minimum_in_rotated_sorted_array_ii.md)
    * [Min Stack](min_stack.md)
+   * Binary Tree Upside Down
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
