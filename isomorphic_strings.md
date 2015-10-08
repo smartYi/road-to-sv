@@ -20,7 +20,7 @@ You may assume both s and t have the same length.
 
 ## Solution
 
-对应映射一次，看看是否
+对应映射一次，看看是否满足
 
 ```java
 public class Solution {
