@@ -303,7 +303,7 @@
    * [Dungeon Game](dungeon_game.md)
    * [Largest Number](largest_number.md)
    * Reverse Words in a String II
-   * Repeated DNA Sequences
+   * [Repeated DNA Sequences](repeated_dna_sequences.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
