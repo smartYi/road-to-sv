@@ -236,7 +236,7 @@
    * [Binary Tree Level Order Traversal II](binary_tree_level_order_traversal_ii.md)
    * [Convert Sorted Array to Binary Search Tree](convert_sorted_array_to_binary_search_tree.md)
    * [Convert Sorted List to Binary Search Tree](convert_sorted_list_to_binary_search_tree.md)
-   * Balanced Binary Tree
+   * [Balanced Binary Tree](balanced_binary_tree.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
