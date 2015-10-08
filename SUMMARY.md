@@ -280,7 +280,7 @@
    * [Reverse Words in a String](reverse_words_in_a_string.md)
    * [Maximum Product Subarray](maximum_product_subarray.md)
    * [Find Minimum in Rotated Sorted Array](find_minimum_in_rotated_sorted_array.md)
-   * Find Minimum in Rotated Sorted Array II
+   * [Find Minimum in Rotated Sorted Array II](find_minimum_in_rotated_sorted_array_ii.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
