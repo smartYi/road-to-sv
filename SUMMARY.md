@@ -319,6 +319,7 @@
    * [Reverse Linked List](reverse_linked_list.md)
    * [Course Schedule](course_schedule.md)
    * [Implement Trie (Prefix Tree)](implement_trie_prefix_tree.md)
+   * Minimum Size Subarray Sum
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
