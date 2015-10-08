@@ -313,7 +313,7 @@
    * [Number of Islands](number_of_islands.md)
    * [Bitwise AND of Numbers Range](bitwise_and_of_numbers_range.md)
    * [Happy Number](happy_number.md)
-   * Remove Linked List Elements
+   * [Remove Linked List Elements](remove_linked_list_elements.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
