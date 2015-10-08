@@ -34,6 +34,7 @@ public class Solution {
         dfs(s, dp, 0, path, res);
         return res;
     }
+    
     public void dfs(String s, boolean[][] dp, int start, ArrayList<String> path, List<List<String>> res) {
         if (s.length() == start) {
             res.add(new ArrayList<String>(path));
