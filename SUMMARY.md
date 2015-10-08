@@ -241,6 +241,7 @@
    * [Path Sum](path_sum.md)
    * [Path Sum II](path_sum_ii.md)
    * [!!Flatten Binary Tree to Linked List](flatten_binary_tree_to_linked_list.md)
+   * Distinct Subsequences
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
