@@ -267,7 +267,7 @@
    * [Copy List with Random Pointer](copy_list_with_random_pointer.md)
    * [Word Break](word_break.md)
    * [Word Break II](word_break_ii.md)
-   * Linked List Cycle
+   * [Linked List Cycle](linked_list_cycle.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
