@@ -255,7 +255,7 @@
    * [Word Ladder II](word_ladder_ii.md)
    * [!!Word Ladder](word_ladder.md)
    * [Longest Consecutive Sequence](longest_consecutive_sequence.md)
-   * Sum Root to Leaf Numbers
+   * [Sum Root to Leaf Numbers](sum_root_to_leaf_numbers.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
