@@ -268,6 +268,7 @@
    * [Word Break](word_break.md)
    * [Word Break II](word_break_ii.md)
    * [Linked List Cycle](linked_list_cycle.md)
+   * Linked List Cycle II
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
