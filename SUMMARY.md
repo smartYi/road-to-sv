@@ -321,6 +321,7 @@
    * [Implement Trie (Prefix Tree)](implement_trie_prefix_tree.md)
    * [Minimum Size Subarray Sum](minimum_size_subarray_sum.md)
    * [!!Course Schedule II](course_schedule_ii.md)
+   * Add and Search Word - Data structure design
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
