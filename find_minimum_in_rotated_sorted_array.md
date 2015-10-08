@@ -11,7 +11,9 @@ You may assume no duplicate exists in the array.
 ## Solution
 
 ```java
-if (num.length == 0) return 0;
+public class Solution {
+    public int findMin(int[] num) {
+        if (num.length == 0) return 0;
         int left = 0, right = num.length -1;
         while (left < right && num[left] > num[right]) {
             int mid = left + (right - left) / 2;
@@ -19,4 +21,6 @@ if (num.length == 0) return 0;
             else right = mid;
         }
         return num[left];
+    }
+}
 ```
