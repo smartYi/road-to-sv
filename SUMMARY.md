@@ -239,7 +239,7 @@
    * [Balanced Binary Tree](balanced_binary_tree.md)
    * [Minimum Depth of Binary Tree](minimum_depth_of_binary_tree.md)
    * [Path Sum](path_sum.md)
-   * Path Sum II
+   * [Path Sum II](path_sum_ii.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
