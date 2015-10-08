@@ -244,6 +244,7 @@
    * [!!Distinct Subsequences](distinct_subsequences.md)
    * [Populating Next Right Pointers in Each Node](populating_next_right_pointers_in_each_node.md)
    * [Populating Next Right Pointers in Each Node II](populating_next_right_pointers_in_each_node_ii.md)
+   * Pascal's Triangle
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
