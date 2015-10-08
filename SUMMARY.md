@@ -301,7 +301,7 @@
    * [Factorial Trailing Zeroes](factorial_trailing_zeroes.md)
    * [!!Binary Search Tree Iterator](binary_search_tree_iterator.md)
    * [Dungeon Game](dungeon_game.md)
-   * Largest Number
+   * [Largest Number](largest_number.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
