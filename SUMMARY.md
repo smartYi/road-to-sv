@@ -324,6 +324,7 @@
    * [Add and Search Word - Data structure design](add_and_search_word_-_data_structure_design.md)
    * [Word Search II](word_search_ii.md)
    * [House Robber II](house_robber_ii.md)
+   * Shortest Palindrome
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
