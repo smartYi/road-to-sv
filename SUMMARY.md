@@ -309,6 +309,7 @@
    * [Reverse Bits](reverse_bits.md)
    * [Number of 1 Bits](number_of_1_bits.md)
    * [House Robber](house_robber.md)
+   * Binary Tree Right Side View
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
