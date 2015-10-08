@@ -13,3 +13,21 @@ Suppose a sorted array is rotated at some pivot unknown to you beforehand.
 Find the minimum element.
 
 The array may contain duplicates.
+
+## Solution
+
+```java
+public class Solution {
+    public int findMin(int[] num) {
+        if (num.length == 0) return 0;
+        int left = 0, right = num.length -1;
+        while (left < right && num[left] >= num[right]) {
+            int mid = left + (right - left) / 2;
+            if (num[mid] > num[right]) left = mid + 1;
+            else if (num[mid] < num[right]) right = mid;
+            else left++;
+        }
+        return num[left];
+    }
+}
+```
