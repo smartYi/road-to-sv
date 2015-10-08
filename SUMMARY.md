@@ -246,6 +246,7 @@
    * [Populating Next Right Pointers in Each Node II](populating_next_right_pointers_in_each_node_ii.md)
    * [Pascal's Triangle](pascals_triangle.md)
    * [Pascal's Triangle II](pascals_triangle_ii.md)
+   * Triangle
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
