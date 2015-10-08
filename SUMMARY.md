@@ -275,6 +275,7 @@
    * [!!LRU Cache](lru_cache.md)
    * [Insertion Sort List](insertion_sort_list.md)
    * [Sort List](sort_list.md)
+   * Max Points on a Line
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
