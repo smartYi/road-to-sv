@@ -272,6 +272,7 @@
    * [Reorder List](reorder_list.md)
    * [Binary Tree Preorder Traversal](binary_tree_preorder_traversal.md)
    * [Binary Tree Postorder Traversal](binary_tree_postorder_traversal.md)
+   * LRU Cache
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
