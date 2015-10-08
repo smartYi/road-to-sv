@@ -263,7 +263,7 @@
    * [Gas Station](gas_station.md)
    * [Candy](candy.md)
    * [Single Number](single_number.md)
-   * Single Number II
+   * [Single Number II](single_number_ii.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
