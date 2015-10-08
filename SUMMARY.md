@@ -250,6 +250,7 @@
    * [Best Time to Buy and Sell Stock](best_time_to_buy_and_sell_stock.md)
    * [Best Time to Buy and Sell Stock II](best_time_to_buy_and_sell_stock_ii.md)
    * [!!Best Time to Buy and Sell Stock III](best_time_to_buy_and_sell_stock_iii.md)
+   * Binary Tree Maximum Path Sum
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
