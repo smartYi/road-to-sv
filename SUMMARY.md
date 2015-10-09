@@ -174,7 +174,7 @@
    * [Jump Game II](jump_game_ii.md)
    * [Permutations](permutations.md)
    * [Permutations II](permutations_ii.md)
-   * [Rotate Image](rotate_image.md)
+   * [@@Rotate Image](rotate_image.md)
    * [Group Anagrams](group_anagrams_ld.md)
    * [Pow(x, n)](powx,_n.md)
    * [N-Queens](n-queens.md)
