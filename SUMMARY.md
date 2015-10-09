@@ -366,7 +366,7 @@
    * Factor Combinations
    * Verify Preorder Sequence in Binary Search Tree
    * Paint House
-   * [Binary Tree Paths](binary_tree_paths.md)
+   * [@Binary Tree Paths](binary_tree_paths.md)
    * [Add Digits](add_digits.md)
    * 3Sum Smaller
    * [!!Single Number III](single_number_iii.md)
