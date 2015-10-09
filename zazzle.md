@@ -1,6 +1,74 @@
 第一个给我当面面试的公司。On Campus 面试，问题不算太难，但是因为是第一次非常紧张，所以感觉表现不是特别好，希望还有下一轮。
 
+# 层次遍历
 
+```java
+Node {
+	Node l; // left child
+	Node r; // right child
+	int v; // value stored in the node
+}
+
+// Example tree; note the binary tree doesn't have to be complete
+    8     <-- level 0 (root)
+  2   3   <-- level 1
+4  5    1 <-- level 2
+
+// Examples:
+PrintLevel(root, 0); -> 8
+PrintLevel(root, 1); -> 2 3
+PrintLevel(root, 2); -> 4 5 1
+```
+
+正常的层次遍历，然后问了空间复杂度，以及如何优化
+
+```
+// Complete this function
+void PrintLevel(Node root, int level) 
+{
+	// root, 1
+    // q    : 8(u) null(u) 2 3 null
+	// level: 8(u)
+	// lvCnt: 0(u) 1
+
+	if (root == null) return;
+	Queue<Node> q = new LinkedList<TreeNode>();
+	q.offer(root);
+    q.offer(null);
+    int levelCount = 0;
+    List<Integer> levelList = new ArrayList<Integer)();
+	
+	while(true){
+		// TODO add the level count
+		Node n = q.poll();
+		
+		if (n != null){
+    	    // add the value to the level
+    	    levelList.add(n.v);
+        	if (n.l != null) 
+        		q.offer(n.l);
+        	if (n.r != null)
+        		q.offer(n.r);
+        } else {	
+    	    // Double check the index - test
+            // continue adding to the q
+        	if (levelCount == level){
+        	    // print out the levelList
+                int len = levelList.size();
+                for (int i = 0; i < len; i++){
+            	    System.out.println(levelList.get(i) + “ ” );
+                }
+        	    break;
+            } 
+            levelCount++;
+        	levelList = new ArrayList<Integer>();
+        	if (q.isEmpty()) break;
+        	q.offer(null);
+        }
+	}
+	return;
+}
+```
 
 # 最大子矩阵和
 
