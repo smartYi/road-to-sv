@@ -344,6 +344,7 @@
    * [Power of Two](power_of_two.md)
    * [Implement Queue using Stacks](implement_queue_using_stacks.md)
    * [Number of Digit One](number_of_digit_one.md)
+   * Palindrome Linked List
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
