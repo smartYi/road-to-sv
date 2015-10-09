@@ -388,6 +388,7 @@
    * Find the Celebrity
    * [First Bad Version](first_bad_version.md)
    * [Perfect Squares](perfect_squares.md)
+   * Wiggle Sort
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
