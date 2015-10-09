@@ -393,6 +393,7 @@
    * [!!Expression Add Operators](expression_add_operators.md)
    * [Move Zeroes](move_zeroes.md)
    * [Peeking Iterator](peeking_iterator.md)
+   * Inorder Successor in BST
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
