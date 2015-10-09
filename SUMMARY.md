@@ -131,7 +131,7 @@
    * [Add Two Numbers](add_two_numbers.md)
    * [Longest Substring Without Repeating Characters](longest_substring_without_repeating_characters.md)
    * [!!Median of Two Sorted Arrays](median_of_two_sorted_arrays.md)
-   * [Longest Palindromic Substring](longest_palindromic_substring.md)
+   * [@Longest Palindromic Substring](longest_palindromic_substring.md)
    * [ZigZag Conversion](zigzag_conversion.md)
    * [Reverse Integer](reverse_integer.md)
    * [String to Integer (atoi)](string_to_integer_atoi.md)
