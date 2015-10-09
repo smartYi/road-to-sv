@@ -331,6 +331,7 @@
    * [The Skyline Problem](the_skyline_problem.md)
    * [Contains Duplicate II](contains_duplicate_ii.md)
    * [Contains Duplicate III](contains_duplicate_iii.md)
+   * Maximal Square
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
