@@ -372,6 +372,7 @@
    * [!!Single Number III](single_number_iii.md)
    * [Graph Valid Tree](graph_valid_tree.md)
    * [Ugly Number](ugly_number.md)
+   * Ugly Number II
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
