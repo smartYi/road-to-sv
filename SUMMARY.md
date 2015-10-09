@@ -358,6 +358,7 @@
    * Strobogrammatic Number
    * Strobogrammatic Number II
    * Strobogrammatic Number III
+   * Group Shifted Strings
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
