@@ -354,6 +354,7 @@
    * [!!Different Ways to Add Parentheses](different_ways_to_add_parentheses.md)
    * [Valid Anagram](valid_anagram.md)
    * Shortest Word Distance
+   * Shortest Word Distance II 
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
