@@ -310,7 +310,7 @@
    * [Number of 1 Bits](number_of_1_bits.md)
    * [House Robber](house_robber.md)
    * [Binary Tree Right Side View](binary_tree_right_side_view.md)
-   * [Number of Islands](number_of_islands.md)
+   * [@Number of Islands](number_of_islands.md)
    * [Bitwise AND of Numbers Range](bitwise_and_of_numbers_range.md)
    * [Happy Number](happy_number.md)
    * [Remove Linked List Elements](remove_linked_list_elements.md)
