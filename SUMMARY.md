@@ -345,7 +345,7 @@
    * [Implement Queue using Stacks](implement_queue_using_stacks.md)
    * [Number of Digit One](number_of_digit_one.md)
    * [Palindrome Linked List](palindrome_linked_list.md)
-   * Lowest Common Ancestor of a Binary Search Tree
+   * [Lowest Common Ancestor of a Binary Search Tree](lowest_common_ancestor_of_a_binary_search_tree.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
