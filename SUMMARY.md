@@ -335,7 +335,7 @@
    * [Count Complete Tree Nodes](count_complete_tree_nodes.md)
    * [Rectangle Area](rectangle_area.md)
    * [Basic Calculator](basic_calculator.md)
-   * Implement Stack using Queues
+   * [Implement Stack using Queues](implement_stack_using_queues.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
