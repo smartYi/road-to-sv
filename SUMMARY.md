@@ -366,6 +366,7 @@
    * Factor Combinations
    * Verify Preorder Sequence in Binary Search Tree
    * Paint House
+   * Binary Tree Paths
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
