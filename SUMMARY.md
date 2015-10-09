@@ -386,7 +386,7 @@
    * [H-Index II](h-index_ii.md)
    * Paint Fence
    * Find the Celebrity
-   * First Bad Version
+   * [First Bad Version](first_bad_version.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
