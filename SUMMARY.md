@@ -381,6 +381,7 @@
    * Closest Binary Search Tree Value
    * Encode and Decode Strings
    * Closest Binary Search Tree Value II
+   * Integer to English Words
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
