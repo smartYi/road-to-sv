@@ -369,7 +369,7 @@
    * [Binary Tree Paths](binary_tree_paths.md)
    * [Add Digits](add_digits.md)
    * 3Sum Smaller
-   * [Single Number III](single_number_iii.md)
+   * [!!Single Number III](single_number_iii.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
