@@ -15,7 +15,7 @@
        * [URLify](urlify.md)
        * [Palindrome Permutation](palindrome_permutation.md)
        * [One Away](one_away.md)
-       * [String Compression](string_compression.md)
+       * [@String Compression](string_compression.md)
        * [Rotate Matrix](rotate_matrix.md)
        * [Zero Matrix](zero_matrix.md)
        * [String Rotation](string_rotation.md)
