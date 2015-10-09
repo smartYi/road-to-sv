@@ -361,6 +361,7 @@
    * Group Shifted Strings
    * Count Univalue Subtrees
    * Flatten 2D Vector
+   * Meeting Rooms
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
