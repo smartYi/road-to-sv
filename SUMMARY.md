@@ -272,7 +272,7 @@
    * [Reorder List](reorder_list.md)
    * [Binary Tree Preorder Traversal](binary_tree_preorder_traversal.md)
    * [Binary Tree Postorder Traversal](binary_tree_postorder_traversal.md)
-   * [!!LRU Cache](lru_cache.md)
+   * [!!@LRU Cache](lru_cache.md)
    * [Insertion Sort List](insertion_sort_list.md)
    * [@Sort List](sort_list.md)
    * [@Max Points on a Line](max_points_on_a_line.md)
