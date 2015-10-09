@@ -392,7 +392,6 @@
    * Zigzag Iterator
    * [!!Expression Add Operators](expression_add_operators.md)
    * Move Zeroes
-   * Move Zeroes
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
