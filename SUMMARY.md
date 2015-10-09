@@ -367,6 +367,7 @@
    * Verify Preorder Sequence in Binary Search Tree
    * Paint House
    * [Binary Tree Paths](binary_tree_paths.md)
+   * Add Digits
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
