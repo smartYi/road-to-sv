@@ -352,7 +352,7 @@
    * [Sliding Window Maximum](sliding_window_maximum.md)
    * [Search a 2D Matrix II](search_a_2d_matrix_ii.md)
    * [!!Different Ways to Add Parentheses](different_ways_to_add_parentheses.md)
-   * Valid Anagram
+   * [Valid Anagram](valid_anagram.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
