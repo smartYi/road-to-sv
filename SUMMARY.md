@@ -179,7 +179,7 @@
    * [Pow(x, n)](powx,_n.md)
    * [N-Queens](n-queens.md)
    * [N-Queens II](n-queens_ii.md)
-   * [Maximum Subarray](maximum_subarray.md)
+   * [@Maximum Subarray](maximum_subarray.md)
    * [Spiral Matrix](spiral_matrix.md)
    * [Jump Game](jump_game.md)
    * [Merge Intervals](merge_intervals.md)
