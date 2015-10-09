@@ -398,6 +398,7 @@
    * [Find the Duplicate Number](find_the_duplicate_number.md)
    * Unique Word Abbreviation
    * [Game of Life](game_of_life.md)
+   * Word Pattern
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
