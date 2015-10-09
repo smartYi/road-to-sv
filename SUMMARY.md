@@ -209,7 +209,7 @@
    * [@Remove Duplicates from Sorted Array II](remove_duplicates_from_sorted_array_ii.md)
    * [Search in Rotated Sorted Array II](search_in_rotated_sorted_array_ii.md)
    * [@Remove Duplicates from Sorted List II](remove_duplicates_from_sorted_list_ii.md)
-   * [Remove Duplicates from Sorted List](remove_duplicates_from_sorted_list.md)
+   * [@Remove Duplicates from Sorted List](remove_duplicates_from_sorted_list.md)
    * [!!Largest Rectangle in Histogram](largest_rectangle_in_histogram.md)
    * [!!Maximal Rectangle](maximal_rectangle.md)
    * [Partition List](partition_list.md)
