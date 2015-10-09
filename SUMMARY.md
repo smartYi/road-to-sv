@@ -339,7 +339,7 @@
    * [Invert Binary Tree](invert_binary_tree.md)
    * [Basic Calculator II](basic_calculator_ii.md)
    * [Summary Ranges](summary_ranges.md)
-   * Majority Element II
+   * [Majority Element II](majority_element_ii.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
