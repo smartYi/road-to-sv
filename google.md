@@ -100,9 +100,6 @@ use a counter and cur variable to keep track of current information.
 
 Binary search. Say value of current mid is k, search first appearance index of k on left and last index of mid element on right. The number of times k appears is rightIndex-leftIndex+1.
 
->  rotate a pixel picture by 90 degree
-
-build a mapping function between old index and new index.
 
 > 给int n，求n所有factors，然后问问算法的running time
 
@@ -407,11 +404,6 @@ class Solution:
 
 ```
 
-> 给一个binary tree 打印所有的path
-
-然后问了时间空间复杂度
-
-就用一般递归做的
 
 > good number问题。 一个数如果能用（至少两组）两个立方数相加得到那么就是good number。print 小于等于n的所有good number。分析时间复杂度。
 
