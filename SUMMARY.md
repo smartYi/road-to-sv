@@ -365,6 +365,7 @@
    * Meeting Rooms II
    * Factor Combinations
    * Verify Preorder Sequence in Binary Search Tree
+   * Paint House
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
