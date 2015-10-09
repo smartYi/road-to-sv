@@ -8,25 +8,15 @@
 
 follow up，N种颜色
 
-> 两个字符串S，T，求最短的S的子串，使其包含T中所有的character，character可重复
-
-sliding window
-
 > nested array，etc [[1,2], 2, [[3], [4]]]，input是nested array的iterator，实现next element的iterator
 
 版上高频 
 
-> 罗马转十进制
-
-反过来
 
 > design，tiny url 
 
 高频
 
-> Maximum SubArray  
-
-leetcode 只要return max value 然后过一遍他的input
 
 > 比较长  
 
@@ -54,13 +44,6 @@ leetcode 只要return max value 然后过一遍他的input
 
 我当时就扫了遍帖子 说要sort 然后后面写了个iteration match 第一组符合的pair
 
-> Design tinyurl
-
-高频到飞起
-
-> Leetcode Search for a Range
-
-lc
 
 > Find the size of longest palindrome subset of an array
 
@@ -72,9 +55,6 @@ lc
 
 TODO
 
-> Leetcode combination sum
-
-lc
 
 > Deepest comman ancestor (with parent nodes).
 
@@ -103,13 +83,7 @@ root节点parent是null. 没有parent的做法的确是递归，但是有parent�
 
 很自然地用两个栈去做，但是这样popMax的时候很费时间。然后我又加了一个stack存的是max value的index, 把stack全变成ArrayList, 然后就开始纠结pop了。。。结果corner case太多没写完。。。不过他也说这题要简单clean是比较难
 
-> integer to roman, roman to integer
 
-roman to integer居然纠结了很久~才把Bug搞定~不过还好都是自说自话修改完了，没有需要他的Tip~导致follow-up的时间不够只说了思路，是lowest common ancestor~我说需要Parent node information, 然后把path存在两个list里面，然后从list尾巴开始对比找到最后一个一样的node
-
-> max points on a line
-
-leetcode
 
 > linked list找intersection~本来窃以为不要太简单~没想到他居然无数个follow-up
 
