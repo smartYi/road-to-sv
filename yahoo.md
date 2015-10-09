@@ -15,7 +15,3 @@ TODO
 > 设计一个算法比较字符串间的相似度，返回[0,1]间的一个数
 
 open question
-
-> coding: input "aabbb", return "a2b3" input "aaabccaa", return "a3b1c2a2"
-
-compress string lc
