@@ -340,7 +340,7 @@
    * [Basic Calculator II](basic_calculator_ii.md)
    * [Summary Ranges](summary_ranges.md)
    * [Majority Element II](majority_element_ii.md)
-   * Kth Smallest Element in a BST
+   * [Kth Smallest Element in a BST](kth_smallest_element_in_a_bst.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
