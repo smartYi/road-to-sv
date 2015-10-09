@@ -154,7 +154,7 @@
    * [Reverse Nodes in k-Group](reverse_nodes_in_k-group.md)
    * [Remove Duplicates from Sorted Array](remove_duplicates_from_sorted_array.md)
    * [Remove Element](remove_element.md)
-   * [!!Implement strStr()](implement_strstr.md)
+   * [!!@Implement strStr()](implement_strstr.md)
    * [Divide Two Integers](divide_two_integers.md)
    * [!!Substring with Concatenation of All Words](substring_with_concatenation_of_all_words.md)
    * [Next Permutation](next_permutation.md)
