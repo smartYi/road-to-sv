@@ -341,7 +341,7 @@
    * [Summary Ranges](summary_ranges.md)
    * [Majority Element II](majority_element_ii.md)
    * [Kth Smallest Element in a BST](kth_smallest_element_in_a_bst.md)
-   * Power of Two
+   * [Power of Two](power_of_two.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
