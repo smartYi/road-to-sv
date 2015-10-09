@@ -27,10 +27,6 @@ public String outputAsOrder(String order, String input) {
 
 简单题
 
-> sort color 变形
-
-leetcode
-
 > phone combination 
 
 待研究
@@ -52,7 +48,3 @@ leetcode
 
 解题参考
 http://www.fgdsb.com/2015/01/25/group-contacts/
-
-> minimum substr leetcode
-
-leetcode
