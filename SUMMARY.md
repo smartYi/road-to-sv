@@ -370,6 +370,7 @@
    * [Add Digits](add_digits.md)
    * 3Sum Smaller
    * [!!Single Number III](single_number_iii.md)
+   * Graph Valid Tree
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
