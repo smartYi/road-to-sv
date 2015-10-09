@@ -8,17 +8,10 @@
 
 dfs
 
-> longest prefix of strings
-
-高频
-
 > encode decode 二叉树
 
 他说有点complex，不一定做完，边做边讲思路就好
 
-> leetcode anagram
-
-leetcode
 
 > leetcode sort version number的一个变种
 
@@ -28,14 +21,7 @@ leetcode
 
 高频
 
-> search matrix II
 
-leetcode
-
->  LEETCODE Longest Substring Without Repeating Characters
-
-leetcode
-
-> refix search：就是给你prefix 返回所有最大匹配的word 。
+> prefix search：就是给你prefix 返回所有最大匹配的word 。
 
 明显trie tree +dfs
