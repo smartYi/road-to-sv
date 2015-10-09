@@ -376,6 +376,7 @@
    * Paint House II
    * Palindrome Permutation
    * Palindrome Permutation II
+   * Missing Number
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
