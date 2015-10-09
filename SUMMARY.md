@@ -274,7 +274,7 @@
    * [Binary Tree Postorder Traversal](binary_tree_postorder_traversal.md)
    * [!!LRU Cache](lru_cache.md)
    * [Insertion Sort List](insertion_sort_list.md)
-   * [Sort List](sort_list.md)
+   * [@Sort List](sort_list.md)
    * [@Max Points on a Line](max_points_on_a_line.md)
    * [Evaluate Reverse Polish Notation](evaluate_reverse_polish_notation.md)
    * [Reverse Words in a String](reverse_words_in_a_string.md)
