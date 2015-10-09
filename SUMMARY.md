@@ -336,7 +336,7 @@
    * [Rectangle Area](rectangle_area.md)
    * [Basic Calculator](basic_calculator.md)
    * [Implement Stack using Queues](implement_stack_using_queues.md)
-   * Invert Binary Tree
+   * [Invert Binary Tree](invert_binary_tree.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
