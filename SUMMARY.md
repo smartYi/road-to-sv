@@ -181,7 +181,7 @@
    * [N-Queens II](n-queens_ii.md)
    * [@Maximum Subarray](maximum_subarray.md)
    * [Spiral Matrix](spiral_matrix.md)
-   * [Jump Game](jump_game.md)
+   * [@Jump Game](jump_game.md)
    * [Merge Intervals](merge_intervals.md)
    * [Insert Interval](insert_interval.md)
    * [Length of Last Word](length_of_last_word.md)
