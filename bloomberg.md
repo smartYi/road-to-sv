@@ -16,14 +16,7 @@
 
 这道题是不是用priority Queue啊？Maxheap
 
-> copy list with random pointer
-
-leetcode
 
 > 海量live stream的数字，求median
 
 TODO
-
-> 一个二叉树（不一定完全），现在每一个节点除了left 和 right外新加了一个 next, 要求next指向同一层右边相邻的节点 。如果右边没有相邻的则指向空
-
-leetcode
