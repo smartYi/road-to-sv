@@ -383,7 +383,7 @@
    * Closest Binary Search Tree Value II
    * [Integer to English Words](integer_to_english_words.md)
    * [H-Index](h-index.md)
-   * H-Index II
+   * [H-Index II](h-index_ii.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
