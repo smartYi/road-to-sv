@@ -206,7 +206,7 @@
    * [Combinations](combinations.md)
    * [!!Subsets](subsets.md)
    * [!!Word Search](word_search.md)
-   * [Remove Duplicates from Sorted Array II](remove_duplicates_from_sorted_array_ii.md)
+   * [@Remove Duplicates from Sorted Array II](remove_duplicates_from_sorted_array_ii.md)
    * [Search in Rotated Sorted Array II](search_in_rotated_sorted_array_ii.md)
    * [Remove Duplicates from Sorted List II](remove_duplicates_from_sorted_list_ii.md)
    * [Remove Duplicates from Sorted List](remove_duplicates_from_sorted_list.md)
