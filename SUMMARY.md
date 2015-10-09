@@ -175,7 +175,7 @@
    * [Permutations](permutations.md)
    * [Permutations II](permutations_ii.md)
    * [@@@Rotate Image](rotate_image.md)
-   * [Group Anagrams](group_anagrams_ld.md)
+   * [@Group Anagrams](group_anagrams_ld.md)
    * [Pow(x, n)](powx,_n.md)
    * [N-Queens](n-queens.md)
    * [N-Queens II](n-queens_ii.md)
