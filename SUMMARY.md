@@ -328,6 +328,7 @@
    * [Kth Largest Element in an Array](kth_largest_element_in_an_array.md)
    * [Combination Sum III](combination_sum_iii.md)
    * [Contains Duplicate](contains_duplicate.md)
+   * The Skyline Problem
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
