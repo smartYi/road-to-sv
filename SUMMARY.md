@@ -329,7 +329,7 @@
    * [Combination Sum III](combination_sum_iii.md)
    * [Contains Duplicate](contains_duplicate.md)
    * [The Skyline Problem](the_skyline_problem.md)
-   * Contains Duplicate II
+   * [Contains Duplicate II](contains_duplicate_ii.md)
 * [Lintcode](lintcode.md)
    * [Math](math.md)
        * [X 的平方根](x_de_ping_fang_gen.md)
