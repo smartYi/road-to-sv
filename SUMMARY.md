@@ -689,6 +689,7 @@
    * [PocketGem](pocketgem.md)
    * [Twitter](twitter.md)
    * [Uber](uber.md)
+   * VMware
    * Visual Concept
    * [Xcalar](xcalar.md)
    * [Yahoo](yahoo.md)
@@ -696,5 +697,4 @@
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
-   * VMware
 
