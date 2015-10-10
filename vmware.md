@@ -247,3 +247,5 @@ static int CoinTossEndAmount(int betAmount, String coinTossResults) {
     return (int)Amount;
 }
 ```
+
+> 
