@@ -248,4 +248,6 @@ static int CoinTossEndAmount(int betAmount, String coinTossResults) {
 }
 ```
 
-> 
+> Flip Bit to Win
+
+见 3.7.3
