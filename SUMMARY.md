@@ -689,7 +689,7 @@
    * [PocketGem](pocketgem.md)
    * [Twitter](twitter.md)
    * [Uber](uber.md)
-   * VMware
+   * [VMware](vmware.md)
    * Visual Concept
    * [Xcalar](xcalar.md)
    * [Yahoo](yahoo.md)
