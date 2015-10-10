@@ -58,7 +58,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 21. Software Engineer - Computer Vision @ Samsung
 22. Software Engineer - Android and Embedded Systems/IOT, Wearables, Home Automation @ Samsung
 23. (**Rejected**)Software Engineer - New Grad @ Thumbtack
-24. VMware Full Time @ VMware
+24. (**Code Challenge**)VMware Full Time @ VMware
 25. Software Development Engineer, New Graduate @ Groupon
 26. Engineering positions for US location @ DJI
 27. (**Rejected**)Software Engineer @ Snapchat, LA
