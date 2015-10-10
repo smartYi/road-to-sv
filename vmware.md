@@ -222,3 +222,28 @@ static int maximize_loot(int[] gold, int[] silver) {
 
 }
 ```
+
+> Coin Toss Betting
+
+![](vm6.jpg)
+
+```java
+static int CoinTossEndAmount(int betAmount, String coinTossResults) {
+    if (betAmount <=0 || coinTossResults.length() == 0) return betAmount;
+    long Amount = betAmount;
+    long onebet = 1;
+    for (int i=0; i<coinTossResults.length(); i++) {
+        if (coinTossResults.charAt(i) == 'H') {
+            Amount += onebet;
+            onebet *= 2;
+        }
+        else {
+            Amount -= onebet;
+            onebet /= 2;
+        }
+        if (Amount < onebet) return 0;
+        if (onebet < 1) onebet = 1;
+    }
+    return (int)Amount;
+}
+```
