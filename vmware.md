@@ -193,3 +193,32 @@ public class Solution2 {
     }
 }
 ```
+
+> The Heist
+
+![](vm5.jpg)
+
+类似BackpackII问题
+
+```java
+static int maximize_loot(int[] gold, int[] silver) {
+    int[][] res = new int[gold.length+silver.length+1][10001];
+    res[0][0] = 0;
+    for (int i=1; i<=gold.length; i++) {
+        for (int j=0; j<=10000; j++) {
+            res[i][j] = Math.max(res[i-1][j], (j>=gold[i-1]? res[i-1][j-gold[i-1]]+10*gold[i-1] : 0));
+        }
+    }
+    for (int i=1; i<=silver.length; i++) {
+        for (int j=0; j<=10000; j++) {
+            res[i+gold.length][j] = Math.max(res[i+gold.length-1][j], (j>=silver[i-1]? res[i+gold.length-1][j-silver[i-1]]+1*silver[i-1] : 0));
+        }
+    }
+    int maxVal = 0;
+    for (int k=0; k<=10000; k++) {
+        maxVal = Math.max(maxVal, res[gold.length+silver.length][k]);
+    }
+    return maxVal;
+
+}
+```
