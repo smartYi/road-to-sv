@@ -46,7 +46,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 9. (**Code Assignment**)Software Engineer @ BrightEdge # 100K
 10. (**Rejected**)Generalist Software Engineer @ LiveRamp # 130K
 11. (**Rejected**)Software Engineer @ Course Hero
-12. Software Development Engineer @ Yahoo
+12. (**Phone Screen**)Software Development Engineer @ Yahoo
 13. (**Phone Screen**)Software Engineer @ cPacket Networks Inc
 14. (**Rejected**)Mobile Engineer @ Expensify
 15. (**Rejected**)Software Engineer @ Aribnb
