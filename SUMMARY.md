@@ -681,6 +681,7 @@
    * BrightEdge
    * [cPacket](cpacket.md)
    * [Dropbox](dropbox.md)
+   * Epic
    * [Facebook](facebook.md)
    * [Google](google.md)
    * [Linkedin](linkedin.md)
@@ -697,5 +698,4 @@
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
-   * Epic
 
