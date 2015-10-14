@@ -681,7 +681,7 @@
    * BrightEdge
    * [cPacket](cpacket.md)
    * [Dropbox](dropbox.md)
-   * Epic
+   * [Epic](epic.md)
    * [Facebook](facebook.md)
    * [Google](google.md)
    * [Linkedin](linkedin.md)
