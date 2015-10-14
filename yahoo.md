@@ -6,11 +6,63 @@
 
 > use minimum counts of coins to represent a number
 
-从大到小排列硬币，然后进行逐个枚举测试。
+从大到小排列硬币，然后动态规划，其中 dp[i] 表示面值为 i 时的最小硬币数。递推公式为
+
++　dp[0] = 0
++　dp[i] = min{dp[i-A[j]} + 1
+
+这里 A[j] 表示第 j 个面值，比如现在要求 dp[10] 有面值为 1,2,5 的硬币，那么就应该找 dp[5], dp[8] 和 dp[9] 的最小值，加一表式从那个值到当前值最少需要的硬币数量。
 
 > lognest palindrome substring
 
-TODO
+这题从两个角度来考虑即可，一个是以每个字符为中间来进行扩张，另一个就是 manacher 算法。代码如下
+
+```java
+public String longestPalindrome_3(String s) {
+    int n = s.length();
+    int idx = 0, maxLen = 0;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j <= 1; ++j) {
+            boolean isP = true;
+            for (int k = 0; i - k >= 0 && i + j + k < n && isP; ++k) {
+                isP = (s.charAt(i - k) == s.charAt(i + j + k));
+                if (isP && (j + 1 + k*2) > maxLen) {
+                    idx = i - k; maxLen = j + 1 + k*2;
+                }
+            }
+        }
+    }
+    return s.substring(idx, idx + maxLen);
+}
+
+public String longestPalindrome_4(String s) {
+    int n = s.length();
+    int idx = 0, maxLen = 0;
+    StringBuffer sb = new StringBuffer();
+    sb.append('^');
+    for (int i = 0; i < n; ++i) {
+        sb.append('#');
+        sb.append(s.charAt(i));
+    }
+    sb.append("#$");
+    n = 2 * n + 3;
+    int mx = 0, id = 0;
+    int[] p = new int[n];
+    Arrays.fill(p,0);
+    for (int i = 1; i < n - 1; ++i) {
+        p[i] = (mx > i) ? Math.min(p[2 * id - i], mx - i) : 0;
+        while (sb.charAt(i + 1 + p[i]) == sb.charAt(i - 1 - p[i])) ++p[i];
+        if (i + p[i] > mx) {
+            id = i; mx = i + p[i];
+        }
+        if (p[i] > maxLen) {
+            idx = i; maxLen = p[i];
+        }
+    }
+    idx = (idx - maxLen - 1) / 2;
+    return s.substring(idx, idx + maxLen);
+}
+```
 
 > boggle game, word search
 
