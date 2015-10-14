@@ -10,6 +10,13 @@ TODO
 
 > lognest palindrome substring
 
+TODO
+
+> boggle game, word search
+
+TODO
+
+
 > 经典的停车场设计题 
 
 TODO
@@ -48,7 +55,7 @@ TODO
 
 TODO
 
-> 找出一个Binary tree 的 deepest node
+> @@ 找出一个Binary tree 的 deepest node
 
 TODO, BFS
 
@@ -147,6 +154,11 @@ TODO
 TODO
 
 > Valid Telephone number
+
+TODO
+
+> 给一个数字，转化成字符串，有多少种可能
+比如123，1=>a, 2=>b, 3=>c; 12=>l, 3=>c;  1=>a, 23=>w
 
 TODO
 
