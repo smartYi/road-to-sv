@@ -4,10 +4,41 @@
 
 一定要注意问清楚细节，要求我做什么
 
+> use minimum counts of coins to represent a number
+
+TODO
+
+> lognest palindrome substring
+
+> 经典的停车场设计题 
+
+TODO
+
+> 实现linkedlist 
+
+TODO
+
+> 
 
 > 语言的基础知识
 
 Python, C++
+
+> 把一个linked list里的元素两两交换。
+
+TODO
+
+> 在一棵binary search tree里找到小于某个值的最大元素。
+
+TODO
+
+> 设计一个地铁售票机。
+
+TODO
+
+> implement Singleton.
+
+TODO
 
 > 位运算
 
@@ -45,15 +76,25 @@ TODO
 
 hashset 做
 
-> find least common ancestor
+> @@@ find least common ancestor
 
 第二题的tree node还给了parent，所以只要向上找最先出现的公共parent就行就行了，非常简单。
+
+in binary tree or binary search tree
+
+> @@ min stack
+
+TODO
+
+> atoi
+
+atoi的时候 我问了他好多test case， 比如溢出， 比如invalid char 的处理，比如 nagetive / positive， 他让我实现了一个最base 的 one，其他的问题以throw exception的方式抛出。
 
 > 斐波那奇数列不用递归
 
 dp 搞起
 
-> 1到100缺一个数找到它
+> @@ 1到100缺一个数找到它
 
 先用公式去减，优化的化就二分
 
@@ -69,9 +110,24 @@ TODO
 
 TODO
 
-> 
+> pow(x,n)
+
+因为n是一个整数，所以顿时简单了很多，迅速的给出了一个recursive的方法
 
 ## On Site
+
+> strStr
+
+leetcode
+
+> Unique Path
+
+leetcode
+
+> 数组里找最大连续sum，说了半天不要 
+用brute force
+
+leetcode
 
 > lru implementation + sychronization analys (哪些方法需要 synchronize， 为什么)
 
@@ -84,9 +140,6 @@ TODO
 > tree 的 dfs traversal
 
 TODO
-
-> min stack
-
 
 
 > 写hash function
@@ -102,3 +155,35 @@ TODO
 open question
 
 
+1. 白人大叔, 问了大概50个CS fundamental questions: 
+先是OOD:
+encapisulation, inherentance是啥, 有啥好处, 什么时候用inheritance vs composition. 1point 3acres 璁哄潧
+Polymorphism:
+Static polymorphism
+dynamic polymorphism
+Why it is useful?
+Design patterns:
+what is a design patterns?
+how many categories do you know?
+然后一堆multi-threading和OS问题:
+Read lock? Write lock? Reader-Writer lock (shared-exclusive) lock? Nested lock? Conditional variable?. 
+
+Deadlock? How to prevent deadlock?
+Pthread related..
+mandatory lock vs advisory lock
+
+
+2. 印度哥哥, Code to implement a function to calculate 一个函数在一个点的导数
+
+
+3. 女印度director, 吃饭闲聊加reverse a linked list. 说这个组还挺受公司重视
+
+4. 中国哥哥, Merge k-sorted array and find top k elements in a BST. 楼主写太快了时间用了只有一半,然后他就走了,凉了楼主一个人做了快半个小时.
+
+5. 一脸严肃的印度大妈. split a linked list. 用python写完了说我不懂Python, 再让用C++写一遍... 啥是virtual function. overloading vs overwriting
+
+
+第一轮是个口音标准的印度阿姨，问了resume的project，然后接着问了在very very very long string找not duplicate.
+第二轮是个abc。同问了resume，同时在撸主讲的时候问了怎么存储前n个最少数据。coding是copy random pointer。. From 1point 3acres bbs
+面完这两轮撸主觉得表现还不错。然后问题来了。。。第三轮。。烙印三哥。。。。
+第三轮。。一开始看我做个分布式的project，然后开始疯狂攻势。假设distributed system 各种scenario问应对方法。。撸主上课也没讲这么深入好木好。。撸主各种糊弄。然后coding叫我用pthread implement thread safe class. 神马？！pthread? 撸主也不熟好木好。。问能不能用java，幸亏可以。写了一大堆，然后各种不满意让我改。面试时间都过了45分钟，还抓着撸主问什么process vs. thread, process 之间怎么communicate。。期间撸主只听懂烙印50%口音。。。面完之后直接感觉又悬了。
