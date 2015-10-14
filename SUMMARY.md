@@ -393,7 +393,7 @@
    * [!!Expression Add Operators](expression_add_operators.md)
    * [Move Zeroes](move_zeroes.md)
    * [Peeking Iterator](peeking_iterator.md)
-   * Inorder Successor in BST
+   * [Inorder Successor in BST](inorder_successor_in_bst.md)
    * Walls and Gates
    * [Find the Duplicate Number](find_the_duplicate_number.md)
    * Unique Word Abbreviation
@@ -698,4 +698,15 @@
    * [Zazzle](zazzle.md)
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
+* [相关基础知识](xiang_guan_ji_chu_zhi_shi.md)
+   * 操作系统
+   * 数据库
+   * 计算机组成原理
+   * 编译原理
+   * 数据结构
+   * 设计模式
+   * Java
+   * C++
+   * Python
+   * Objective-C
 
