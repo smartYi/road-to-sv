@@ -6,7 +6,7 @@
 
 > use minimum counts of coins to represent a number
 
-TODO
+从大到小排列硬币，然后进行逐个枚举测试。
 
 > lognest palindrome substring
 
