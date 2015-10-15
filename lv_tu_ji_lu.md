@@ -43,14 +43,14 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 6. Software Developer @ 2redbeans
 7. Graphics Architecture Engineer @ NVIDIA
 8. OpenGL Software Engineer(MAC) @ NVIDIA
-9. (**Code Assignment**)Software Engineer @ BrightEdge # 100K
+9. (**Phone Screen**)Software Engineer @ BrightEdge # 100K
 10. (**Rejected**)Generalist Software Engineer @ LiveRamp # 130K
 11. (**Rejected**)Software Engineer @ Course Hero
 12. (**Phone Screen**)Software Development Engineer @ Yahoo
 13. (**Phone Screen**)Software Engineer @ cPacket Networks Inc
 14. (**Rejected**)Mobile Engineer @ Expensify
 15. (**Rejected**)Software Engineer @ Aribnb
-16. (**2nd Interview**)Server Software Engineer @ zazzle
+16. (**2nd Phone Screen -> Rejected**)Server Software Engineer @ zazzle
 17. Systems Engineer @ Sojern
 18. Software Developer @ Epic
 19. (**Rejected**)Software Engineer @ Eventbrite (要做题，有点意思)
@@ -86,7 +86,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 48. Entry Level Mobile Implementation Engineer @ Ensighten Inc.
 49. Software Engineer - New Grad 2016 @ Dataminr
 50. Software Engineer/Mobile Application Developer @ Laserfiche
-51. Software Engineer @ Caliper Corporation
+51. (**HR Interview**)Software Engineer @ Caliper Corporation
 52. Software Engineers @ bebop
 53. Junior Software Engineer @ Data Capital Management
 54. Software Engineer - New Grad @ Quora
