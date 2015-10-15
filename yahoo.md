@@ -277,6 +277,16 @@ public class Boggle {
 
 ---
 
+### 设计 Chess Game
+
+OOP 设计
+
+1. 必须有一个数据结构来存储棋盘上的棋子。不同的棋子继承抽象棋子类
+2. 人类玩家和AI继承玩家类
+3. 白色格子和黑色格子分开存储
+4. 有一个类来专门处理悔棋，就是将上一个状态存储起来
+5. GameManager类专门用来存储下棋的操作（由谁在下，下的哪步棋），ChessPieceTurn 处理下棋的顺序 PositionEstimator ，PositionPotentialValue 两个类来实现AI算法（会在ComputerPlayer类中调用）
+
 ### 实现linkedlist 
 
 LinkedList 和 ArrayList 一样，都实现了 List 接口，但其内部的数据结构有本质的不同。LinkedList 是基于链表实现的（通过名字也能区分开来），所以它的插入和删除操作比 ArrayList 更加高效。但也是由于其为基于链表的，所以随机访问的效率要比 ArrayList 差。
@@ -851,7 +861,20 @@ class MinStack {
 
 ---
 
-### 斐波那奇数列不用递归
+### 斐波那奇数列
+
+面试考了这题，先用递归，然后不用递归，分别分析复杂度
+
+这个算法的时间复杂度有着跟Fibonacci类似的递推方程：T(n) = T(n - 1) + T(n - 2) + O(1)，很容易得到T(n) = O(1.618 ^ n)（1.618就是黄金分割，(1+√5)/2 ）。空间复杂度取决于递归的深度，显然是O(n)。
+
+```java
+int fibonacci(int n){
+    if (n == 0) return 0;
+    if (n == 1) return 1;
+
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+```
 
 直接找两个元素缓存着前两个结果，累加即可
 
@@ -867,6 +890,8 @@ int fibonacci(int n){
 	return a + b;
 }
 ```
+
+O(n) & O(1)
 
 ---
 

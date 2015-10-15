@@ -678,7 +678,7 @@
 * [面经](mian_jing.md)
    * [Amazon](amazon.md)
    * [Bloomberg](bloomberg.md)
-   * BrightEdge
+   * [BrightEdge](brightedge.md)
    * [cPacket](cpacket.md)
    * [Dropbox](dropbox.md)
    * [Epic](epic.md)
@@ -691,7 +691,7 @@
    * [Twitter](twitter.md)
    * [Uber](uber.md)
    * [VMware](vmware.md)
-   * Visual Concept
+   * [Visual Concept](visual_concept.md)
    * [Xcalar](xcalar.md)
    * [Yahoo](yahoo.md)
    * [Yelp](yelp.md)
@@ -699,14 +699,19 @@
    * [Zenefits](zenefits.md)
    * [Zillow](zillow.md)
 * [相关基础知识](xiang_guan_ji_chu_zhi_shi.md)
-   * 操作系统
-   * 数据库
-   * 计算机组成原理
-   * 编译原理
-   * 数据结构
-   * 设计模式
-   * Java
-   * C++
-   * Python
-   * Objective-C
+   * [操作系统](f_cao_zuo_xi_tong.md)
+   * [数据库](shu_ju_ku.md)
+   * [计算机组成原理](ji_suan_ji_zu_cheng_yuan_li.md)
+   * [计算机网络](ji_suan_ji_wang_luo.md)
+   * [编译原理](bian_yi_yuan_li.md)
+   * [数据结构](shu_ju_jie_gou.md)
+   * [设计模式](she_ji_mo_shi.md)
+   * [机器学习](f_ji_qi_xue_xi.md)
+   * [概率](gai_lv.md)
+   * [Java](f_java.md)
+   * [C++](f_c++.md)
+   * [Python](python.md)
+   * [Objective-C](objective-c.md)
+   * [Android](android.md)
+   * [iOS](ios.md)
 
