@@ -509,22 +509,20 @@ ListNode *addList(ListNode *l1, ListNode *l2) {
 
 对C++，
 
-双链表(Doubly linked list)的实现类是std::list<T>.
+双链表(Doubly linked list)的实现类是`std::list<T>`.
 
-常用iterator： begin(), end(), rbegin(), rend().
+常用`iterator： begin(), end(), rbegin(), rend()`.
 
 常用函数:
 
-empty(), size(), push_back(T value), pop_back(T value);
-
-erase(iterator pos), insert(iterator pos, T value);
+    empty(), size(), push_back(T value), pop_back(T value);
+    erase(iterator pos), insert(iterator pos, T value);
 
 对于Java,
 
-双链表的实现类是 LinkedList<E>
+双链表的实现类是 `LinkedList<E>`
 
 常用函数：
 
-add(E e), add(int index, E element), remove(int index),
-
-addAll(Collection<? Extends E> c),  get(int index),
+    add(E e), add(int index, E element), remove(int index),
+    addAll(Collection<? Extends E> c),  get(int index),
