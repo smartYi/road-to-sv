@@ -89,7 +89,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 51. (**HR Interview**)Software Engineer @ Caliper Corporation
 52. Software Engineers @ bebop
 53. Junior Software Engineer @ Data Capital Management
-54. Software Engineer - New Grad @ Quora
+54. (**Code Challenge**)Software Engineer - New Grad @ Quora
 55. 2016 New Graduate - Software Engineering @ Quantcast
 56. Software Engineer @ imo.im
 57. ios @ wealthfront
