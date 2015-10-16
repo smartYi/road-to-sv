@@ -195,3 +195,336 @@ ListNode *rotateRight(ListNode *head, int k) {
 
 ### 遍历并处理节点
 
+在遍历链表时，注意每次循环内只处理一个或一对节点，否则很容易出现重复处理的问题。
+
+> Reverse the linked list and return the new head.
+
+解题分析：循环遍历链表, 每次只处理当前指针的next 变量，由此实现链表的逆转。
+
+参考解答：
+
+```
+ListNode *reverseLinkedList( ListNode *head ) {
+    ListNode *prev = NULL;
+    ListNode *next = NULL;
+    while(head) {
+        next = head->next;
+        head->next = prev;
+
+        prev = head;
+        head = next;
+    }
+    return prev;
+}
+```
+
+### 交换节点的问题
+
+如果需要交换两个节点的位置，则对这两个节点的前驱节点，它们的next指针会受到影响；这两个节点本身的next指针，也会受到影响。但是，如下过程总是可以实现交换：
+
+1. 先交换两个前驱节点的next指针的值；
+2. 再交换这两个节点的next指针的值。
+
+无论这两个节点的相对位置和绝对位置如何，以上的处理方式总是成立。
+
+> Given a linked list, swap every two adjacent nodes and return its head
+
+解题分析：依照上述交换规则给出解答如下。
+
+参考解答：
+
+```
+ListNode *swapPairs(ListNode *head) {
+    if(head == NULL)    
+        return head;
+
+    ListNode *dummy = new ListNode(0);
+    dummy->next = head;
+    ListNode *prev = dummy;
+    ListNode *node1 = head, *node2 = head->next;
+    ListNode *newHead = NULL;
+
+    while(node1 && node1->next) {
+        node2 = node1->next;
+
+        // swap the "next" of prev nodes;
+        ListNode *tmp1 = prev->next;    // = node1
+        prev->next = node1->next;    // = node2
+        node1->next = tmp1;    // = node1
+    
+        // swap the "next" of current nodes;
+        ListNode *tmp2 = node1->next;    // = node1
+        node1->next = node2->next;
+        node2->next = tmp2;    // = node1
+    
+        prev = node1;
+        node1 = prev->next;
+    }
+
+    newHead = dummy->next;
+    delete dummy;
+    return newHead;
+}
+```
+
+根据comment优化之后，循环代码段可以缩写为：
+```
+while(node1 && node1->next) {
+    node2 = node1->next;
+    
+    // swap the "next" of prev nodes;
+    prev->next = node1->next;    // = node2
+
+    // swap the "next" of current nodes;
+    node1->next = node2->next;
+    node2->next = node1
+
+    prev = node1;
+    node1 = prev->next;
+}
+```
+
+但应当注意到，就算不优化，代码仍然是有效的，充其量是多用了几个临时变量而已。
+
+### 同时操作两个链表
+
+遇到同时处理两个链表的问题，循环的条件一般可以用 while( list1 && list2 )，当循环跳出后，再处理剩下非空的链表。这相当于：边界情况特殊处理，常规情况常规处理。
+
+> Given two sorted linked lists, write a function to merge these two lists, and return a new list which is sorted.
+
+解题分析：这是一个典型的需要同时处理两个链表的问题，可以先处理常规情况(两个链表都有剩下节点)，再处理边界情况(其中一个链表已经遍历完毕)。在处理常规情况的时候，我们将当前两个链表中较小的那个节点放入新的链表。
+
+参考解答：
+
+```
+ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
+    ListNode *dummy = new ListNode(0);
+    ListNode *cur = dummy;
+    ListNode *newHead = NULL;
+
+    while(l1&&l2) {
+        if(l1->val <= l2->val){
+            cur->next = l1;
+            l1 = l1->next;
+        } else {
+            cur->next = l2;
+            l2 = l2->next;
+        }
+        cur = cur->next;
+    }
+
+    if(l1)
+        cur->next = l1;
+    else
+        cur->next = l2;
+
+    newHead = dummy->next；
+    delete dummy;
+    return newHead;
+}
+```
+
+### 倒序处理
+
+如果对靠前节点的处理必须在靠后节点之后，即类似于倒序访问的问题，可以用递归(recursion)，或者等效地，用栈来解决。
+
+> Traverse the linked list reversely.
+
+解题分析：倒序访问问题本身，我们利用递归处理。
+
+参考解答：
+
+void reversedTraverse(ListNode *head) {
+    if (head == NULL)
+        return;
+    traverse(head->next);
+    visit(head);
+}
+
+> Given two linked lists, each element of the lists is a integer. Write a function to return a new list, which is the “sum” of the given two lists.
+> 
+> Part a. Given input (7->1->6) + (5->9->2), output 2->1->9. 
+> Part b. Given input (6->1->7) + (2->9->5), output 9->1->2.
+
+解题分析：对于a，靠前节点的解不依赖靠后节点，因此顺序遍历求解即可。对于b，靠前节点的解依赖于靠后节点(进位)，因此必须用递归或栈处理。并且，子问题返回的结果，可以是一个自定义的结构(进位 + sub-list)。当然，对于问题b，也可以通过逆向列表之后再用a的解法求解。同时，注意到该题还是处理两个链表的问题，所以可以先处理常规情况(两个链表都有剩下节点)，再处理边界情况(其中一个链表已经遍历完毕)。
+
+参考解答：
+
+a.
+
+```
+ListNode *addList(ListNode *l1, ListNode *l2) {
+    int carry = 0;
+    ListNode *dummy = new ListNode(0);
+    ListNode *curr = dummy;
+    ListNode *newHead = NULL;
+
+    while(l1 && l2) {
+        int sum = l1->value + l2->value + add_on;
+        add_on = sum/10;
+        curr->next = new ListNode(sum % 10);
+        curr = curr->next;
+        l1 = l1->next;
+        l2 = l2->next;
+    }
+    ListNode *rest = l1 ? l1 : l2;
+    
+    while(rest) {
+        int sum = rest->value + add_on;
+        carry = sum/10;
+        curr->next = new ListNode(sum % 10);
+        curr = curr->next;
+        rest = rest->next;
+    }
+    
+    if (add_on) 
+        curr->next = new ListNode(carry);
+    
+    newHead = dummy->next;
+    delete dummy;
+    return newHead;
+}
+```
+
+b.
+
+```
+struct ListWithCarry {
+    ListNode *head;
+    int Carry;
+};
+
+int getLen(ListNode *head) {
+    int len = 0;
+    while(head) {
+        len++;
+        head = head->next;
+    }
+    return len;
+}
+
+ListNode *padList(ListNode *head, int diff){
+    ListNode *dummy = new ListNode(0);
+    ListNode *curr = dummy;
+    ListNode *newHead = NULL;
+
+    for(int i = 0; i < diff; i++) {
+        curr->next = new ListNode(0);
+        curr = curr->next;
+    }
+    curr->next = head;
+
+    newHead = dummy->next;
+    delete dummy;
+    return newHead;
+}
+
+ListWithCarry addListImpl(ListNode *l1, ListNode *l2) {
+    ListWithCarry res;
+    res.head = NULL;
+    res.Carry = 0;
+    if (!l1 && !l2)
+        return res;
+    int sum = 0;
+    
+    ListWithCarry subList = addListImpl(l1->next, l2->next);
+    
+    if(l1)
+        sum += l1->value;
+    if(l2)
+        sum += l2->value;
+    sum += subList.Carry;
+    
+    res.Carry = sum/10;
+    res.head->val = sum%10;
+    res.head->next = subList.head;
+    
+    return res;
+    ListNode *curr = dummy;
+    ListNode *newHead = NULL;
+
+    for(int i = 0; i < diff; i++) {
+        curr->next = new ListNode(0);
+        curr = curr->next;
+    }
+    curr->next = head;
+
+    newHead = dummy->next;
+    delete dummy;
+    return newHead;
+}
+
+ListWithCarry addListImpl(ListNode *l1, ListNode *l2) {
+    ListWithCarry res;
+    res.head = NULL;
+    res.Carry = 0;
+    if (!l1 && !l2)
+        return res;
+    int sum = 0;
+    
+    ListWithCarry subList = addListImpl(l1->next, l2->next);
+    
+    if(l1)
+        sum += l1->value;
+    if(l2)
+        sum += l2->value;
+    sum += subList.Carry;
+    
+    res.Carry = sum/10;
+    res.head->val = sum%10;
+    res.head->next = subList.head;
+    
+    return res;
+}
+
+ListNode *addList(ListNode *l1, ListNode *l2) {
+    int len1 = getLen(l1);
+    int len2 = getLen(l2);
+    if (len1 > len2) {
+        l2 = padList(l2, len1 - len2);
+    } else if (len1 < len2){
+        l1 = padList(l1, len2 - len1);
+    }
+    
+    ListWithCarry resStruct = addListImpl(l1, l2);
+    ListNode *dummy = new ListNode(0);
+    ListNode *newHead = NULL;
+
+    if(resStruct.Carry) {
+        dummy->next = new ListNode(resStruct.Carry);
+        dummy->next->next = resStruct.head;
+    } else {
+        dummy->next = resStruct.head;
+    }
+
+    newHead = dummy->next;
+    delete dummy;
+    return newHead;
+}
+```
+
+## 工具箱
+
+“对于利用链表解决问题，而非解构链表的问题，可以考虑使用标准库。
+
+对C++，
+
+双链表(Doubly linked list)的实现类是std::list<T>.
+
+常用iterator： begin(), end(), rbegin(), rend().
+
+常用函数:
+
+empty(), size(), push_back(T value), pop_back(T value);
+
+erase(iterator pos), insert(iterator pos, T value);
+
+对于Java,
+
+双链表的实现类是 LinkedList<E>
+
+常用函数：
+
+add(E e), add(int index, E element), remove(int index),
+
+addAll(Collection<? Extends E> c),  get(int index),
