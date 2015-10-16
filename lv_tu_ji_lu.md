@@ -62,7 +62,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 25. Software Development Engineer, New Graduate @ Groupon
 26. Engineering positions for US location @ DJI
 27. (**Rejected**)Software Engineer @ Snapchat, LA
-28. Software Engineer @ twilio
+28. (**Rejected**)Software Engineer @ twilio
 29. (**Rejected**)Software Engineer @ Intentional
 30. Data Platform Software Engineer @ AppDynamics
 31. (**On Campus -> Rejected**)Software Engineer @ Xcalar
@@ -89,7 +89,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 51. (**HR Interview**)Software Engineer @ Caliper Corporation
 52. Software Engineers @ bebop
 53. Junior Software Engineer @ Data Capital Management
-54. Software Engineer - New Grad @ Quora
+54. (**Code Challenge**)Software Engineer - New Grad @ Quora
 55. 2016 New Graduate - Software Engineering @ Quantcast
 56. Software Engineer @ imo.im
 57. ios @ wealthfront
