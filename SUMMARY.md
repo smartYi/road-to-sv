@@ -12,6 +12,7 @@
    * [Linked Lists](linked_lists.md)
    * [Stacks and Queues](bps_stacks_and_queues.md)
    * [Trees and Graphs](bps_trees_and_graphs.md)
+   * Bit Manipulation
 * [程序员编程艺术](cheng_xu_yuan_bian_cheng_yi_zhu.md)
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
