@@ -9,6 +9,7 @@
 * [程序员面试白皮书](cheng_xu_yuan_mian_shi_bai_pi_shu.md)
    * [Resume, Intervie and Offer](resume,_intervie_and_offer.md)
    * [Array and String](array_and_string.md)
+   * [Linked Lists](linked_lists.md)
 * [程序员编程艺术](cheng_xu_yuan_bian_cheng_yi_zhu.md)
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
