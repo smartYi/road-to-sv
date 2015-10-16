@@ -685,3 +685,159 @@ TreeNode *inOrderSuccessor(TreeNode *node, TreeNode *root)
     return successor;
 }
 ```
+
+> In a binary tree without parent links, find the closest common ancestor.
+
+解题分析：如果有指向父节点的指针，那么就一直上溯，直到找到一样的父节点。如果没有指向父节点的指针，那么从根节点开始用DFS选择性的进行搜索：如果这两个节点都在某个节点的左子树中，那么解一定在此节点的左子树中；类似的，如果两个节点都在某个节点的右子树中，那么解一定在此节点的右子树中。换言之，所求的解一定将给定的两个节点分别分割在左右子树中。
+
+那么，我们可以用一个辅助函数来判断一个节点是否隶属于子树。在主函数中，从根开始判断两个节点是否处于同一边的子树：如果是，那么所求的解一定属于该子树， 我们可以沿子树方向再往下走一层；如果不是，那么当前根就是答案。
+
+复杂度分析：假设树高度为h，对于第i层，判断两个节点是否分别处于不同子树需要搜索2^(h-i)次。整体复杂度为：1 + 2 + 2^2 + … + 2^h， 即O(2^(h+1))。
+
+参考解答：
+
+```
+TreeNode *commonAncestor(TreeNode *root, TreeNode *p, TreeNode *q){
+    if (covers(root->left, p) && covers(root->left, q)) {
+        return commonAncestor(root->left, q, p);
+    }
+    if (covers(root->right, p) && covers(root->right, q)) {
+        return commonAncestor(root->right, q, p);
+    }
+    return root;
+}
+
+bool covers(TreeNode *root, TreeNode *p){
+    if (root == NULL) {
+        return false;
+    }
+    if (root == p) {
+        return true;
+    }
+    return covers(root->left, p) || covers(root->right, p);
+}
+```
+
+> Find the immediate right neighbor of the given node, with parent links given, but without root node.
+
+解题分析： 直接的右邻居(immediate right neighbor)定义为：在给定节点右侧且与给定节点在同一层。由于给定了父指针，故可以利用父指针向上倒推。根据定义，如果当前节点是父节点的右孩子，我们继续倒推，直到当前节点是某个父节点的左孩子，并且该父节点存在右子树。这样，我们立即进入该子树，找到与给定节点处于相同层的最左节点即可。
+
+复杂度分析：倒推需要复杂度O(h)，下降进入子树寻找与给定节点处于相同层的最左节点也需要复杂度O(h)，故整体复杂度O(h)，h为树高。
+
+参考解答：
+
+```
+TreeNode *descend(TreeNode *node, int level)
+{
+    while (node && level > 0) {
+        if (node->left) {
+            node = node->left;
+        } else if (node->right) {
+            node = node->right;
+        } else {
+            node = NULL;
+        }
+        level--;
+    }
+    return node;
+}
+
+TreeNode *findRightNeighbor(TreeNode *node)
+{
+    int level = 0;
+    TreeNode *parent = node->parent;
+
+    if (!node) {
+        return NULL;
+    }
+
+    while (parent != NULL) {
+        if (isLeftChild(node, parent) && parent->right) {
+            break;
+        }
+        level++;
+        node = parent;
+        parent = node->parent;
+    }
+
+    if (parent == NULL) {
+        return NULL;
+    } else {
+        return descend(parent->right, level);
+    }
+}
+```
+
+### 图的访问
+
+关于图的问题一般有两类。一类是前面提到的关于图的基本问题，例如图的遍历、最短路径、可达性等；另一类是将问题转化成图，再通过图的遍历解决问题。第二类问题有一定的难度，但也有一些规律可循：如果题目有一个起始点和一个终止点，可以考虑看成图的最短路径问题。
+
+> Given two words (start and end), and a dictionary of words, find the length of shortest sequences of words from start to end, such that at each step only one letter is changed.
+ 
+> e.g: start word: hat     stop word: dog
+
+> dictionary{cat, dot, cot, fat}
+
+> sequence: hat->cat->cot->dot->dog
+
+解题分析： 这是一道比较有技巧性的题目。由于有一个起始点，一个终止点，需要求一个最短路径，故可以尝试用图来解决：我们可以将所有的单词看做一个图的节点，如果一个单词变换其中的一个字母就能变成另外一个在字典中的单词，那么我们就可以用一个有向箭头从原来的单词指向变换后的单词。那么，最短的变换次数就转化为从一个单词所在的节点到另一个单词所在的节点的最短路径。
+
+然而，第一个难点在于如何构造图，并且建立两个节点之间的联系。比较容易想到的节点联系方式是：对于某个字典中的单词，遍历整个字典，判断其他单词与该单词是否只有一个字母不同，这样做的时间复杂度是`O(n*L)`，L是单词长度。另一个比较巧妙的做法是，对于给定单词的每个字母，逐个用26个字母全部替换一遍，并判断字典中是否有替换后的单词。由于判断是否存在可以用哈希表，时间复杂度为常数，故这样做的时间复杂度是`O(26*L)`。通常情况下，可以假定n大于26，则第二种方法更好。
+
+在确定了如何构造图的基础上，我们考虑如何进行BFS寻找最短路径。我们在实现BFS的时候可以用一个队列作为辅助：将当前能到达的所有节点放进去，然后放一个空节点作为层次的分割；然后取出队首，将队首所指的节点都放入队尾；如果队首为空节点，可知这是层次的分割符，则路径长度加1。注意，题目中最短的要求使得我们的路径中不能有环，换言之，一旦加入过队列的节点不能再次入队。
+
+复杂度分析：对于每个节点构图需要的时间复杂度是`O(26*L)`，BFS不重复地至多走过n个节点，故算法复杂度`O(26*L*n)`。
+
+参考解答：
+
+```
+int ladderLength(string start, string end, unordered_set<string> &dict) {
+    int count = 1;    // used to store the answer;
+    unordered_set<string> check;    // contains all of the words that is in the path, no duplicate in the path
+    queue<string> myque;    // used to level traverse
+    myque.push(start);
+    myque.push("");    // used to determine which level it is
+    string word;
+    string mid;    // used to intermediate result
+    while(!myque.empty()) {
+        word = myque.front();
+        myque.pop();
+        if(word == end){
+            return count;
+        }
+        if(word.size() == 0 && !myque.empty()) {
+            count++;
+            myque.push("");
+        }
+        else if(!myque.empty()) {
+            for(int i = 0; i < word.size(); i++) {
+                mid = word;
+                for(int j = 'a'; j < 'z'; j++){
+                    mid[i] = (char)j;
+                    if(check.find(mid) == check.end() && dict.find(mid) != dict.end()) {
+                        myque.push(mid);
+                        check.insert(mid);
+                    }
+                }
+            }
+        }
+    }
+    return 0;
+}
+```
+
+## 工具箱
+
+### 二叉树类
+
+一个最基本的二叉树类可以如下定义：
+
+```
+class TreeNode {
+public:
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode *parent;
+    int val;
+};
+```
