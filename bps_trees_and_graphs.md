@@ -323,7 +323,7 @@ bool helper(TreeNode *root, int min, int max){
         (root->val > min || (root->val == INT_MIN && root->left == NULL)) &&
         helper(root->left, min, root->val) &&
         helper(root->right, root->val, max))
-            return true;
+            return true;
     return false;
 }
 
@@ -331,3 +331,228 @@ bool isValidBST(TreeNode *root) {
     return helper(root, INT_MIN, INT_MAX);
 }
 ```
+
+> Tree1 and Tree2 are both binary trees nodes having value, determine if Tree2 is a subtree of Tree1.
+
+解题分析： 根据题意，比较容易想到的是我们需要实现一个matchTree辅助函数，用以判断根节点为root1和root2的两棵树是否完全相等。判断两棵树相等的定义符合采用D&C的条件：原问题的答案取决于左子树右子树都相等这两个子问题 。对于递归的实现，出口为root1 == NULL && root2 == NULL，递归函数需要判断当前节点是否相等，左子树是否相等和右子树是否相等。
+
+其次，考虑在什么情况下我们需要调用matchTree：当Tree1的当前节点与Tree2的根节点相等时，我们有兴趣调用matchTree判断以Tree1当前节点为根的子树是否与Tree2相等。那么如果不相等怎么办？我们同样可以利用递归的思想，“将当前节点的左子树或右子树是否包含Tree2作为子问题，通过递归调用自身获得结果。
+
+复杂度分析：假设Tree1有M个节点，Tree2有N个节点。最坏情况下，对于Tree1的每个节点，都需要调用matchTree函数，并且matchTree在基本遍历完Tree2后才能返回结果。此时，时间复杂度为O(MN)。
+
+参考解答：
+
+```
+bool subTree(TreeNode *root1, TreeNode *root2){
+    if (root2 == NULL) {
+        return true;
+    }
+    if (root1 == NULL) { //we have exhauste the root1 already
+        return false;
+    }
+    if (root1->val == root2->val) {
+        if (matchTree(root1, root2)) {
+            return true;
+        }
+    }
+    return isSubTree(root1->left, root2) || isSubTree(root1->right, root2);
+}
+
+bool matchTree(TreeNode *root1, TreeNode *root2){
+    if (root1 == NULL && root2 == NULL) {
+        return true;
+    }
+    if (root1 == NULL || root2 == NULL) {
+        return false;
+    }
+    if (root1->val != root2->val) {
+        return false;
+    }
+    return matchTree(root1->left, root2->left) &&
+        matchTree(root1->right, root2->right);
+}
+```
+
+> Compute the depth of a binary tree.
+
+解题分析： 回顾树的高度定义：从根节点到某个节点的路径长度称为该节点的层数(level)，根节点为第0层，非根节点的层数是其父节点的层数加1。树的高度定义为该树中层数最大的叶节点的层数加1。判断树的高度符合D&C的 条件：对于某个节点，其高度为左子树和右子树高度的较大者加1，即原问题依赖于两个子问题。对于递归的实现，出口为传入节点为空，此时应该返回高度0。
+
+复杂度分析：该算法遍历树的所有节点，故复杂度O(n)。
+
+参考解答：
+
+```
+int treeDepth(TreeNode *node) {
+    if (node == NULL)
+        return 0;
+    else
+        return max(treeDepth(node->left), treeDepth(node->right)) + 1;
+}
+```
+
+### 树的路径问题
+
+有一类关于树的问题是， 要求找出一条满足特定条件的路径 。对于这类问题，通常都是传入一个vector记录当前走过的路径(为尽可能模版化，统一记为path)，传入path的时候可以是引用，可以是值，具体见下面的分析。还需要传入另一个vector引用记录所有符合条件的path(为尽可能模版化，统一记为result)。注意， result可以用引用或指针形式，相当于一个全局变量，或者就开辟一个独立于函数的成员变量。由于path通常是vector<int> ，那么result就是vector<vector<int>>。当然，那个特定条件，也是函数的一个输入变量。
+
+在解答此类问题的时候，通常都采用DFS来访问，利用回溯思想，直到无法继续访问再返回。值得注意的是，如果path本身是以引用(reference)的形式传入，那么需要在返回之前消除之前所做的影响(回溯)。因为传引用(Pass by reference)相当于把path也看作全局变量，对path的任何操作都会影响其他递归状态，而传值(pass by value)则不会。传引用的好处是可以减小空间开销。在本书第7章中，我们会继续进一步介绍递归和回溯。
+
+> Get all the paths (always starts from the root) in a binary tree, whose sum would be equal to given value.
+
+解题分析：正如上文的叙述，寻找满足条件的路径，用path记录当前走过的路径，用result记录所有符合条件的path，用DFS进行探索。 对于递归函数，传入的节点相当于当前子树的根：当传入节点为空时，说明我们走完了当前的path，直接返回，即达到递归函数的出口。由于根节点必须要出现在path中，所以我们先将当前节点push到path中去。此时，如果当前节点的数值等于sum，说明找到了一个可行解，故把该递归状态下的path加入到answer中。进一步，我们需要调用函数自身解决左子树和右子树的子问题。由于当前节点已经加入path，那么自然传递给子问题的sum变为sum – root->val，根的左右孩子成为了子问题的根。
+
+复杂度分析：时间上，上述解法遍历每个节点，故时间复杂度O(n)。空间上，如果path以引用的方式传入，则额外空间为O(n)；如果path以值的方式传入，则在递归函数的底层会有2^h个path拷贝，h为树的高度。故复杂度为O(2^h*n)。
+
+参考解答：
+
+这里对path 用传值的方法。
+
+```
+void pathSumHelper(vector<int> path, vector<vector<int>> &result, TreeNode *root, int sum){
+    if(root == NULL)
+        return;
+    path.push_back(root->val);
+    if(root->val == sum){
+        answer.push_back(path);
+    }
+    pathSumHelper(path,answer,root->left, sum - root->val);
+    pathSumHelper(path,answer,root->right, sum - root->val);
+}
+
+vector<vector<int> > pathSum(TreeNode *root, int sum) {
+    vector<int> path;
+    vector<vector<int>> result;
+    pathSumHelper(path, result, root, sum);
+    return result;
+}
+```
+
+> Get all the paths (always starts from the root and ends at leaf) in a binary tree, whose sum would be equal to given value.
+
+解题分析： 本题的处理办法基本与上题完全一致，唯一的区别在于现在要求一定是root-to-leaf paths，故当path和为给定值的时候还需要判断当前节点是否是叶节点。
+
+复杂度分析：时间、空间复杂度均为O(n)。
+
+参考解答：
+
+这里对path 用传引用的方法。
+
+```
+void pathSumHelper(vector<int> &path, vector<vector<int>> &result, TreeNode *root, int sum){
+    if(root == NULL)
+        return;
+    path.push_back(root->val);
+    if(root->left == NULL && root->right == NULL && root->val == sum){
+        result.push_back(path);
+    }
+    pathSumHelper(path,answer,root->left, sum - root->val);
+    pathSumHelper(path,answer,root->right, sum - root->val);
+    path.pop_back();
+}
+
+vector<vector<int> > pathSum(TreeNode *root, int sum) {
+    vector<int> path;
+    vector<vector<int>> result;
+    pathSumHelper(path, result, root, sum);
+    return result;
+}
+```
+
+> Get all the paths (from any node to any other node with deeper level) in a binary tree, whose sum would be equal to given value.
+
+解题分析： 经过前两道题目的分析，本题的大体思路应该已经比较容易想到了：用path记录当前走过的路径，用result记录所有符合条件的path，利用DFS进行左子树和右子树的探索。本题的特别之处在于，所求的path并不一定需要从root开始，即之前的题目都是知道固定的起始点，寻找终点，而本题起始点不定。进一步考虑path中存放的路径，该路径是由root到当前节点经过的所有节点，且当前节点一定是path的终点。那么，不妨换一个角度思考：以当前节点为终点，是否存在一个起始节点，使得路径上的节点数字和为给定值。这样，“对于每个path数组，应该从数组尾(当前节点，即终点)，反向搜索，寻求起始节点。一旦找到，则将该段path加入answer。
+
+复杂度分析：对于处于第i层的节点，从终点往根节点反向搜索需要的复杂度为i。对于二叉树，第i层有2^i个节点，故复杂度为`i*2^i`。对于深度为d的二叉树，整体复杂度为：
+`1*2^1+2*2^2+…+d*2^d = 2(d - 1)*2^d + 2`
+又`d = logn`，故整体时间复杂度`O(nlogn)`。
+
+参考解答：
+
+```
+void pathSumHelper(vector<int> path, vector<vector<int>> &answer, TreeNode *root, int sum){
+    if(root == NULL)
+        return;
+    path.push_back(root->val);
+    int tempSum = sum;
+    vector<int> partialPath;
+    for (int i = (int)path.size() - 1; i >= 0; i--) {
+        tempSum -= path[i];
+        partialPath.push_back(path[i]);
+        if (tempSum == 0) {
+            answer.push_back(partialPath);
+        }
+    }
+    pathSumHelper(path, answer,root->left, sum);
+    pathSumHelper(path, answer,root->right, sum);
+}
+vector<vector<int> > pathSum(TreeNode *root, int sum) {
+    vector<int> path;
+    vector<vector<int> > answer;
+    pathSumHelper(path, answer,root,sum);
+    return answer;
+}
+```
+
+### 树和其他数据结构的相互转换
+
+这类题目要求将树的结构转化成其他数据结构，例如链表、数组等，或者反之，从数组等结构构成一棵树。前者通常是通过树的遍历，合并局部解来得到全局解，而后者则可以利用D&C的策略，递归将数据结构的两部分分别转换成子树，再合并。
+
+> Covert a binary tree to linked lists. Each linked list is correspondent to all the nodes at the same level.
+
+解题分析： 本题相当于层次遍历，当遍历完一层时将构成的链表加入链表集合。本题的核心在于如何判断某层已经遍历完成。回顾层次遍历，我们将节点逐次放入优先队列，然后一次弹出，并将左右子节点放入队列。我们可以引入一个特别的哑节点，用来作为层与层之间的分隔符。每当发现当前节点是哑节点，则说明当前层已经遍历完毕，也意味着下一层的所有节点都已经进入队列。此时，立刻再推送一个哑节点入队，作为下一层的分隔符。
+
+复杂度分析：算法需要层次遍历树，故时间复杂度O(n)。同时，需要额外的O(n)空间将树中的元素存储到链表。
+
+参考解答：
+
+```
+bool isDummyNode(TreeNode *node)
+{
+    return (node->left == node);
+}
+
+vector<list<TreeNode *>> linkedListsFromTree(TreeNode *root)
+{
+    vector<list<TreeNode *>> result;
+    list<TreeNode *> levelList;
+    queue<TreeNode *> nodeQueue;
+    TreeNode *currentNode;
+
+    TreeNode dummyNode;
+    dummyNode.left = &dummyNode;
+
+    if (!root) {
+        return answer;
+    }
+
+    nodeQueue.push(&dummyNode);
+    nodeQueue.push(root);
+
+    while (!nodeQueue.empty()) {
+        currentNode = nodeQueue.front();
+        if (isDummyNode(currentNode)) {
+            if (!levelList.empty()) {
+                answer.push_back(levelList);
+                levelList.clear();
+            }
+            nodeQueue.pop();
+            if (nodeQueue.empty()) {
+                break;
+            } else {
+                nodeQueue.push(&dummyNode);
+            }
+
+        } else {
+            levelList.push_back(currentNode);
+            if (currentNode->left) {
+                nodeQueue.push(currentNode->left);
+            }
+            if (currentNode->right) {
+                nodeQueue.push(currentNode->right);
+            }
+            nodeQueue.pop();
+        }
+    }
+    return result;
+}
+```
+
