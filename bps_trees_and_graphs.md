@@ -840,4 +840,152 @@ public:
     TreeNode *parent;
     int val;
 };
+
+class BinaryTree {
+public:
+    BinaryTree(int rootValue);
+    ~BinaryTree();
+    bool insertNodeWithValue(int value);
+    bool deleteNodeWithValue(int value);
+    void printTree();
+
+private:
+    TreeNode *root;
+};
 ```
+
+### 平衡二叉树
+
+关于平衡二叉树的理论讨论请见：
+《算法导论》(Introduction to Algorithms, 2nd Edition), Thomas H. Corman, Charles E.Leiserson, Ronald L.Rivest, Clifford Stein, 第13章，红黑树
+
+### 二叉树的遍历
+
+DFS Traversal: In-order traversal, pre-order and post-order of tree
+
+```
+void preOrderTraversal(TreeNode *root) {
+    if (!root) {
+        return;
+    }
+    visit(root);
+    preOrderTraversal(root->left);
+    preOrderTraversal(root->right);
+}
+
+void inOrderTraversal(TreeNode *root) {
+    if (!root) {
+        return;
+    }
+    inOrderTraversal(root->right);
+    visit(root);
+    inOrderTraversal(root->left);
+}
+
+void postOrderTraversal(TreeNode *root) {
+    if (!root) {
+        return;
+    }
+    postOrderTraversal(root->left);
+    postOrderTraversal(root->right);
+    visit(root);
+}
+```
+
+BFS Traversal
+
+```
+void levelTraversal(TreeNode *root)
+{
+    queue<TreeNode *> nodeQueue;
+    TreeNode *currentNode;
+    if (!root) {
+        return;
+    }
+    nodeQueue.push(root);
+    while (!nodeQueue.empty()) {
+        currentNode = nodeQueue.front();
+        processNode(currentNode);
+        if (currentNode->left) {
+            nodeQueue.push(currentNode->left);
+        }
+        if (currentNode->right) {
+            nodeQueue.push(currentNode->right);
+        }
+        nodeQueue.pop();
+    }
+}
+```
+
+### 字典数类
+
+可以如下定义一个字典树:
+
+```
+class TrieNode {
+private:
+    char mContent;
+    bool mMarker;
+    vector<TrieNode *> mChildren;
+public:
+    TrieNode() {
+        mContent = ' '; mMarker = false;
+    }
+    ~TrieNode() {
+    }
+    friend class Trie;
+};
+class Trie {
+public:
+    Trie();
+    ~Trie();
+    void addWord(string s);
+    bool searchWord(string s);
+    void deleteWord(string s);
+private:
+    TrieNode *root;
+};
+```
+
+### 堆的重要函数
+
+《算法导论》(Introduction to Algorithms, 2nd Edition), Thomas H. Corman, Charles E.Leiserson, Ronald L.Rivest, Clifford Stein, 第6章，堆排序
+
+### priority_queue
+
+`priority_queue`在C++标准模版库(Standard Template Library, STL)中实现，使用时需要`include<priority_queue>`。 简要介绍如下常见函数，更多信息请参考[这里](http://www.cplusplus.com/reference/queue/priority_queue/)：
+
+```
+// Returns whether the priority queue is empty: i.e. whether its size is zero.
+bool empty() const;    
+
+// Inserts a new element in the priority queue, effectively increasing its size by one.
+void push (const value_type& val);    
+
+Example:
+priority_queue<int> myPriorityQueue;
+myPriorityQueue.push(20);
+myPriorityQueue.push(50);
+myPriorityQueue.push(30);    // queue contains 3 elements, will be accessed in the order of 50, 30, 20
+
+// Removes the element on top of the priority queue, effectively reducing its size by one.
+void pop();
+
+// Returns a constant reference to the top element in the priority queue.
+const value_type& top() const;    
+
+Example:
+priority_queue<int> myPriorityQueue;
+myPriorityQueue.push(30);
+myPriorityQueue.push(10);
+myPriorityQueue.push(50);
+myPriorityQueue.push(40);
+
+cout << "Popping out elements...";
+while (!myPriorityQueue.empty()) {
+    cout << ' ' << myPriorityQueue.top();
+    myPriorityQueue.pop();
+}
+cout << endl;// output: Popping out elements... 50 40 30 10
+```
+
