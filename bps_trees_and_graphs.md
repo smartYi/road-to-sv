@@ -556,3 +556,121 @@ vector<list<TreeNode *>> linkedListsFromTree(TreeNode *root)
 }
 ```
 
+> Convert a sorted array( increasing order ) to a balanced BST.
+
+解题分析： 将数据结构分成左右两部分，分别构造两个二叉树，再用中间数与这两个局部解合并得到当前的全局解。因为数组已经排序好，因此这个二叉树一定满足BST的条件(左边的任何数一定小于中间数小于右边的任何数)，在选择分界点的时候选择中点，那么也就能满足平衡条件。
+
+复杂度分析：算法遍历整个数组，故时间复杂度O(n)，需要额外O(n)空间存储树的节点。
+
+参考解答：
+
+```
+TreeNode* helper(vector<int>num, int first, int last){
+    if(first > last){
+        return NULL;
+    }
+    if (first == last) {
+        TreeNode* parent = new TreeNode(num[first]);
+        return parent;
+    }
+    int mid = (first + last) / 2;
+    TreeNode *leftchild = helper(num, first, mid - 1);
+    TreeNode *rightchild = helper(num, mid + 1, last);
+    TreeNode *parent = new TreeNode(num[mid]);
+    parent->left = leftchild;
+    parent->right = rightchild;
+    return parent;
+}
+
+TreeNode *sortedArrayToBST(vector<int> &num) {
+    if(num.size() == 0)
+        return NULL;
+    if(num.size() == 1){
+        TreeNode* parent = new TreeNode(num[0]);
+        return parent;
+    }
+    int first = 0;
+    int last = (int)num.size() - 1;
+    return helper(num, first, last);
+}
+```
+
+### 寻找特定节点
+
+此类题目通常会传入一个当前节点，要求找到与此节点具有一定关系的特定节点：例如前驱、后继、左／右兄弟等。
+
+对于这类题目，首先可以了解一下常见特定节点的定义及性质。在存在指向父节点指针的情况下，通常可以由当前节点出发，向上倒推解决。如果节点没有父节点指针，一般需要从根节点出发向下搜索，搜索的过程就是DFS。
+
+> In-order traverse a binary tree with parent links, find the next node to visit given a specific node.
+
+解题分析： 根据中序遍历的性质，我们可以分几种情况来考虑目标节点与给定节点的关系：1，如果该节点有右子树，那么，中序后继节点就是右子树中最左的节点。2，如果没有右子树，那么考虑该节点与其父节点的关系：如果它是父节点的左孩子，那么，父节点就是它的后继。3，如果它是父节点的右孩子，那么我们可以向上倒推，直到某个节点(或者不存在这样的节点，返回空指针)是其父节点的左孩子。
+
+复杂度分析：最坏情况下，考虑一棵树只有右孩子，而输入恰好是最右节点。在这个情况下，我们需要向上倒推遍历所有节点，此时复杂度O(n)。平均情况下，复杂度为O(h)，h为树的高度。
+
+参考解答：
+
+```
+TreeNode *leftMostNode(TreeNode *node)
+{
+    if (!node) {
+        return NULL;
+    }
+    “while (node->left) {
+        node = node->left;
+    }
+    return node;
+}
+
+bool isLeftChild(TreeNode *node, TreeNode *parent)
+{
+    return (parent->left == node);
+}
+
+TreeNode *inOrderSuccessor(TreeNode *node)
+{
+    if (!node) {
+        return NULL;
+    }
+    if (node->right) {
+        return leftMostNode(node->right);
+    }
+
+    TreeNode *parent = node->parent;
+    while (parent && !isLeftChild(node, parent)) {
+        node = parent;
+        parent = node->parent;
+    }
+    return parent;
+}
+```
+
+> In-order traverse a binary search tree without parent links, find the next node to visit given a specific node.
+
+解题分析： 对于该节点有右子树的情况，由于我们不需要利用父节点信息倒推，故搜索过程与上题一致：中序后继节点就是右子树中最左的节点。在其他情况下，我们需要从根部开始搜索。对于根节点，我们应该如何判断继续搜索左子树还是右子树？对于BST，中序遍历的后继节点就是值比当前节点大的所有节点中最小的那个。因此，一旦根节点大于当前节点，我们存储当前节点，并且往数值减小的方向搜索(左子树)；一旦根节点小于当前节点，我们继续往数值增大的方向搜索(右子树)。这样，当算法执行完成，我们存储的最后一个节点一定恰好大于给定节点，即是给定节点的中序遍历后继。
+
+“复杂度分析：算法复杂度同上题：平均情况下，复杂度为O(h)，h为树的高度。
+
+参考解答：
+
+```
+TreeNode *inOrderSuccessor(TreeNode *node, TreeNode *root)
+{
+    if (!node) {
+        return NULL;
+    }
+    if (node->right) {
+        return leftMostNode(node->right);
+    }
+
+    TreeNode *successor = NULL;
+    while (root) {
+        if (root->val > node->val) {
+            successor = root;
+            root = root->left;
+        } else {
+            root = root->right;
+        }
+    }
+    return successor;
+}
+```
