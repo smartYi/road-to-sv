@@ -288,3 +288,79 @@ void TOH(int N) {
 ```
 
 ## 工具箱
+
+### 栈
+
+栈在C++标准模版库(Standard Template Library, STL)中实现，使用时需要include<stack>。 简要介绍如下常见函数，更多信息请参考[这里](http://www.cplusplus.com/reference/stack/stack/)：
+
+```
+// Returns whether the stack is empty: i.e. whether its size is zero.
+bool empty() const;    
+
+// Inserts a new element at the top of the stack. The content of this new element is initialized to a copy of val.
+void push (const value_type& val);    
+
+Example:
+stack<int> myStack;
+myStack.push(10);    // stack has one element, the value of which is 10
+```
+
+注意：如果放入一个类的实例(instance)，会调用复制构造函数(copy constructor)
+
+```
+// Removes the element on top of the stack, effectively reducing its size by one.
+void pop();    
+
+Example:
+stack<int> myStack;
+myStack.push(10);
+myStack.push(20);    // stack now has two elements, the value of which is 20, 10
+myStack.pop();    // stack now has one element, the value of which is 10
+
+// Returns a reference to the top element in the stack
+value_type& top();    
+
+Example:
+stack<int> myStack;
+myStack.push(10);
+myStack.push(20);
+int value = myStack.top();    // value equals to 20
+```
+
+### 队列
+
+队列在C++标准模版库(Standard Template Library, STL)中实现，使用时需要include<queue>。 简要介绍如下常见函数，更多信息请参考[这里](http://www.cplusplus.com/reference/queue/queue/)：
+
+```
+// Returns whether the queue is empty
+bool empty() const;    
+
+ // Inserts a new element at the end of the queue. The content of this new element is initialized to val.
+void push (const value_type& val);   
+
+Example:
+queue<int> myQueue;
+myQueue.push(10);    // queue has one element, the value of which is 10
+```
+
+注意：如果放入一个类的实例(instance)，会调用复制构造函数(copy constructor)
+
+```
+// Removes the oldest element in the queue, effectively reducing its size by one.
+void pop();    
+
+Example:
+queue<int> myQueue;
+myQueue.push(10);
+myQueue.push(20);
+int value = myQueue.front();    // value equals to 10
+
+// Returns a reference to the oldest element in the queue.
+value_type& front();    
+
+Example:
+queue<int> myQueue;
+myQueue.push(10);
+myQueue.push(20);    // queue now has two elements, the value of which is 10, 20
+myQueue.pop();     // queue now has one element, the value of which is 20
+```
