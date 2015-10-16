@@ -653,6 +653,17 @@ TreeNode *inOrderSuccessor(TreeNode *node)
 参考解答：
 
 ```
+TreeNode *leftMostNode(TreeNode *node)
+{
+    if (!node) {
+        return NULL;
+    }
+    “while (node->left) {
+        node = node->left;
+    }
+    return node;
+}
+
 TreeNode *inOrderSuccessor(TreeNode *node, TreeNode *root)
 {
     if (!node) {
