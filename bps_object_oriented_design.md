@@ -75,19 +75,21 @@ TinyURL是说给你一个长URL，通过某一种编码，你把它压缩成5个
 
 通常，关于OOP，面试官会让面试者设计一个程序框架，该程序能够实现一些特定的功能。比如，如何实现一个音乐播放器，如何设计一个车库管理程序等等。对于此类问题，设计的关键过程一般包括抽象(abstraction)，设计对象(object)和设计合理的层次／接口(decoupling)。这里，我们举一个例子简单说明这些过程分别需要做些什么，在“模式识别”给出更为具体和完整的实例。
 
-例：设计一个音乐播放器，能够管理专辑，播放歌曲。
+> 设计一个音乐播放器，能够管理专辑，播放歌曲。
 
-抽象
+**抽象**
 
-“抽象的意思是能够根据设计要求，得出程序运行的逻辑框架以及定义需要的功能。简单来说，就是构想自己是该程序的使用者， 列举实现程序某个功能需要哪些步骤。比如对于我们所说的例子，播放一首歌的运行流程可能包括：添加歌曲到音乐库，添加歌曲到播放列表，播放，删除等。对于某些系统，系统可以处于多个不同状态，每个状态的功能不同，这就需要构造有限状态机。关于有限状态机的一些参考资料请见“工具箱”。在抽象的过程中，往往需要和面试官进行沟通，确认需要实现什么功能。在抽象结束后，所得到的实体就应该成为一个个对象，而功能就是对象的函数接口。比如，在本例中，涉及的实体有播放器，专辑，歌曲，播放列表。函数包括添加歌曲，删除歌曲，播放，停止，暂停等等。之后，我们就要根据“抽象的结果，进行对象设计，并且把所需的功能以函数接口的形式分配给不同的对象。
+抽象的意思是能够根据设计要求，得出程序运行的逻辑框架以及定义需要的功能。简单来说，就是构想自己是该程序的使用者， 列举实现程序某个功能需要哪些步骤。比如对于我们所说的例子，播放一首歌的运行流程可能包括：添加歌曲到音乐库，添加歌曲到播放列表，播放，删除等。对于某些系统，系统可以处于多个不同状态，每个状态的功能不同，这就需要构造有限状态机。关于有限状态机的一些参考资料请见“工具箱”。在抽象的过程中，往往需要和面试官进行沟通，确认需要实现什么功能。在抽象结束后，所得到的实体就应该成为一个个对象，而功能就是对象的函数接口。比如，在本例中，涉及的实体有播放器，专辑，歌曲，播放列表。函数包括添加歌曲，删除歌曲，播放，停止，暂停等等。之后，我们就要根据抽象的结果，进行对象设计，并且把所需的功能以函数接口的形式分配给不同的对象。
 
-设计对象
+**设计对象**
 
-通常而言，对于抽象出的每个实体，我们都应该构造一个类去描述它。对象之间的关系可能是继承，或者包含，具体分析请见“2. 继承/组合/参数化类型”。对于这里所需要实现的音乐播放器，我们就可以构造播放器，专辑，歌曲，播放列表这几个类。
+通常而言，对于抽象出的每个实体，我们都应该构造一个类去描述它。对象之间的关系可能是继承，或者包含，具体分析请见“ 继承/组合/参数化类型”。对于这里所需要实现的音乐播放器，我们就可以构造播放器，专辑，歌曲，播放列表这几个类。
 
-设计接口
+**设计接口**
 
-接口用于与用户进行交互，以及对象之间的交互。设计接口的核心在于明确每个对象需要实现什么功能，当上层对象调用下层对象的接口时，只需要提供相应的参数，就能够期待获得对应的结果。这样，上层对象不需要知道对方如何获得结果，下层对象也不需要知道对方拿到结果会进行什么样的操作。如此，通过设计恰当的接口我们就实现了decoupling：让程序具有逻辑上的层次，每一层的对象实现特定的功能，对象可以独立地更改实现功能的方法，而不会影响上层和下层。在设计接口的时候我们可能需要添加一些不那么明显的辅助类，使得程序更具有层次。比如说，考虑添加歌曲这个功能，用户会通过调用播放器的添加歌曲接口，传入一首歌。考虑到当音乐库变得很复杂的时候，我们需要判断诸如该歌曲是否已经存在，应当用怎样的数据库存储数据等等一系列问题。如果都由播放器对象来处理这些问题，会使得播放器这一层变得过为臃肿，减少代码的可读性和可维护性。所以我们可以引入另一个类，歌曲管理器，用来处理数据相关的操作。这样，用户通过播放器接口添加歌曲，播放器调用歌曲管理器的添加接口将新歌写到数据库，歌曲管理器负责打开数据库，判断数据库中是否存在重复的歌曲，写入数据等等。当之后出于某些原因需要更换储存方式的时候，只要更改歌曲管理器的代码即可。同时，如果发现播放器中有重复的歌曲，也只需要查看歌曲管理器的实现过程有什么漏洞，而不是漫无目的的找bug，这样也提升了程序的可维护性。
+接口用于与用户进行交互，以及对象之间的交互。设计接口的核心在于明确每个对象需要实现什么功能，当上层对象调用下层对象的接口时，只需要提供相应的参数，就能够期待获得对应的结果。这样，上层对象不需要知道对方如何获得结果，下层对象也不需要知道对方拿到结果会进行什么样的操作。如此，通过设计恰当的接口我们就实现了decoupling：让程序具有逻辑上的层次，每一层的对象实现特定的功能，对象可以独立地更改实现功能的方法，而不会影响上层和下层。
+
+在设计接口的时候我们可能需要添加一些不那么明显的辅助类，使得程序更具有层次。比如说，考虑添加歌曲这个功能，用户会通过调用播放器的添加歌曲接口，传入一首歌。考虑到当音乐库变得很复杂的时候，我们需要判断诸如该歌曲是否已经存在，应当用怎样的数据库存储数据等等一系列问题。如果都由播放器对象来处理这些问题，会使得播放器这一层变得过为臃肿，减少代码的可读性和可维护性。所以我们可以引入另一个类，歌曲管理器，用来处理数据相关的操作。这样，用户通过播放器接口添加歌曲，播放器调用歌曲管理器的添加接口将新歌写到数据库，歌曲管理器负责打开数据库，判断数据库中是否存在重复的歌曲，写入数据等等。当之后出于某些原因需要更换储存方式的时候，只要更改歌曲管理器的代码即可。同时，如果发现播放器中有重复的歌曲，也只需要查看歌曲管理器的实现过程有什么漏洞，而不是漫无目的的找bug，这样也提升了程序的可维护性。
 
 同时，在确定接口功能的时候，尽量把功能的具体实现向下层“推” 。比如，播放一首歌曲可以包括打开文件，访问文件等。当用户调用播放器接口要求播放一首歌时，我们可以让播放器打开文件，也可以让播放器调用歌曲对象的播放接口，由歌曲对象负责打开文件等操作。这样做的好处在于，用户可能在任何时候播放一首新的歌曲，播放器只需要有一个指针指向当前播放的歌曲对象，如果用户需要播放新的歌曲，播放器只需要：调用当前歌曲的停止接口，设置新的当前播放，调用新歌曲的播放接口即可，而不需要在播放器层反复地进行文件操作。这样，播放器层负责切换歌曲的逻辑，而歌曲层负责具体的播放操作，两者相互独立。这样的好处在于，当以后用户需要更复杂的切歌方式，只需改变播放器的实现即可；当存在更好的音乐编解码，只需要改变歌曲的播放操作即可。我们成功地decouple了切换和播放。
 
@@ -115,7 +117,7 @@ TinyURL是说给你一个长URL，通过某一种编码，你把它压缩成5个
 
 设计模式着重于代码的复用，所以在选择复用技术上，有必要看看上述三种复用技术优劣。
 
-继承
+**继承**
 
 + 通过继承方式，子类能够非常方便地改写父类方法，同时
 + 保留部分父类方法，可以说是能够最快速地达到代码复用。
@@ -123,7 +125,7 @@ TinyURL是说给你一个长URL，通过某一种编码，你把它压缩成5个
 + 因为子类没有改写父类方法的话，就相当于依赖了父类这个方法的实现细节,被认为破坏封装性。
 + 并且如果父类接口定义需要更改时，子类也需要提更改响应接口。
 
-组合
+**组合**
 
 + 对象组合通过获得其他对象引用而在运行时刻动态定义的。
 + 组合要求对象遵守彼此约定，进而要求更仔细地定义接口，而这些接口并不妨碍你将一个对象和另外一个对象一起使用。
@@ -132,14 +134,14 @@ TinyURL是说给你一个长URL，通过某一种编码，你把它压缩成5个
 + 使用组合方式，我们可以将类层次限制在比较小的范围内，不容易产生类的爆炸。
 + 相对于继承来说,组合可能需要编写“更多的代码。
 
-参数化类型
+**参数化类型**
 
 + 参数化类型方式是基于接口的编程，在一定程度上消除了类型给程序设计语言带来的限制。
 + 相对于组合方式来说，缺少的是动态修改能力。
 + 因为参数化类型本身就不是面向对象语言的一个特征，所以在面向对象的设计模式里面，没有一种模式是于参数化类型相关的。
 + 实践上我们方面是可以使用参数化类型来编写某种模式的。
 
-总结
+**总结**
 
 + 对象组合技术允许你在运行时刻改变被组合的行为，但是它存在间接性，相对来说比较低效。
 + 继承允许你提供操作的缺省实现，通过子类来重定义这些操作，但是不能够在运行时改变。
@@ -285,15 +287,15 @@ public:
 
 解题分析：我们尝试使用抽象->设计对象->设计接口的流程。
 
-抽象
+**抽象**
 
 在这一步，我们重现现实中车库的工作原理。通常，车库可能有不同的层次，每层都有若干个车位，汽车可以停在车位上。车库的主要功能在于实现车辆入库和车辆出库，根据汽车在车库中停留的时间收费。
 
-设计对象
+**设计对象**
 
 经过抽象分析，我们发现了车位、层次、车库、汽车这些实体。对于每个实体，我们都应该构造一个类去描述它。我们考虑各个实体之间的从属，继承关系：很明显，车库拥有不同层次，每个层次拥有一些车位。因此，车库、层次、车位属于“Has-A”的关系。考虑我们可能希望车库是一个全局都可以访问的变量，而且程序中应该只有一个车库实例，所以我们可以利用单例模式，把车库作为一个单例。进一步考虑汽车实体，现实中，有各种类型的汽车，不同类型的车辆对车位的要求也不一样。然而，汽车具有一些共同属性，比如车长，车宽等等，特别地，对于本例，每辆车都需要记录停车的状态。所以，我们可以考虑从一个汽车基类派生出不同类型的汽车派生类。
 
-设计接口
+**设计接口**
 
 车库需要与用户进行交互，因此应该提供车辆入库和车辆出库的接口。车辆入库时，需要从最底层依次向上寻找可用的车位，因此，寻找车位应该一个是由层次提供的接口，返回一个车位。车库把这个车位提供给一个汽车实例，并且标记车位不可用。当车辆出库时，我们需要汽车提供它停车位置的信息(因此，车辆需要提供接口返回它停车的位置)，车库需要计算停车费，并且标记车位可用。
 
@@ -316,7 +318,7 @@ enum SpotType {
 class Spot {
 public:
     bool     available;
-“    SpotType type;
+    SpotType type;
 };
 
 class Vehicle {
@@ -345,9 +347,9 @@ class Level {
 private:
     vector<Spot> spots;
 public:
-    Spot *findASpot(Vehicle *v);    // find an available spot for a vehicle
-                                // return NULL if all spots are 
-taken
+    // find an available spot for a vehicle
+    // return NULL if all spots are taken
+    Spot *findASpot(Vehicle *v);    
 };
 
 class ParkingLot {
@@ -408,11 +410,11 @@ ErrorCode ParkingLot::vehicleLeave(Vehicle *v, double *fee) {
 
 解题分析：我们尝试使用抽象->设计对象->设计接口的流程。
 
-抽象
+**抽象**
 
 在这一步，我们重现现实中电梯间的工作原理：电梯间拥有多部电梯，当有用户需要乘坐电梯时，电梯间分配一个最优的电梯去用户所需的楼层。当电梯需要维修时，电梯间可以停止某部电梯。
 
-设计对象
+**设计对象**
 
 经过抽象分析，我们发现了电梯间和电梯这两个实体。对于每个实体，我们都应该构造一个类去描述它。我们考虑各个实体之间的从属关系：很明显，电梯间拥有一些电梯。因此，电梯间和电梯属于“Has-A”的关系 。对于一部电梯，它应该具有当前的运行状态，包括停止在某一层，向上运行和向下运行。电梯间可以根据当前各个电梯的位置和运行情况，选择最优的电梯去满足用户需求，可以采用下述选择逻辑， 计算一个“距离分”，距离分越低，则优先级越高：
 
@@ -421,11 +423,11 @@ ErrorCode ParkingLot::vehicleLeave(Vehicle *v, double *fee) {
 3. 当电梯处于下降状态，如果需求楼层低于当前楼层，则距离分等于当前楼层和需求楼层的差， 否则不考虑当前电梯
 4.  算法开始时先随机选择一部电梯，当存在更好的电梯选择时，替代当前的候选电梯，这样确保至少会有一部电梯响应(在少数情况下这样做不一定是最优的，可以设想更好的算法解决这个问题)。
 
-设计接口
+**设计接口**
 
 用户所有的请求都应该与电梯间进行交互。电梯间再选择最恰当的电梯，去满足用户的请求。电梯也需要提供接口，以供电梯间设置一个请求。同时，电梯间依赖于电梯的当前位置和运行状况实现选择算法，所以电梯应该提供getter函数。此外，电梯间还应该提供启用／停止某台电梯的接口，以供管理员进行维护。至于电梯间选择电梯的算法函数等等，用户不需要知道这些信息，故应该作为私有函数。
 
-多线程
+**多线程**
 
 电梯需要在后台不停地自动运行，同时还需要响应电梯间设置的用户请求。因此，我们需要考虑多线程。我们可以用主线程响应用户请求，同时建立另一个线程模拟电梯的运行过程。注意，由于使用了多线程，所有的线程共享变量都需要用锁保护起来，避免产生竞争(racing condition)。同时，考虑到打印调试信息也可能产生竞争，所以应该放到一个特定的打印线程处理所有输出。在参考解答中，我们给出在MacOS下利用dispatch_queue的实现方式。
 
@@ -433,7 +435,7 @@ ErrorCode ParkingLot::vehicleLeave(Vehicle *v, double *fee) {
 
 ```
 // define some constants
-“dispatch_queue_t printingQueue;
+dispatch_queue_t printingQueue;
 enum ElevatorState {
     UP,           // moving up
     DOWN,    // moving down
@@ -447,21 +449,29 @@ private:
     int currentLevel;
     int maxLevel;
     int minLevel;
-    vector<int> requests;    // floor requests from low level to high level
+    // floor requests from low level to high level
+    vector<int> requests;    
     pthread_mutex_t lock;
-    pthread_t runThread;    // runLoop is called on this thread
+    // runLoop is called on this thread
+    pthread_t runThread;    
 
-    void mutexLock();       // utility methods to lock and unlock
+    // utility methods to lock and unlock
+    void mutexLock();       
     void mutexUnlock();
 
-    bool needStop();        // check if need to stop on current floor
-    void updateState();    // switch to STAND if no request pending.
-                                      // go DOWN if currently going UP, and no further higher level requests
-                                      // go UP if currently going DOWN, and no further lower level requests
+    // check if need to stop on current floor
+    bool needStop();
+    // switch to STAND if no request pending.
+    // go DOWN if currently going UP, and no further higher level requests
+    // go UP if currently going DOWN, and no further lower level requests
+    void updateState();    
 
-    void move();    // move one floor up/down. Open door if needed. Update state
-    void openDoor();    // open door and close door, delete request from array
-    void runLoop();    // thread safe operation, main logic for elevator operation (move, open door)
+    // move one floor up/down. Open door if needed. Update state
+    void move(); 
+    // open door and close door, delete request from array
+    void openDoor(); 
+    // thread safe operation, main logic for elevator operation (move, open door)
+    void runLoop();    
     
     static void *elevatorProc(void *parameter);
 
@@ -469,11 +479,16 @@ public:
     Elevator(int id, int minLevel, int maxLevel);
     ~Elevator();
 
-    ErrorCode addRequest(int newRequest);    // thread safe operation, caller adds a new stop request
-    void startOperation();    // thread safe operation, start elevatorProc to activate elevator
-    void stopOperation();    // thread safe operation, stop elevatorProc to deactivate elevator
-    ElevatorState getState();    // thread safe operation, get elevator state
-    int getCurrentLevel();    // thread safe operation, get elevator floor
+    // thread safe operation, caller adds a new stop request
+    ErrorCode addRequest(int newRequest);   
+    // thread safe operation, start elevatorProc to activate elevator
+    void startOperation();  
+    // thread safe operation, stop elevatorProc to deactivate elevator
+    void stopOperation();  
+    // thread safe operation, get elevator state
+    ElevatorState getState();  
+    // thread safe operation, get elevator floor
+    int getCurrentLevel();    
 
 #pragma -mark Test Methods
     void printRequests() {
@@ -702,8 +717,10 @@ private:
 “public:
     ElevatorBank(int numberOfElevators, int minFloor, int maxFloor);
     ~ElevatorBank();
-    ErrorCode startAnElevator(int index);       // index start from 0
-    ErrorCode stopAnElevator(int index);        // index start from 0
+    // index start from 0
+    ErrorCode startAnElevator(int index);   
+    // index start from 0
+    ErrorCode stopAnElevator(int index);        
     ErrorCode setARequest(int level);
 };
 
@@ -790,3 +807,99 @@ int main() {
 ```
 
 ## 工具箱
+
+### 有限状态机
+
+参见[这里](http://en.wikipedia.org/wiki/Finite-state_machine)
+
+### 多态
+
+在C++中，最常见的多态指的是用基类指针指向一个派生类的实例，当用该指针调用一个基类中的虚函数时，实际调用的是派生类的函数实现，而不是基类函数。如果该指针指向另一个派生类实例，则调用另一个派生类的函数实现。因此，比如工厂模式返回一个实例，上层函数不需要知道实例来自哪个派生类，只需要用一个基类指针指向它，就可以直接获得需要的行为。从编译的角度来看，函数的调用地址并不是在编译阶段静态决定，而是在运行阶段，动态地决定函数的调用地址。
+
+多态是通过虚函数表实现的。当基类中用virtual关键字定义函数时，系统自动分配一个指针，指向该类的虚函数表。虚函数表中存储的是函数指针。在生成派生类的时候，会将派生类中对应的函数的地址写到虚函数表。之后，当利用基类指针调用函数时，先通过虚函数表指针找到对应的虚函数表，再通过表内存储的函数指针调用对应函数。由于函数指针指向派生类的实现，因此函数行为自然也就是派生类中定义的行为了。
+
+### 创建型设计模式补充
+
+#### Builder
+
+**意图：将一个复杂对象构建过程和元素表示分离。**
+
+假设我们需要创建一个复杂对象，而这个复杂对象是由很多元素构成的。这些元素的组合逻辑可能非常复杂， 但是逻辑组合和创建这些元素是无关的，独立于这些元素本身的。
+
+那么我们可以将元素的组合逻辑以及元素构建分离，元素构建我们单独放在Builder这样一个类里面，而元素的组合逻辑通过Director来指导，Director内部包含Builder对象。创建对象是通过Director来负责组合逻辑部分的， Director内部调用Builder来创建元素并且组装起来。最终通过Builder的GetResult来获得最终复杂对象。
+
+### 结构型设计模式补充
+
+#### Bridge
+
+**意图：将抽象部分和具体实现相分离，使得它们之间可以独立变化。**
+
+一个很简单的例子就是类Shape,有个方法Draw[抽象]和DrawLine[具体]和DrawText[具体],而Square和SquareText 继承于Shape实现Draw()这个方法，Square调用DrawLine()，而SquareText调用DrawLine()+DrawText()。而且假设DrawLine和DrawText分别有LinuxDrawLine,LinuxDrawText和Win32DrawLine和Win32DrawText。如“果我们简单地 使用子类来实现的话，比如构造LinuxSquare,LinuxSquareText,Win32Square和Win32SquareText，那么很快就会类爆炸。
+
+事实上我们没有必要在Shape这个类层面跟进变化，即通过继承Shape类实现跨平台，而只需要在实现底层跟进变化。为此我们就定义一套接口，如例子中的DrawLine和DrawText，然后在Linux和Win32下实现一个这样接口实例(比如称为跨平台GDI)，最终 Shape内部持有这个GDI对象，Shape的DrawLine和DrawText只是调用GDI的接口而已。这样，我们把Shape及其子类的DrawLine和DrawText功能Bridge到GDI，GDI可以通过工厂模式在不同平台下实现不同的实例。
+
+例子中Shape成为了完全抽象的部分，具体实现完全交给GDI类，若以后需要增加更多的平台支持，开发者也不需要添加更多的Shape子类，只需要扩展GDI即可。总之，抽象部分是和具体实现部分需要独立开来的时候，就可以使用Bridge模式。
+
+#### Composite
+
+**意图：将对象组合成为树形以表示层级结构，对于叶子和非叶子节点对象使用需要有一致性。**
+
+Composite模式强调在这种层级结构下，叶子和非叶子节点需要一致对待，所以关键是需要定义一个抽象类，作为叶节点的子节点。 然后对于叶子节点操作没有特殊之处，而对于非叶子节点操作不仅仅需要操作自身，还要操作所管理的子节点。 至于遍历子节点和处理顺序是由应用决定的，在Composite模式里面并不做具体规定。
+
+#### Decorator
+
+**意图：动态地给对象添加一些额外职责，通过组合而非继承方式完成。**
+
+给对象添加一些额外职责，例如增加新的方法，很容易会考虑使用子类方式来实现。使用子类方式实现很快但是却不通用，考虑一个抽象类X，子类有SubX1,SubX2等。现在需要为X提供一个附加方法echo，如果用继承的方式添加，那么需要为每个子类都实现echo方法，并且代码往往是重复的。我们可以考虑Decorator模式，定义一个新类，使其持有持有指向X基类的指针，并且新类只需要单独实现echo方法，而其他方法直接利用X基类指针通过多态调用即可。
+
+值得注意的是，装饰出来的对象必须包含被装饰对象的所有接口。所以很明显这里存在一个问题， 那就是X一定不能够有过多的方法，不然Echo类里面需要把X方法全部转发一次(理论上说Echo类可以仅转发X的部分方法，但Decorator默认需要转发被装饰类的全部方法)。
+
+#### Façade
+
+**意图：为子系统的一组接口提供一个一致的界面。**
+
+编译器是一个非常好的的例子。对于编译器来说，有非常多的子系统包括词法语法解析，语义检查,中间代码生成，代码优化，以及代码生成这些逻辑部件。但是对于大多数用户来说，不关心这些子系统，而只是关心编译这一个过程。
+
+所以我们可以提供Compiler的类，里面只有很简单的方法比如Compile()，让用户直接使用Compile()这个接口。 一方面用户使用起来简单，另外一方面子系统和用户界面耦合性也降低了。
+
+Facade模式对于大部分用户都是满足需求的。对于少部分不能够满足需求的用户，可以让他们绕过Facade模式提供的界面， 直接控制子系统即可。就好比GCC提供了很多特殊优化选项来让高级用户来指定，而不是仅仅指定-O2这样的选项。
+
+#### Proxy
+
+**意图：为其他对象提供一种代理以控制对这个对象的访问。**
+
+通常使用Proxy模式是想针对原本要访问的对象做一些手脚，以达到一定的目的，包括访问权限设置，访问速度优化，或者是加入一些自己特有的逻辑。至于实现方式上，不管是继承还是组合都行，可能代价稍微有些不同，视情况而定。但是偏向组合方式，因为对于Proxy而言，完全可以定义一套新的访问接口。
+
+Adapter,Decorator以及Proxy之间比较相近，虽然说意图上差别很大，但是对于实践中， 三者都是通过引用对象来增加一个新类来完成的，但是这个新类在生成接口方面有点差别：
+
++ Adapter模式的接口一定要和对接的接口相同。
++ Decorator模式的接口一定要包含原有接口，通常来说还要添加新接口。
++ Proxy模式完全可以重新定义一套新的接口
+
+### 行为型设计模式补充
+
+#### Chain of Responsibility
+
+**意图：将对象连成一条链并沿着链传递某个请求，直到有某个对象处理它为止。**
+
+大部分情况下连接起来的对象本身就存在一定的层次结构关系，少数情况下面这些连接起来的对象是内部构造的。 职责链通常与Composite模式一起使用，一个构件的父构件可以作为它的后继结点。许多类库使用职责链模式来处理事件， 比如在UI部分的话View本来就是相互嵌套的，一个View对象可能存在Parent View对象。如果某个UI不能够处理事件的话， 那么完全可以交给Parent View来完成事件处理以此类推。 
+
+#### Command
+
+**意图：将一个请求封装成为一个对象。**
+
+Command模式可以说是回调机制(Callback)的一个面向对象的替代品。对于回调函数来说需要传递一个上下文参数(context)， 同时内部附带一些逻辑。将上下文参数以及逻辑包装起来的话那么就是一个Command对象。 Command对象接口可以非常简单只有Execute/UnExecute，但是使用Command对象来管理请求之后， 就可以非常方便地实现命令的复用，排队，重做，撤销，事务等。
+
+#### Iterator
+
+**意图：提供一种方法顺序访问一个聚合对象中各个元素，但是又不需要暴露该对象内部表示。**
+
+将遍历机制与聚合对象表示分离，使得我们可以定义不同的迭代器来实现不同的迭代策略，而无需在聚合对象接口上面列举他们。 一个健壮的迭代器,应该保证在聚合对象上面插入和删除操作不会干扰遍历，“同时不需要copy这个聚合对象。 一种实现方式就是在聚合对象上面注册某个迭代器，一旦聚合对象发生改变的话，需要调整迭代器内部的状态。
+
+#### Template Method
+
+**意图：定义一个操作里面算法的骨架，而将一些步骤延迟到子类。**
+
+假设父类A里面有抽象方法Step1(),Step2(),默认方法Step3()。并且A提供一个操作X()，分别依次使用Step1(),Step2(),Step3()。对于A的子类，通过实现自己的Step1(),Step2() (选择性地实现Step3())，提供属于子类的X具体操作。 这里操作X()就是算法的骨架，子类需要复写其中部分step，但不改变X的执行流程。
+
+很重要的一点是模板方法必须指明哪些操作是钩子操作(可以被重定义的，比如Step3),以及哪些操作是抽象操作“(必须被重定义，比如Step1和Step2)。要有效地重用一个抽象类，子类编写者必须明确了解哪些操作是设计为有待重定义的。
