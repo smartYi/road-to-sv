@@ -16,6 +16,7 @@
    * [Object Oriented Design](bps_object_oriented_design.md)
    * [Recursion and Dynamic Programming](bps_recursion_and_dynamic_programming.md)
 * [程序员编程艺术](cheng_xu_yuan_bian_cheng_yi_zhu.md)
+   * 课程笔记
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
        * [字符串包含](zi_fu_chuan_bao_han.md)
@@ -65,7 +66,6 @@
        * [语言基础](yu_yan_ji_chu.md)
        * [概率统计](gai_lv_tong_ji.md)
        * [操作系统](cao_zuo_xi_tong.md)
-   * 课程笔记
 * [Crack the Code Interview](crack_the_code_interview.md)
    * [Behavioral Questions](behavioral_questions.md)
    * [Big O](big_o.md)
