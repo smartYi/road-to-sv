@@ -176,3 +176,16 @@ int run(char *s){
 + 算法 1：输出每一行的 1。O(n^2)
 + 算法 2：二分除每一行 0 和 1 的分界线。O(nlogn)
 + 算法 3：如果某个位置是 1，则向右，是 0 则向下(只有找到比本行更多的 1 才有意义)
+
+```
+int run(vector<vector<char>> &a){
+    int n = a.size();
+    int best = 0;
+    for (int i = 0; (best < n) && (i < n); i++){
+        while ((best < n) && (a[i][best] == '1')){
+            best++;
+        }
+    }
+    return best;
+}
+```
