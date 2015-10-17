@@ -17,7 +17,7 @@
    * [Recursion and Dynamic Programming](bps_recursion_and_dynamic_programming.md)
 * [程序员编程艺术](cheng_xu_yuan_bian_cheng_yi_zhu.md)
    * [课程笔记](ke_cheng_bi_ji.md)
-       * 北美求职经验
+       * [北美求职经验](bei_mei_qiu_zhi_jing_yan.md)
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
        * [字符串包含](zi_fu_chuan_bao_han.md)
