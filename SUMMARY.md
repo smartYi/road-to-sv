@@ -65,6 +65,7 @@
        * [语言基础](yu_yan_ji_chu.md)
        * [概率统计](gai_lv_tong_ji.md)
        * [操作系统](cao_zuo_xi_tong.md)
+   * 课程笔记
 * [Crack the Code Interview](crack_the_code_interview.md)
    * [Behavioral Questions](behavioral_questions.md)
    * [Big O](big_o.md)
