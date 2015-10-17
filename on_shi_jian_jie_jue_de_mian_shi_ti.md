@@ -48,7 +48,7 @@ return a[0];
 
 **实现 2**
 
-一头扫
+一头扫，时间 O(n)，空间 O(1)
 
 + i < j
 + [0...i-1]没有名人
@@ -63,6 +63,34 @@ int i = 0, j = 1
 for (; j < n; j++){
     if (known[i][j]){
         i = j;
+    }
+}
+for (j = 0; j < n; j++){
+    if ((i != j) && (known[i][j] || !known[j][i])){
+        return -1;
+    }
+}
+return i;
+```
+
+**实现 3**
+
+两头扫，时间 O(n)，空间 O(1)
+
++ i = 0, j = n - 1
++ i < j
+    + [0...i-1] 没有名人
+    + [j+1...n] 没有名人
+    + 如果 i 认识 j，删掉 i，即 i++
+    + 如果 i 不认识 j，删掉 j，即 j--
+
+```
+int i = 0, j = n - 1;
+while (i < j){
+    if (known[i][j]){
+        i++;
+    } else {
+        j--;
     }
 }
 for (j = 0; j < n; j++){
