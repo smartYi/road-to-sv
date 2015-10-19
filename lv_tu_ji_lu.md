@@ -84,7 +84,7 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 46. Software Engineer, Distributed Systems @ Turn
 47. Web and Mobile Software Engineers @ Quizlet
 48. Entry Level Mobile Implementation Engineer @ Ensighten Inc.
-49. Software Engineer - New Grad 2016 @ Dataminr
+49. (**Rejected**)Software Engineer - New Grad 2016 @ Dataminr
 50. Software Engineer/Mobile Application Developer @ Laserfiche
 51. (**HR Interview**)Software Engineer @ Caliper Corporation
 52. Software Engineers @ bebop
