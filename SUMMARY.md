@@ -26,7 +26,7 @@
        * [动态规划](jl_dong_tai_gui_hua.md)
        * [概率面试题精讲](gai_lv_mian_shi_ti_jing_jiang.md)
        * [链表面试题精讲](lian_biao_mian_shi_ti_jing_jiang.md)
-       * 排序查找实战
+       * [排序查找实战](pai_xu_cha_zhao_shi_zhan.md)
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
        * [字符串包含](zi_fu_chuan_bao_han.md)
