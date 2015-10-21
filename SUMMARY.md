@@ -707,7 +707,7 @@
    * [Bloomberg](bloomberg.md)
    * [BrightEdge](brightedge.md)
    * [cPacket](cpacket.md)
-   * Caliper Corporation
+   * [Caliper Corporation](caliper_corporation.md)
    * [Dropbox](dropbox.md)
    * [Epic](epic.md)
    * [Facebook](facebook.md)
