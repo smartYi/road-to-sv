@@ -29,7 +29,7 @@
        * [排序查找实战](pai_xu_cha_zhao_shi_zhan.md)
        * [数组高频面试题精讲](shu_zu_gao_pin_mian_shi_ti_jing_jiang.md)
        * [贪心算法初探](tan_xin_suan_fa_chu_tan.md)
-       * 栈和队列面试题精讲
+       * [栈和队列面试题精讲](zhan_he_dui_lie_mian_shi_ti_jing_jiang.md)
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
        * [字符串包含](zi_fu_chuan_bao_han.md)
