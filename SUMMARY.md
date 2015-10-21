@@ -32,7 +32,7 @@
        * [栈和队列面试题精讲](zhan_he_dui_lie_mian_shi_ti_jing_jiang.md)
        * [BFS 初步](bfs_chu_bu.md)
        * [DFS 初步](dfs_chu_bu.md)
-       * 字符串面试题精讲
+       * [字符串面试题精讲](zi_fu_chuan_mian_shi_ti_jing_jiang.md)
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
        * [字符串包含](zi_fu_chuan_bao_han.md)
