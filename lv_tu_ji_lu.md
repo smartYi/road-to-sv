@@ -98,3 +98,5 @@ Sep 28 | TOC 第一天十来家公司 | 明天继续投
 60. Software Engineer @ Noom, Inc.
 61. Software Engineer @ Amplify Education, Inc
 62. Software Engineer - New Graduate @ Whitepages.
+63. Application Developer @ ClickTime
+64. Software Engineer – NLP & Computational Linguist @ Seerflix Inc
