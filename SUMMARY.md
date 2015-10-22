@@ -37,6 +37,7 @@
        * [阿里巴巴面试题精讲](a_li_ba_ba_mian_shi_ti_jing_jiang.md)
        * [谷歌面试题精讲](gu_ge_mian_shi_ti_jing_jiang.md)
        * [最大全一矩形](zui_da_quan_yi_ju_xing.md)
+       * 最大连续子数组
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
        * [字符串包含](zi_fu_chuan_bao_han.md)
