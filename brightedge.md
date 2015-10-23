@@ -239,16 +239,12 @@ public class Solution {
 }
 ```
 
+## all characters combinations 
+
 
 ## 设计一个parking lot
 
 这是一个非常常见的设计题目，stackoverflow有一个帖子对这个题目描述的非常好，可以参考一下。
-
----
-
-第二题 all characters combinations 
-
-leetcode原题，不能更多，就是 combinations的变形
 
 ---
 
