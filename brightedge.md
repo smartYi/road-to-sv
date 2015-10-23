@@ -450,54 +450,53 @@ public class Solution {
 
 int[] move0totail2(int[] input){
 	if (input.length == 0){
-	return null;
-}
+	    return null;
+    }
 
-int inonzero = 0;
-int zerocount = 0;
-for (int i = 0; i < input.length; i++){
-	if (input[i] == 0){
-	zerocount++;
-} else {
-	input[inonzero] = input[i];
-	inonzero++;
-}
-}
-for (int i = 1; i <= zerocount; i++){
-	input[input.length - i] = 0;
-}
-return input;
+    int inonzero = 0;
+    int zerocount = 0;
+    for (int i = 0; i < input.length; i++){
+	    if (input[i] == 0){
+	        zerocount++;
+        } else {
+	        input[inonzero] = input[i];
+	        inonzero++;
+        }
+    }
+    for (int i = 1; i <= zerocount; i++){
+	    input[input.length - i] = 0;
+    }
+    return input;
 }
 
 // input: int[]
 // output: int[]
 int[] move0totail(int[] input){
 	if (input.length == 0){
-	return null;
-}
-// two pointer: izero, inonzero
-int izero = -1;
-int inonzero = -1;
-for (int i = 0; i < input.length; i++){
-	if (input[i] == 0){
-		if (izero != -1)
-izero = i;  // find first zero
-} else {
-	if (izero != -1){
-	inonzero = i; // find first nonzero if have zero
-}
-}
+	    return null;
+    }
+    // two pointer: izero, inonzero
+    int izero = -1;
+    int inonzero = -1;
+    for (int i = 0; i < input.length; i++){
+	    if (input[i] == 0){
+		    if (izero != -1)
+                izero = i;  // find first zero
+        } else {
+	        if (izero != -1){
+	            inonzero = i; // find first nonzero if have zero
+            }
+        }
 
-if (izero != -1 && inonzero != -1){
-	// swap the element izero and inonzero
-	swap(input, izero, inonzero);
-	izero = -1;
-	inonzero = -1;
-	i = izero + 1;
-}
-}
-
-return input[];
+        if (izero != -1 && inonzero != -1){
+    	    // swap the element izero and inonzero
+    	    swap(input, izero, inonzero);
+    	    izero = -1;
+    	    inonzero = -1;
+    	    i = izero + 1;
+        }
+    }
+    return input[];
 }
 
 void swap(int[] arr, int i, int j){
