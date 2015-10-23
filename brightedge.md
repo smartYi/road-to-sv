@@ -43,22 +43,84 @@ int fibonacci(int n){
 
 ## 如何判断一个BST是否valid。
 
+也就是判断一个Binary Tree是不是Binary Search Tree
+
+1. Add lower & upper bound. O(n)
+2. Inorder traversal with one additional parameter (value of predecessor). O(n)
+
+```java
+public class Solution {
+    boolean isValidBSTRe(TreeNode root, long left, long right)
+    {
+        if(root == null) return true;
+        return left < root.val && root.val < right &&
+                isValidBSTRe(root.left,left,root.val) 
+                && isValidBSTRe(root.right, root.val, right);
+    }
+    public boolean isValidBST_1(TreeNode root) {
+        if (root == null) return true;
+        return isValidBSTRe(root, (long)Integer.MIN_VALUE - 1, (long)Integer.MAX_VALUE + 1);
+    }
+    
+    boolean isValidBST(TreeNode root) {
+        long[] val = new long[1];
+        val[0] = (long)Integer.MIN_VALUE - 1;
+        return inorder(root, val);
+    }
+    
+    boolean inorder(TreeNode root, long[] val) {
+        if (root == null) return true;
+        if (inorder(root.left, val) == false) 
+            return false;
+        if (root.val <= val[0]) return false;
+        val[0] = root.val;
+        return inorder(root.right, val);
+    }
+}
+
+```
+
+用中序遍历的方法遍历BST，BST的性质是遍历后数组是有序的。根据这一点我们只需要中序遍历这棵树，然后保存前驱结点，每次检测是否满足递增关系即可。注意以下代码我么用一个一个变量的数组去保存前驱结点，原因是java没有传引用的概念，如果传入一个变量，它是按值传递的，所以是一个备份的变量，改变它的值并不能影响它在函数外部的值，算是java中的一个小细节。
+
+```java
+public class Solution {
+    /**
+     * @param root: The root of binary tree.
+     * @return: True if the binary tree is BST, or false
+     */
+    public boolean isValidBST(TreeNode root) {
+        ArrayList<Integer> pre = new ArrayList<Integer>();
+        pre.add(null);
+        return helper(root, pre);
+    }
+    private boolean helper(TreeNode root, ArrayList<Integer> pre)
+    {
+        if(root == null)
+            return true;
+        boolean left = helper(root.left,pre);
+        if(pre.get(0)!=null && root.val<=pre.get(0))
+            return false;
+        pre.set(0,root.val);
+        return left && helper(root.right,pre);
+    }
+}
+```
+
+## String permutation
+
+lintcode: 带重复元素的排列
+
+cc: Permutations with / without Dups
 
 
----
-
-第一题：String permutation
-
-依照之前在cracking coding interview的方法迅速写了一个递归的方法。
-
-不过后来指出这个对于有duplicate不太好。于是我告诉他用hashset存放最后的结果可以免除重复。但是后来他又说有没有其他方法。
-
-于是我依稀记得leetcode上的permutation 2就是讲duplicate怎么处理的，于是用dfs+backtracking的方法重新写了一个可以去除duplicate的版本。同时针对这个算法还争论了一番，最后烙印表示应该是正确的。
-
-第二题：判断一个Binary Tree是不是Binary Search Tree
 
 
-高频!!第三题：design的题目，设计一个parking lot。这是一个非常常见的设计题目，stackoverflow有一个帖子对这个题目描述的非常好，可以参考一下。
+
+
+
+## 设计一个parking lot
+
+这是一个非常常见的设计题目，stackoverflow有一个帖子对这个题目描述的非常好，可以参考一下。
 
 ---
 
