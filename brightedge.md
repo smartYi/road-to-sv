@@ -146,7 +146,55 @@ public static ArrayList<String> getPermutations(String str){
 }
 ```
 
-### Building from permutations of all n-1 character substrings
+### 有重复元素的情况
+
+We would like to only create the unique permuatations, rather than creating every permutation and then ruling out the duplicates
+
+We can start with computing the count of each letter(hash table) for a string such as aabbbbc, we have a(2) b(4) c(1).
+
+The first choice we make is whether to use an a, b or c as the first character. After that, we have a subp;roblem to solve: find all permutations of the remaining characters, and append those to the already picked "prefix"
+
+P(a2|b4|c1) = {a + P(a1|b4|c1)} + {b + P(a2|b3|c1)} + {c + P(a2|b4|c0)} 依次递推
+
+```java
+
+ArrayList<String> get Perms(String s){
+    ArrayList<String> result = new ArrayList<String>();
+    HashMap<Character, Integer> map = buildFreqTable(s);
+    getPerms(map, "", s.length(), result);
+    return result;
+}
+
+HashMap<Character, Integer> buildFreqTable(String s){
+    ArrayList<String> map = new HashMap<Character, Integer>();
+    for (char c : s.toCharArray()) {
+        if (!map.containsKey(c))
+            map.put(c, 0);
+            
+        map.put(c, map.get(c) + 1;
+    }
+    return map;
+}
+
+void getPerms(HashMap<Character, Integer> map, String prefix, int remaining, ArrayList<String> result) {
+    if (remaining == 0){
+        result.add(prefix);
+        return;
+    }
+    
+    for (Character c : map.keySet()) {
+        int count = map.get(c);
+        if (count > 0) {
+            map.put(c, count - 1);
+            getPerms(map, prefix + c, remaining - 1, result);
+            map.put(c, count);
+        }
+    }
+}
+
+```
+
+## reverse linkedlist
 
 
 ## 设计一个parking lot
@@ -154,8 +202,6 @@ public static ArrayList<String> getPermutations(String str){
 这是一个非常常见的设计题目，stackoverflow有一个帖子对这个题目描述的非常好，可以参考一下。
 
 ---
-
-第一题 reverse linkedlist  CC原题不能更多
 
 第二题 all characters combinations 
 
