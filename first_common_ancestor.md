@@ -21,6 +21,7 @@ TreeNode commonAncestor(TreeNode p, TreeNode q){
         if (isOnPath(ancestor, q)){
             return ancestor;
         }
+        ancestor = ancestor.parent;
     }
     return ull;
 }
