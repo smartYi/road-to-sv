@@ -4,6 +4,14 @@ Write a method to compute all permutations of a string of unique characters
 
 ## Solution
 
+P(a1) = a1
+
+P(a1a2) = a1a2, a2a1
+
+P(a1a2a3) = a1a2a3, a1a3a2, a2a1a3, a2a3a1, a3a1a2, a3a2a1
+
+从第二步到第三步，恩可以看作是，对第二步中的两个结果，分别把 a3 插入到的每个结果中可能的各个位置，于是我们可以根据这个规律写出代码
+
 ```java
 public static ArrayList<String> getPermutations(String str){
     if (str == null){
