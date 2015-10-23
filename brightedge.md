@@ -314,6 +314,10 @@ boolean isOnPath(TreeNode ancestor, TreeNode node){
 }
 ```
 
+isOnPath method will take O(dq) time, where dq is the depth of d. Runtime O(dp * dq)
+
+On a balanced tree, dp and dq are O(log N), worst case O(N^2)
+
 ### Without link to parent
 
 ```java
