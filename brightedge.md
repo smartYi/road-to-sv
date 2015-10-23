@@ -288,17 +288,25 @@ public class Solution {
 ```
 
 
+## Lowest Common Ancestor
+
+
+
 ## 设计一个parking lot
 
 这是一个非常常见的设计题目，stackoverflow有一个帖子对这个题目描述的非常好，可以参考一下。
 
----
++ multiple floors
++ each floor has multiple parking spots
++ parking spots has two types. handicapped or regular parking.
++ Question: how many regular parking are available at 2nd floor?
 
-第二题叫你写SQL，有Employee的last name和first name，要求列出Emplyee’s first name and last name, but last name should not start with A and L. Use LIKE
+2.Design a parking lot. 需要实现（1）知道第二层停了多少车 （2）知道第二层有多少available
 
-第三题是给你一个ATM Function to withdraw money,问如何测试
+## 测试题
 
-第四题就是假如给你一个website，问你如何测试。
++ 给你一个ATM Function to withdraw money,问如何测试
++ 给你一个website，问你如何测试。
 
 ---
 
@@ -308,20 +316,10 @@ Partition array
 2. output: [1, 2, 3, 6, 3, 1, 9, 0, 0, 0]
 
 
-Parking Garage
-
-+ multiple floors
-+ each floor has multiple parking spots
-+ parking spots has two types. handicapped or regular parking.
-+ Question: how many regular parking are available at 2nd floor?
-
-
----
 
 1. Binary tree lowest common ancestor with parent pointer. 需要O（1）space
-2.Design a parking lot. 需要实现（1）知道第二层停了多少车 （2）知道第二层有多少available
 
----
+
 
 1. You are given the root of the Binary Search Tree and two children nodes, please return the first common ancestor of these two nodes.
 2. Mirror a binary tree.
