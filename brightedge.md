@@ -441,6 +441,36 @@ public class Solution {
 + parking spots has two types. handicapped or regular parking.
 + Question: how many regular parking are available at 2nd floor?
 
+Brief Design
+
++ enum VehicleSize {Moto, Compact, Large}
++ abstract class Vehicle
+    + protected ParkingSpot parkingSpot
+    + protected VehicleSize size
+    + public parkInSpot(ParkingSpot s) {parkingSpot = s; }
+    + public clearSpot() {...}
++ class Bus extends Vehicle
++ class Car extends Vehicle
++ class Moto extends Vehicle
++ class ParkingLot
+    + private Level[] levels
+    + private final int NUM_LEVELS = 5;
+    + public boolean parkVehicle(Vehicle vehicle) {...}
++ class Level
+    + private int floor;
+    + private ParkingSpot[] spots;
+    + private int available Spots = 0;
+    + public boolean parkVehicle(Vehicle vehicle) {...}
+    + public void spotFreed() { availableSpots++; }
++ class ParkingSpot
+    + private Vehicle vehicle;
+    + private VehicleSize spotSize;
+    + private int number;
+    + private Level level;
+    + public boolean isAvailable() { return vehicel == null; }
+    + public boolean park(Vehicle v) {...}
+    + public remove Vehicle() {...}
+
 
 ## 测试题
 
