@@ -432,9 +432,82 @@ public class Solution {
 1. input: [1, 2, 3, 6, 0, 0, 3, 1, 9, 0]
 2. output: [1, 2, 3, 6, 3, 1, 9, 0, 0, 0]
 
+
 就是保持顺序的同时把 0 都移到最后面去
 
-维护两个值，一个是零出现的位置，一个是零之后第一个不为 0 的位置，然后交换。交换之后各加 1，然后再检查，直到找不到不是0的为止。
+维护两个值，一个是零出现的位置，一个是零之后第一个不为 0 的位置，然后交换。交换之后各加 1，然后再检查，直到找不到不是0的为止。 这个是 O(n^2)
+
+有更好的解法...然而我做出来就没时间了
+
+```
+// test 0 1 2 3 4
+// test 1 0 3 0 7  iz = 1 inz = 2  i = 2
+// test 1 3 0 0 7  iz = 2 inz = 4 i = 4
+// test 1 3 7 0 0 i = 3 inz = -1
+// worst case  0000011111
+// 1000001111
+
+
+int[] move0totail2(int[] input){
+	if (input.length == 0){
+	return null;
+}
+
+int inonzero = 0;
+int zerocount = 0;
+for (int i = 0; i < input.length; i++){
+	if (input[i] == 0){
+	zerocount++;
+} else {
+	input[inonzero] = input[i];
+	inonzero++;
+}
+}
+for (int i = 1; i <= zerocount; i++){
+	input[input.length - i] = 0;
+}
+return input;
+}
+
+// input: int[]
+// output: int[]
+int[] move0totail(int[] input){
+	if (input.length == 0){
+	return null;
+}
+// two pointer: izero, inonzero
+int izero = -1;
+int inonzero = -1;
+for (int i = 0; i < input.length; i++){
+	if (input[i] == 0){
+		if (izero != -1)
+izero = i;  // find first zero
+} else {
+	if (izero != -1){
+	inonzero = i; // find first nonzero if have zero
+}
+}
+
+if (izero != -1 && inonzero != -1){
+	// swap the element izero and inonzero
+	swap(input, izero, inonzero);
+	izero = -1;
+	inonzero = -1;
+	i = izero + 1;
+}
+}
+
+return input[];
+}
+
+void swap(int[] arr, int i, int j){
+	int temp = arr[i];
+	arr[i] = arr[j];
+	arr[j] = temp;
+}
+```
+
+
 
 ## 设计一个parking lot
 
