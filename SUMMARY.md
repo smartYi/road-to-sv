@@ -6,6 +6,7 @@
    * [简历](jian_li.md)
    * [自我介绍](self_intro.md)
    * [内推](nei_tui.md)
+   * 重点细节
 * [程序员面试白皮书](cheng_xu_yuan_mian_shi_bai_pi_shu.md)
    * [Resume, Intervie and Offer](resume,_intervie_and_offer.md)
    * [Array and String](array_and_string.md)
