@@ -355,7 +355,56 @@ boolean covers(TreeNode root, TreeNode p){
 }
 ```
 
+## Mirror a binary tree
 
+```java
+public class Solution {
+    public TreeNode invertTree(TreeNode root) {
+        if(root!=null){
+            helper(root);
+        }
+
+        return root;    
+    }
+
+    public void helper(TreeNode p){
+
+        TreeNode temp = p.left;
+        p.left = p.right;
+        p.right = temp;
+
+        if(p.left!=null)
+            helper(p.left);
+
+        if(p.right!=null)
+            helper(p.right);
+    }
+
+    public TreeNode invertTree_2(TreeNode root) {
+        LinkedList<TreeNode> queue = new LinkedList<TreeNode>();
+
+        if(root!=null){
+            queue.add(root);
+        }
+
+        while(!queue.isEmpty()){
+            TreeNode p = queue.poll();
+            if(p.left!=null)
+                queue.add(p.left);
+            if(p.right!=null)
+                queue.add(p.right);
+
+            TreeNode temp = p.left;
+            p.left = p.right;
+            p.right = temp;
+        }
+
+        return root;    
+    }
+}
+```
+
+## Pow(double a, int b)
 
 ## 设计一个parking lot
 
@@ -380,12 +429,3 @@ Partition array
 1. input: [1, 2, 3, 6, 0, 0, 3, 1, 9, 0]
 2. output: [1, 2, 3, 6, 3, 1, 9, 0, 0, 0]
 
-
-
-1. Binary tree lowest common ancestor with parent pointer. 需要O（1）space
-
-
-
-1. You are given the root of the Binary Search Tree and two children nodes, please return the first common ancestor of these two nodes.
-2. Mirror a binary tree.
-3. implement pow(double a, int b).
