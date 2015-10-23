@@ -8,6 +8,34 @@ Details can be seen in the code:
 
 ```java
 
+public class CallHandler{
+    private final int LEVELS = 3;
+    
+    private final int NUM_RESPONDENTS = 10;
+    private final int NUM_MANAGERS = 4;
+    private final int NUM_DIRECTORS = 2;
+    
+    List<List<Employee>> employeeLevels;
+    
+    List<List<Call>> callQueues;
+    
+    public void dispatchCall(Caller caller){
+        Call call = new Call(caller);
+        dispatchCall(call);
+    }
+    
+    public void dispatchCall(Call call) {
+        Employee emp = getHandlerForCall(call);
+        if (emp != null){
+            emp.receiveCall(call);
+            call.setHandler(emp);
+        } else {
+            call.reply("xxx");
+            callQueues.get(call.getRank().getValue()).add(call);
+        }
+    }
+}
+
 public class Call{
     private Rank rank;
     private Caller caller;
@@ -27,7 +55,40 @@ public class Call{
 }
 
 abstract class Employee{
-    private Ca
+    private Call currentCall = null;
+    protected Rank rank;
+    
+    public Employee(CallHandler handler) {...}
+    
+    public void receiveCall(Call call) {...}
+    
+    public void callCompleted() {...}
+    
+    public escalateAndReassign() {...}
+    
+    public boolean assignNewCall() {...}
+    
+    public boolean isFree() { return currentCall == null; }
+    
+    public Rank getRank() { return rank; }
+}
+
+class Director extends Employee {
+    public Director() {
+        rank = Rank.Director;
+    }
+}
+
+class Manager extends Employee {
+    public Manager() {
+        rank = Rank.Manager;
+    }
+}
+
+class Respondent extends Employee {
+    public Respondent() {
+        rank = Rank.Respondent;
+    }
 }
 
 ```
