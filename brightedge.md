@@ -441,7 +441,6 @@ public class Solution {
 + parking spots has two types. handicapped or regular parking.
 + Question: how many regular parking are available at 2nd floor?
 
-2.Design a parking lot. 需要实现（1）知道第二层停了多少车 （2）知道第二层有多少available
 
 ## 测试题
 
