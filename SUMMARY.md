@@ -42,7 +42,6 @@
        * [无重复字符的最长子串](wu_zhong_fu_zi_fu_de_zui_chang_zi_chuan.md)
        * [JUMP](jump.md)
        * [图搜索实战](tu_sou_suo_shi_zhan.md)
-       * [十分钟搞定 LCS](shi_fen_zhong_gao_ding_lcs.md)
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
        * [字符串包含](zi_fu_chuan_bao_han.md)
