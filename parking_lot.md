@@ -8,6 +8,10 @@ Brief Design
 
 + enum VehicleSize {Moto, Compact, Large}
 + abstract class Vehicle
+    + protected ParkingSpot parkingSpot
+    + protected VehicleSize size
+    + public parkInSpot(ParkingSpot s) {parkingSpot = s; }
+    + public clearSpot() {...}
 + class Bus extends Vehicle
 + class Car extends Vehicle
 + class Moto extends Vehicle
