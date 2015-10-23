@@ -10,4 +10,4 @@ Files and Directories. Each Directory contains a set of Files and Directories.
 + class File extends Entry
 + class Directory extends Entry
 
-具体的操作，根据和面试官的讨论找着写就行
+具体的操作，根据和面试官的讨论找着写就行了
