@@ -2,6 +2,10 @@
 
 小公司，题目重复率也比较高，基本都是印度人面。我的体验是第一轮  behavioral电面，然后就发一个48小时coding assignment，每个人的具体内容略不相同，大体上是用 java实现一个网络爬虫。
 
+面试官：Hongbo Ma, Senior Software Engineer, 
+
+questions about computer science fundamentals like data structures, algorithms and OOP.
+
 下面是具体的面试题准备
 
 ## Fibonacci 数列
