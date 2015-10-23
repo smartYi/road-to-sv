@@ -112,6 +112,8 @@ lintcode: 带重复元素的排列
 
 cc: Permutations with / without Dups
 
+### 无重复元素的情况
+
 P(a1) = a1
 
 P(a1a2) = a1a2, a2a1
