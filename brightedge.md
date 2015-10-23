@@ -423,6 +423,11 @@ public class Solution {
 }
 ```
 
+## Partition array
+
+1. input: [1, 2, 3, 6, 0, 0, 3, 1, 9, 0]
+2. output: [1, 2, 3, 6, 3, 1, 9, 0, 0, 0]
+
 ## 设计一个parking lot
 
 这是一个非常常见的设计题目，stackoverflow有一个帖子对这个题目描述的非常好，可以参考一下。
@@ -439,10 +444,4 @@ public class Solution {
 + 给你一个ATM Function to withdraw money,问如何测试
 + 给你一个website，问你如何测试。
 
----
-
-Partition array
-
-1. input: [1, 2, 3, 6, 0, 0, 3, 1, 9, 0]
-2. output: [1, 2, 3, 6, 3, 1, 9, 0, 0, 0]
 
