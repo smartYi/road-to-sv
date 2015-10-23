@@ -3,10 +3,10 @@
 * [前言](README.md)
 * [旅途记录](lv_tu_ji_lu.md)
 * [一切开始之前](yi_qie_kai_shi_zhi_qian.md)
+   * 重点细节
    * [简历](jian_li.md)
    * [自我介绍](self_intro.md)
    * [内推](nei_tui.md)
-   * 重点细节
 * [程序员面试白皮书](cheng_xu_yuan_mian_shi_bai_pi_shu.md)
    * [Resume, Intervie and Offer](resume,_intervie_and_offer.md)
    * [Array and String](array_and_string.md)
