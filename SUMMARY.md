@@ -39,7 +39,7 @@
        * [最大全一矩形](zui_da_quan_yi_ju_xing.md)
        * [最大连续子数组](zui_da_lian_xu_zi_shu_zu.md)
        * [字符串的全排列](je_zi_fu_chuan_de_quan_pai_lie.md)
-       * 无重复字符的最长子串
+       * [无重复字符的最长子串](wu_zhong_fu_zi_fu_de_zui_chang_zi_chuan.md)
    * [字符串](zi_fu_chuan.md)
        * [旋转字符串](xuan_zhuan_zi_fu_chuan_pa.md)
        * [字符串包含](zi_fu_chuan_bao_han.md)
