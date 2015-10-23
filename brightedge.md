@@ -439,6 +439,30 @@ public class Solution {
 
 有更好的解法...然而我做出来就没时间了
 
+leetcode 265 代码如下
+
+```
+public class Solution {
+    public void moveZeroes(int[] nums) {
+        int i = -1, j = 0;
+        while (j < nums.length) {
+            if (nums[j] != 0) {
+                swap(++i, j, nums);
+            }
+            j++;
+        }
+    }
+
+    public void swap(int i, int j, int[] nums) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+}
+```
+
+下面是面试代码，坑了坑了
+
 ```
 // test 0 1 2 3 4
 // test 1 0 3 0 7  iz = 1 inz = 2  i = 2
