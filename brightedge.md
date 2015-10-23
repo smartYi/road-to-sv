@@ -1,13 +1,49 @@
 # BrightEdge
 
-Round 1: behavioral电面
+小公司，题目重复率也比较高，基本都是印度人面。我的体验是第一轮  behavioral电面，然后就发一个48小时coding assignment，每个人的具体内容略不相同，大体上是用 java实现一个网络爬虫。
 
-Round 2：一个48小时coding assignment，每个人的具体内容略不相同，大体上是用 java实现一个网络爬虫。我当时的任务是在sears.com上做keyword搜索并返回相关结果。
+下面是具体的面试题准备
 
-Round 3：tech电面。一名小印。
+## Fibonacci 数列
 
-1. Fibonacci数列。当时还问recursive的复杂度，是O(2^n)对。
-2. Leetcode原题：如何判断一个BST是否valid。
+### 递归版本
+
+```
+int fibonacciRecursive(int n){
+    if (n < 2)
+        return n;
+    
+    return f(n-1) + f(n-2);
+}
+```
+时间复杂度 O(2^n) 空间复杂度 O(n)
+
+### 迭代版本
+
+```
+int fibonacci(int n){
+    if (n < 2)
+        return n;
+    
+    int a = 0;
+    int b = 1;
+    int c = -1;
+    for (int i = 2; i < n; i++){
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    return c;
+}
+
+```
+
+时间复杂度 O(n) 空间复杂度 O(1)
+
+
+## 如何判断一个BST是否valid。
+
+
 
 ---
 
