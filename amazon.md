@@ -198,7 +198,7 @@ leetcode
 
 介于1和2中间吧,只需要输出最短的一条路径就可以
 
-### @@@ 矩阵 island
+### @@@@ 矩阵 island
 
 给一个矩阵,连通的非0元素组成一个island,问这个矩阵里island的数量. 
 
@@ -250,9 +250,11 @@ leetcode, Valid Parentheses, 然后follow up 到如果有很多对open, close的
 
 让我说出所有想到的方法 然后讨论复杂度 然后挑了其中一种写code
 
-### @@ find lowest common ancester
+### @@@ find lowest common ancester
 
 最开始假设有parent, 然后没有parent的话怎么做,我说了一个top down approach,然后他说要优化,然后我说 了botom up,最后实现bottom up的代码。期间每种都要比较复杂度。
+
+说如果这两个 Node不一定在这个tree里怎么办。
 
 ### 最长 leaf nodes 包含的 nodes 个数
 
@@ -375,7 +377,11 @@ heapsort quicksort怎么做 给你数据模拟一下流程
 
 leetcode 原题
 
-### 买卖股票
+### 身高
+
+给一个数组,代表一组人的身高。然后输出一个数组,表示在当前人之后的所有 比他高的人里,离他最近的人的身高。比如输入是[3, 6, 7, 2, 3] 输出就是[6, 7, null, 3, null]。 我给出了俩解,都是O(n2)的。她希望得到一个O(n)的解
+
+### @ 买卖股票
 
 leetcode 原题
 
@@ -405,10 +411,16 @@ opentable, design. 完全自己设计数据结构 和 接口需求, 用户输入
 
 一个restaurant 可能有多个桌子, 每个桌子可能可以坐多个人 如果预订的时候,人数大于一个桌子, 可以把相邻的桌子 combine timeslot 30分钟算一个, 一天就可以算24*2个, 编号从0到47, 用户的输入只能有一个 timeslot
 
+### 三角形棋盘
+
+只有一个空,像跳棋那么走,走过空就可以把中间那抽掉,然后OOD设计。然后follow就是如果不同棋盘怎 么设计
+
 
 ### traffic management system
 
 大 概就是一个十字路口,有好几个方向的汽车,红绿灯,行人,设计这个的controller吧,然 后边讨论思路边写controller的method什么的,最后讨论讨论怎么initialization
+
+问题是很模糊的问题,让我设计一个交 通路口,目的是统计车流,反馈给我们的用户。一听我就知道是故意很模糊的,所以我就加 紧clarify,比如问每个时段和日期车流不同,如何区别;这个application是给谁用的;交 通路口可以分N车道,如何规范;等等一系列
 
 ### 图书推荐系统
 
