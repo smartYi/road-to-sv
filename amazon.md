@@ -3,6 +3,8 @@
 + 面试的时候，人家给你两个选择，一定要选一个，分析清楚各种优劣即可
 + 设计题的时候，一定要考虑 scale 的问题，并且要着重在这上面表现，多说一点，考虑各种情况。
 
+amazon的leadership principles熟读!http://www.amazon.com/Values-Careers- Homepage/b?node=239365011
+
 ## 算法题目
 
 ### leetcode: letter combination
@@ -377,6 +379,8 @@ heapsort quicksort怎么做 给你数据模拟一下流程
 
 leetcode 原题
 
+find all anagrams in a string. `"abc cba aaa bbb bac !** *!* " return: {{abc, cba, bac}, {!**, *!*}}`
+
 ### 身高
 
 给一个数组,代表一组人的身高。然后输出一个数组,表示在当前人之后的所有 比他高的人里,离他最近的人的身高。比如输入是[3, 6, 7, 2, 3] 输出就是[6, 7, null, 3, null]。 我给出了俩解,都是O(n2)的。她希望得到一个O(n)的解
@@ -385,17 +389,29 @@ leetcode 原题
 
 leetcode 原题
 
-## matrix search
+### matrix search
 
 题目是2d matrix,从给定的一个坐标出发,往四个方向search,搜到2返回true,搜到1能走,搜到0不能走
 
-## coin
+### coin
 
 代码题,给你一个金额,几种面额,问你几种组合方式
 
-## 数字与 index 相等
+### 数字与 index 相等
 
 找到integer array里,数字和index相等的数。
+
+### 上一个/下一个节点
+
+问BST,然后让写个查找函数,再就是给一个target,然后找前一个节点和后 一个节点
+
+### 迷宫路径
+
+find maze path (bar rasier)...
+
+### 找最小连续空间
+
+sample: {1,1,1,0,0,0,0,1,0,0,1,1},1代表内存被使用, 0代表空 闲,然后找出至少为2的最小连续空间的index,此例应该返回8
 
 ---
 
