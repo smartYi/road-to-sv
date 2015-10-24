@@ -169,13 +169,13 @@ leetcode
 
 最后面试官提出apple和apples在我的代码里没法区分出来,经提醒我在trieNode中加一个 mark表示一个词的终止。然后重新修改了部分代码。
 
-### 罗马数字转 Integer
+### @ 罗马数字转 Integer
 
 口述Integer转罗马数字。我提出要把IX, IV这种也算一种特殊的罗马数字单位。
 
 于是面试官出题: 给一个整数,返回这个整数对应的罗马数字中最大的单位代表的整数,比如8表示为罗马数字为VIII,最大单位为V,即5。 我用一次遍历实现的,面试官问怎么优化,我说可以二分搜索,复杂度降到O(logn)
 
-### compress string
+### @@ compress string
 
 input: aabccc output: 2ab3c 然后讨论可以不可以再优化
 
@@ -266,6 +266,14 @@ heapsort quicksort怎么做 给你数据模拟一下流程
 ### 最大连续数组和
 
 给定一个数组 求连续k个数之和的最大值 以及从哪个index开始
+
+### 打僵尸
+
+就是一圈zombies,给你一 个starting point,然后每隔k步你shoot一个zombie,完后依次下去直到剩下一个 zombie,让你输出最后剩下的zombie。我用linkedlist做的,然后while loop每次shoot一个zombie,num-1删除那个listnode,直到最后num变成1跳出循环。
+
+### 数组中元素出现次数
+
+给你一个sorted array,完后输入一个数,让你output它在array里面出现的次数。这道题比 较tricky的地方是,corner case的考虑。每个人都能想到binary search, 但是在处理 binary search的时候有些corner case要处理好。
 
 ---
 
