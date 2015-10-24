@@ -242,6 +242,10 @@ input: aabccc output: 2ab3c 然后讨论可以不可以再优化
 
 如果要 in place 怎么做
 
+### valid parentheses
+
+leetcode, Valid Parentheses, 然后follow up 到如果有很多对open, close的character怎么办
+
 ### reverse string
 
 让我说出所有想到的方法 然后讨论复杂度 然后挑了其中一种写code
@@ -412,7 +416,11 @@ opentable, design. 完全自己设计数据结构 和 接口需求, 用户输入
 
 ### OO DESIGN一个“UBER”
 
+问清楚
 
+### 文件系统
+
+主要focus文件权限的设计
 
 ### poker game
 
