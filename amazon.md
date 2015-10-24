@@ -29,7 +29,7 @@ graph从一个source,然后输出指定的距离的node,无向图。我写的bfs
 
 一个 无序数组,判断它是否是连续序列,其中0是magic number。也是leetcode原题。
 
-### @ 合并数组
+### @@ 合并数组
 
 将已经有序的N个ArrayList merge 为一个有序的List,LC原题,做完后因
 为其中用到了Heap,让顺便实现了一下Heap的插入,中间卡壳了一下,想到Heap可以用数组表示后,才顺利解决。
@@ -85,9 +85,11 @@ BFS
 继续上问,如果client有很多特殊请求(如不想经过城市A,不想途转太多城
 市)怎么办?答:Strategy Design Pattern
 
-### isValidBST()
+### @ isValidBST()
 
 leetcode
+
+validate BST using three different methods, array vs linked list, how to implement hashtable
 
 ### 数组单词
 
@@ -95,9 +97,11 @@ leetcode
 
 答:遍历字 典,判断是否能被表示
 
-### 奇数次元素
+### 偶数/奇数次元素
 
 给一个array 找出里面出现奇数次的数字。我先用hashmap, 后来用int[],最后小哥说 no extra space
+
+一个数出现odd times 其他even times 找这个数 实现2种方法
 
 ### 复制链表
 
@@ -235,7 +239,33 @@ binary tree找到距离最长的两个leaf nodes包含的nodes个数。
 
 输入两个时期,有天,月,年,计算出这两个日期差多少天
 
-### 
+### 迷宫出路
+
+一个迷宫, 指定起始点和终点,找任意一条路线即可。自己设计数据结构存路线和迷宫。
+
+### 回文串
+
+是否是回文串
+
+### 两个栈实现队列
+
+两个栈实现一个队列
+
+### 排序基本
+
+heapsort quicksort怎么做 给你数据模拟一下流程
+
+### unique ip
+
+给你一个file 里头是IP地址 然后统计多少个unique的
+
+### string 统计
+
+统计一个string里头各字母出现了多少 排序输出字母和对应次数
+
+### 最大连续数组和
+
+给定一个数组 求连续k个数之和的最大值 以及从哪个index开始
 
 ---
 
