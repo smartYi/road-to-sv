@@ -29,7 +29,7 @@ graph从一个source,然后输出指定的距离的node,无向图。我写的bfs
 
 一个 无序数组,判断它是否是连续序列,其中0是magic number。也是leetcode原题。
 
-### @@ 合并数组
+### @@@ 合并数组
 
 将已经有序的N个ArrayList merge 为一个有序的List,LC原题,做完后因
 为其中用到了Heap,让顺便实现了一下Heap的插入,中间卡壳了一下,想到Heap可以用数组表示后,才顺利解决。
@@ -97,7 +97,7 @@ validate BST using three different methods, array vs linked list, how to impleme
 
 答:遍历字 典,判断是否能被表示
 
-### 偶数/奇数次元素
+### @@ 偶数/奇数次元素
 
 给一个array 找出里面出现奇数次的数字。我先用hashmap, 后来用int[],最后小哥说 no extra space
 
@@ -185,7 +185,7 @@ input: aabccc output: 2ab3c 然后讨论可以不可以再优化
 
 让我说出所有想到的方法 然后讨论复杂度 然后挑了其中一种写code
 
-### find lowest common ancester
+### @@ find lowest common ancester
 
 最开始假设有parent, 然后没有parent的话怎么做,我说了一个top down approach,然后他说要优化,然后我说 了botom up,最后实现bottom up的代码。期间每种都要比较复杂度。
 
