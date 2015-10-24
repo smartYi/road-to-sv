@@ -1,5 +1,7 @@
 # Amazon
 
+面试的时候
+
 > Round Robin，求average waiting time，就是 http://www.1point3acres.com/bbs/thread-142143-1-1.html 这个帖子里说的这个题，友情提示楼里有代码~
 
 TODO
