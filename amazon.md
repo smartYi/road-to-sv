@@ -74,7 +74,26 @@ graph从一个source,然后输出指定的距离的node,无向图。我写的bfs
 
 问题是这样的, 两个人玩游戏,给一个数组,俩人轮流选里面的数字, 看到最后谁的数字 之和最大。
 
-### @@ LRU Cache
+### n 个数的乘积
+
+算法题,input 是 a[n], output 是从a[n]里面任选3个数的 最大乘积。
+Follow up 比较难,不是3个数,改成了x个数。
+
+### @ 数字转字符串
+
+数字转英文单词。e.g 999 -> nine hundred and nighty nine.
+
+### 拓扑排序
+
+先修课选课顺序的题
+
+### 单词距离
+
+从string(一段句子)里面找出所有重复并且相距d的单词。
+
+直接hashmap解决,然后问能不能改进啥的,接着优化。
+
+### @@@ LRU Cache
 
 扩展到集群,用Hash映射解决数据分布。
 
@@ -119,7 +138,7 @@ BFS
 继续上问,如果client有很多特殊请求(如不想经过城市A,不想途转太多城
 市)怎么办?答:Strategy Design Pattern
 
-### @ isValidBST()
+### @@ isValidBST()
 
 leetcode
 
@@ -179,7 +198,7 @@ leetcode
 
 介于1和2中间吧,只需要输出最短的一条路径就可以
 
-### @ 矩阵 island
+### @@@ 矩阵 island
 
 给一个矩阵,连通的非0元素组成一个island,问这个矩阵里island的数量. 
 
@@ -294,6 +313,8 @@ binary tree找到距离最长的两个leaf nodes包含的nodes个数。
 是否是回文串
 
 一定要递归，如何写
+
+以及最长回文子串
 
 ### pow
 
