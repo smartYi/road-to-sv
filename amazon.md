@@ -46,13 +46,19 @@ graph从一个source,然后输出指定的距离的node,无向图。我写的bfs
 
 给一列城市的名字,并且告诉你你的家是哪个城市,并且每个城市的受欢迎指数是城市名字 里的辅音字母数除以元音字母数,比如Shanghai的指数就是5/3=1.66666,要返回和家乡 城市的指数最近的其它城市,没有的话返回NOT_FOUND。 题目都很简单,不需要复杂算法,就是在写之前想好edge cases,有很多刁钻的测试用例 需要注意,好好想清楚应该所有测试都能过。
 
-### LRU Cache
+### @ LRU Cache
 
 扩展到集群,用Hash映射解决数据分布。
 
-### 实现 heap
+### @@ 实现 heap
 
 基础算法
+
+求n个点中离原点最近的k个点。先说思路,我说用堆。然后他就让我写了一个heap类,支 持push,pop,top等操作,然后用我自己实现的heap类来完成之前的题目。
+
+### 打印树
+
+按行从左往右打印一棵树,写代码。follow up 是zigzag打印树,在之前代码基础上修改。 最后是写代码打印树的最外一圈。. visit 
 
 ### xml 文件读取算法
 
@@ -123,11 +129,13 @@ linkedlist 每个节点多一个random pointer,问怎么复制,hashmap,很简单
 
 无限输入流找中位数,follow up,如果memory非常小怎么办
 
-### @ 有序数组的 two sum
+### @@ 有序数组的 two sum
 
 先讲了用hashmap, 然后用binary search。follow up问了一下如果有duplicate 怎么办
 
 2sum要求输出所有可能的pair,而且原数组可能有duplicate
+
+标准leetcode的two sum。我分别写了O(n2), O(logn)和O(n)(哈希表)三种方法的代 码,每种方法其实就5-8行代码就搞定,不费什么时间。然后面试官说,让我给代码加注 释,然后写单元测试。。
 
 ### 3 sum
 
@@ -151,7 +159,7 @@ leetcode
 
 我用了bruth force的方法,in worst case, time complexity is O(n ^ 2), 当讨论怎么降到 O(n)的时候,没时间了
 
-### 数组转 range
+### @ 数组转 range
 
 把一串连续的整数表示为一个range, range包含begin和end.比如3,4,5,6就表示为 begin=3,end=6的range
 
@@ -231,9 +239,13 @@ binary tree找到距离最长的两个leaf nodes包含的nodes个数。
 
 一个string里面有括号,怎么判断这些括号是合法的,拓展: 如果还有中括号,大 括号呢
 
-### 比节点大的最小节点
+### @@ 比节点大的最小节点
 
 给一个binary search tree里面的一个节点,找到比这个节点大的最小节点
+
+### 存水问题
+
+给一个int的array,值代表高度。求这个东西能储存多少水。
 
 ### 日期间隔
 
@@ -247,7 +259,7 @@ binary tree找到距离最长的两个leaf nodes包含的nodes个数。
 
 是否是回文串
 
-### 两个栈实现队列
+### @ 两个栈实现队列
 
 两个栈实现一个队列
 
@@ -275,9 +287,53 @@ heapsort quicksort怎么做 给你数据模拟一下流程
 
 给你一个sorted array,完后输入一个数,让你output它在array里面出现的次数。这道题比 较tricky的地方是,corner case的考虑。每个人都能想到binary search, 但是在处理 binary search的时候有些corner case要处理好。
 
+### reverse string
+
+只能用recursive的方法reverse一个string,比如“I am a cat” -> "cat a am I". 
+
+### 去掉重复元素
+
+有两个array,a和b,输出一个新的array,只包含a里的元素,但是不包含b里的 元素,两个array都可能有duplicate。
+
+### 找 host
+
+社交网络,一个房间里有很多人,有一个host,所有人都认识host,但是host不认识任何人。你走进房间,你可以问任何一个人,你是否认识他 isKnow(A,B)
+得到的回答是true 或者false 
+
+怎么样最快找出来谁是host
+
+### 数独判断
+
+给出了所有数字，判断即可，如何优化
+
+### anagram
+
+leetcode 原题
+
+### 买卖股票
+
+leetcode 原题
+
+## matrix search
+
+题目是2d matrix,从给定的一个坐标出发,往四个方向search,搜到2返回true,搜到1能走,搜到0不能走
+
 ---
 
 ## 设计题目
+
+### Opentable
+
+opentable, design. 完全自己设计数据结构 和 接口需求, 用户输入 restaurant, timeslot, 人数, 返回是否可以预订
+
+一个restaurant 可能有多个桌子, 每个桌子可能可以坐多个人 如果预订的时候,人数大于一个桌子, 可以把相邻的桌子 combine timeslot 30分钟算一个, 一天就可以算24*2个, 编号从0到47, 用户的输入只能有一个 timeslot
+
+
+### traffic management system
+
+大 概就是一个十字路口,有好几个方向的汽车,红绿灯,行人,设计这个的controller吧,然 后边讨论思路边写controller的method什么的,最后讨论讨论怎么initialization
+
+
 
 ### poker game
 
