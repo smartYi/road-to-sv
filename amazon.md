@@ -46,7 +46,35 @@ graph从一个source,然后输出指定的距离的node,无向图。我写的bfs
 
 给一列城市的名字,并且告诉你你的家是哪个城市,并且每个城市的受欢迎指数是城市名字 里的辅音字母数除以元音字母数,比如Shanghai的指数就是5/3=1.66666,要返回和家乡 城市的指数最近的其它城市,没有的话返回NOT_FOUND。 题目都很简单,不需要复杂算法,就是在写之前想好edge cases,有很多刁钻的测试用例 需要注意,好好想清楚应该所有测试都能过。
 
-### @ LRU Cache
+### csv 文件处理
+
+给你一个.csv文件,每个entry有employer name, employer ssn, manager name, manager ssn, employer title几个属性,给一个FileIterator来读取每条entry,给一个 Person class,里面有String name, String ssn, String title和List<Person> reports(向
+        
+这个人汇报的所有人),要求用某种数据结构存这些个entry,然后在里面找谁是CEO。
+
+### 返回数组重复元素
+
+给一个Integer Array,返回一个 duplicate,加上各种follow up,比如ArrayList的contains怎么实现的,换成什么其他数据 结构比较好,hash function怎么实现,hash collision怎么解决,不用extra space怎么 办,Array里面有一百万个元素怎么改,返回所有的duplicates怎么写等等。
+
+### 区间最小数字
+
+给一个数组【1 3 -3 -2 0 53 3 1】,求startindex = 2到 endindex= 5的最小数。我说遍历,他说数组很大太慢了,我说用hashMap去存,他说存 储空间太大了,我说用二叉树去存,然后他给我画了一个区间二叉树,要求写代码。话说真 的好几个月没怎么写代码,完全不会了,我随便recursion一下,他发现bug,我改正,最 后就是说你half way done,就走了。
+
+### BST 组新树
+
+给我一个BST,要求得到一颗新树,每个节点的内容是比此节点的元素值大
+      
+的元素的总和。我一看不会,赶紧想,就说用stack去做,然后他说为什么不对每个点分别 求,还给我一个函数原型,我说不要,这样重复计算,我用stack可以n做出来,他说那你 写,我写啊写,写好了,他说不明白,给解释了很久,最后他终于明白了,简直要哭。这里 我明白一个道理,你要是解法和面试官不一样,他们很多时候就懵了,也不好意思说看不 懂,然后很长时间就在怀疑你。不过,面试后遇到cmu女神,她说这题见过,递归就行了, 我听着就泪奔了,还是要多训练,差距太大。.
+
+### 子树
+
+判断两颗 BT,其中一个是不是另外一个的子树
+
+### 选数字
+
+问题是这样的, 两个人玩游戏,给一个数组,俩人轮流选里面的数字, 看到最后谁的数字 之和最大。
+
+### @@ LRU Cache
 
 扩展到集群,用Hash映射解决数据分布。
 
@@ -103,11 +131,17 @@ validate BST using three different methods, array vs linked list, how to impleme
 
 答:遍历字 典,判断是否能被表示
 
-### @@ 偶数/奇数次元素
+### @@@ 偶数/奇数次元素
 
 给一个array 找出里面出现奇数次的数字。我先用hashmap, 后来用int[],最后小哥说 no extra space
 
 一个数出现odd times 其他even times 找这个数 实现2种方法
+
+follow up
+
+integer换成ojbect,所以不能用异或。
+
+可不可以不用extra memory
 
 ### 复制链表
 
@@ -259,6 +293,12 @@ binary tree找到距离最长的两个leaf nodes包含的nodes个数。
 
 是否是回文串
 
+一定要递归，如何写
+
+### pow
+
+pow(int, int)
+
 ### @ 两个栈实现队列
 
 两个栈实现一个队列
@@ -318,9 +358,21 @@ leetcode 原题
 
 题目是2d matrix,从给定的一个坐标出发,往四个方向search,搜到2返回true,搜到1能走,搜到0不能走
 
+## coin
+
+代码题,给你一个金额,几种面额,问你几种组合方式
+
+## 数字与 index 相等
+
+找到integer array里,数字和index相等的数。
+
 ---
 
 ## 设计题目
+
+### 设计一个 zoo
+
+问清楚
 
 ### Opentable
 
@@ -332,6 +384,12 @@ opentable, design. 完全自己设计数据结构 和 接口需求, 用户输入
 ### traffic management system
 
 大 概就是一个十字路口,有好几个方向的汽车,红绿灯,行人,设计这个的controller吧,然 后边讨论思路边写controller的method什么的,最后讨论讨论怎么initialization
+
+### 图书推荐系统
+
+你有朋友A,朋友A有他的朋友B, 你要看到所有A,B,B的朋友的推荐书单。要代码实现
+
+### OO DESIGN一个“UBER”
 
 
 
