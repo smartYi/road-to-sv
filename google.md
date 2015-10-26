@@ -1,5 +1,14 @@
 # Google
 
+## string 返回 word
+
+引号需要另外处理，或者直接遍历一次
+
+input: I have a "faux coat"
+output: [I, have, a, faux coat]
+
+---
+
 > 给一个先递增后递减的数组，找到最大值。这数组是非严格递增递减，也就是说有重复。
 
 写了个Binary Search之后面试官问我如果输入是1233321怎么办
